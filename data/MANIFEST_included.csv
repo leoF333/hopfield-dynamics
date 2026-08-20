@@ -2736,7 +2736,7 @@ data/v5_campaigns/runs/NEXT24H/state.json,20176
 data/v5_campaigns/runs/bench/static_one_motif_N2000.json,1055
 data/v5_campaigns/runs/benchmarks/n6_N2000_P100_k8_T20.json,4954
 data/v5_campaigns/runs/benchmarks/n8_N2000_P300_k1_T20.json,4770
-docs/CLAIMS.md,57740
+docs/CLAIMS.md,58028
 docs/CODE_MAP.md,23284
 docs/DATA.md,5760
 docs/EXPERIMENTS.md,8135
@@ -2744,7 +2744,7 @@ docs/FIGURE_PROVENANCE.md,12733
 docs/MODEL.md,6285
 docs/OPEN_ITEMS.md,7788
 docs/REPRODUCING.md,7022
-docs/claims.csv,43944
+docs/claims.csv,44217
 docs/figures.csv,8499
 docs/worklogs/CYCLE_worklog.md,173702
 docs/worklogs/FLOQUET_methodology.md,16951
