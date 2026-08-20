@@ -1,5 +1,5 @@
 path,bytes
-.gitignore,476
+.gitignore,493
 CITATION.cff,1031
 LICENSE,1065
 LICENSE-DATA,539
@@ -1544,7 +1544,7 @@ data/7_implicit_delay/data/E36_size_for_md.json,3308
 data/7_implicit_delay/data/E36_size_separation_fits.json,6645
 data/7_implicit_delay/data/E36_size_separation_fits.npz,3164
 data/MANIFEST_excluded.csv,667750
-data/MANIFEST_included.csv,219449
+data/MANIFEST_included.csv,219986
 data/v5_campaigns/FULL_WORKPLAN_EXECUTION.md,3845
 data/v5_campaigns/N1_AUDIT_CONCLUSION.md,5874
 data/v5_campaigns/README.md,1658
