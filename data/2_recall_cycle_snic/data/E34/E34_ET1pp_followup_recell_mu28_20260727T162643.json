@@ -1,0 +1,97 @@
+{
+ "mu": 28,
+ "delta": 0.02,
+ "lam": 0.212122,
+ "lam_c": 0.232122,
+ "status": "necklace_brick_positive",
+ "node_residual": 6.064995228047879e-12,
+ "n_alive": 100,
+ "succ_alive": true,
+ "pred_alive": true,
+ "forward_target": 29,
+ "target_is_succ": true,
+ "certif_setting": [
+  16,
+  7
+ ],
+ "saddle_residual": 1.5076446067392302e-15,
+ "n_unstable": 1,
+ "z_u": 0.11639205505832154,
+ "eigmax": 0.11789473986726517,
+ "index_one": true,
+ "real_root": 0.11639205505832143,
+ "contour_stable": true,
+ "base_reason": "count stable under contour refinement",
+ "shifted_reason": "count stable under contour refinement",
+ "localize_ok": true,
+ "rho": 1.4166266187236078,
+ "saddle_identity": true,
+ "d_saddle_node": 0.08710470143174961,
+ "fold_parameter": 0.23211705683544911,
+ "arc_wall": 153.12697270797798,
+ "mode_residual": 7.05476213988607e-16,
+ "linear_gate_rel_err": 0.002499381528212312,
+ "landings": {
+  "minus_eps0.0001_dt0.01": {
+   "omega": 28,
+   "stationary": true,
+   "elapsed": 200.0,
+   "wall": 3.8589340000180528
+  },
+  "minus_eps0.0001_dt0.005": {
+   "omega": 28,
+   "stationary": true,
+   "elapsed": 200.0,
+   "wall": 7.9763690829859115
+  },
+  "minus_eps0.001_dt0.01": {
+   "omega": 28,
+   "stationary": true,
+   "elapsed": 150.0,
+   "wall": 2.9163198330206797
+  },
+  "minus_eps0.001_dt0.005": {
+   "omega": 28,
+   "stationary": true,
+   "elapsed": 150.0,
+   "wall": 5.755028417013818
+  },
+  "plus_eps0.0001_dt0.01": {
+   "omega": 29,
+   "stationary": true,
+   "elapsed": 300.0,
+   "wall": 5.763444500014884
+  },
+  "plus_eps0.0001_dt0.005": {
+   "omega": 29,
+   "stationary": true,
+   "elapsed": 300.0,
+   "wall": 11.429573666973738
+  },
+  "plus_eps0.001_dt0.01": {
+   "omega": 29,
+   "stationary": true,
+   "elapsed": 300.0,
+   "wall": 5.76293016699492
+  },
+  "plus_eps0.001_dt0.005": {
+   "omega": 29,
+   "stationary": true,
+   "elapsed": 300.0,
+   "wall": 11.565936040977249
+  }
+ },
+ "omega_minus": [
+  28
+ ],
+ "omega_plus": [
+  29
+ ],
+ "wu_robust": true,
+ "landing_minus": 28,
+ "landing_plus": 29,
+ "adjacent_pair": true,
+ "mode": "recell",
+ "lam_c_table": 0.21945774214786434,
+ "lam_c_used": 0.232122
+}

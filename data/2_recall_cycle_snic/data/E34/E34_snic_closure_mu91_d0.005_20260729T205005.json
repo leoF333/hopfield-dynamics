@@ -1,0 +1,22 @@
+{
+ "mu": 91,
+ "delta": 0.005,
+ "lam": 0.32262941024503666,
+ "z_u": 0.22463030903520745,
+ "t_max": 500.0,
+ "t_reached": 500.0,
+ "stationary": false,
+ "d_node_final": 1.1163580996514644,
+ "d_node_min": 0.03660442215039578,
+ "t_of_min": 0.0,
+ "lead_final": 15,
+ "n_leader_changes": 24,
+ "ring_steps": [
+  1
+ ],
+ "n_tours": 0.24,
+ "tour_times": [],
+ "tour_dt": [],
+ "tour_dt_cv": NaN,
+ "verdict": "INCONCLUSIVE: 0.24 tours reached, not stationary, tour time not yet repeatable -- integrate further"
+}

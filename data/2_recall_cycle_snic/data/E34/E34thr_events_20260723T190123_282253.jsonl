@@ -1,0 +1,41 @@
+{"event": "branch_start", "index": 0, "mu": 0, "timestamp": "2026-07-24T00:01:23.309163+00:00", "total": 20}
+{"elapsed_seconds": 0.022825833992101252, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.301875, "mu": 0, "timestamp": "2026-07-24T00:01:23.331990+00:00"}
+{"event": "branch_start", "index": 1, "mu": 1, "timestamp": "2026-07-24T00:01:23.332072+00:00", "total": 20}
+{"elapsed_seconds": 0.013221083005191758, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.3034484799608128, "mu": 1, "timestamp": "2026-07-24T00:01:23.345293+00:00"}
+{"event": "branch_start", "index": 2, "mu": 2, "timestamp": "2026-07-24T00:01:23.345374+00:00", "total": 20}
+{"elapsed_seconds": 0.019064750013058074, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.34972367977183183, "mu": 2, "timestamp": "2026-07-24T00:01:23.364441+00:00"}
+{"event": "branch_start", "index": 3, "mu": 3, "timestamp": "2026-07-24T00:01:23.364525+00:00", "total": 20}
+{"elapsed_seconds": 0.019090417001280002, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.26216920561658896, "mu": 3, "timestamp": "2026-07-24T00:01:23.383618+00:00"}
+{"event": "branch_start", "index": 4, "mu": 4, "timestamp": "2026-07-24T00:01:23.383723+00:00", "total": 20}
+{"elapsed_seconds": 0.020649875004892237, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.31166465508261315, "mu": 4, "timestamp": "2026-07-24T00:01:23.404373+00:00"}
+{"event": "branch_start", "index": 5, "mu": 5, "timestamp": "2026-07-24T00:01:23.404453+00:00", "total": 20}
+{"elapsed_seconds": 0.02030245900095906, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.3257555622039724, "mu": 5, "timestamp": "2026-07-24T00:01:23.424755+00:00"}
+{"event": "branch_start", "index": 6, "mu": 6, "timestamp": "2026-07-24T00:01:23.424820+00:00", "total": 20}
+{"elapsed_seconds": 0.013933542009908706, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.29789802479796357, "mu": 6, "timestamp": "2026-07-24T00:01:23.438753+00:00"}
+{"event": "branch_start", "index": 7, "mu": 7, "timestamp": "2026-07-24T00:01:23.438806+00:00", "total": 20}
+{"elapsed_seconds": 0.012653832993237302, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.27878318900934906, "mu": 7, "timestamp": "2026-07-24T00:01:23.451460+00:00"}
+{"event": "branch_start", "index": 8, "mu": 8, "timestamp": "2026-07-24T00:01:23.451519+00:00", "total": 20}
+{"elapsed_seconds": 0.014293250002083369, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.28843749999999996, "mu": 8, "timestamp": "2026-07-24T00:01:23.465812+00:00"}
+{"event": "branch_start", "index": 9, "mu": 9, "timestamp": "2026-07-24T00:01:23.465873+00:00", "total": 20}
+{"elapsed_seconds": 0.01628224999876693, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.2815625, "mu": 9, "timestamp": "2026-07-24T00:01:23.482157+00:00"}
+{"event": "branch_start", "index": 10, "mu": 10, "timestamp": "2026-07-24T00:01:23.482251+00:00", "total": 20}
+{"elapsed_seconds": 0.013642500009154901, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.2821921781070633, "mu": 10, "timestamp": "2026-07-24T00:01:23.495895+00:00"}
+{"event": "branch_start", "index": 11, "mu": 11, "timestamp": "2026-07-24T00:01:23.495966+00:00", "total": 20}
+{"elapsed_seconds": 0.020948208999470808, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.2998147094429666, "mu": 11, "timestamp": "2026-07-24T00:01:23.516915+00:00"}
+{"event": "branch_start", "index": 12, "mu": 12, "timestamp": "2026-07-24T00:01:23.516983+00:00", "total": 20}
+{"elapsed_seconds": 0.017222833004780114, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.32234375000000004, "mu": 12, "timestamp": "2026-07-24T00:01:23.534206+00:00"}
+{"event": "branch_start", "index": 13, "mu": 13, "timestamp": "2026-07-24T00:01:23.534263+00:00", "total": 20}
+{"elapsed_seconds": 0.019012415999895893, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.2587499999999999, "mu": 13, "timestamp": "2026-07-24T00:01:23.553276+00:00"}
+{"event": "branch_start", "index": 14, "mu": 14, "timestamp": "2026-07-24T00:01:23.553368+00:00", "total": 20}
+{"elapsed_seconds": 0.014812875000643544, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.25654180411778615, "mu": 14, "timestamp": "2026-07-24T00:01:23.568181+00:00"}
+{"event": "branch_start", "index": 15, "mu": 15, "timestamp": "2026-07-24T00:01:23.568255+00:00", "total": 20}
+{"elapsed_seconds": 0.013422374991932884, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.26421874999999995, "mu": 15, "timestamp": "2026-07-24T00:01:23.581677+00:00"}
+{"event": "branch_start", "index": 16, "mu": 16, "timestamp": "2026-07-24T00:01:23.581745+00:00", "total": 20}
+{"elapsed_seconds": 0.016073249993496574, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.30874999999999997, "mu": 16, "timestamp": "2026-07-24T00:01:23.597819+00:00"}
+{"event": "branch_start", "index": 17, "mu": 17, "timestamp": "2026-07-24T00:01:23.597882+00:00", "total": 20}
+{"elapsed_seconds": 0.01780770799086895, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.207537260352332, "mu": 17, "timestamp": "2026-07-24T00:01:23.615690+00:00"}
+{"event": "branch_start", "index": 18, "mu": 18, "timestamp": "2026-07-24T00:01:23.615754+00:00", "total": 20}
+{"elapsed_seconds": 0.015208582990453579, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.2870204426871285, "mu": 18, "timestamp": "2026-07-24T00:01:23.630963+00:00"}
+{"event": "branch_start", "index": 19, "mu": 19, "timestamp": "2026-07-24T00:01:23.631020+00:00", "total": 20}
+{"elapsed_seconds": 0.014926832998753525, "event": "branch_complete", "fail": "", "fail_detail": "newton", "lam_c": 0.28812499999999996, "mu": 19, "timestamp": "2026-07-24T00:01:23.645947+00:00"}
+{"elapsed_seconds": 0.364992250004434, "event": "run_complete", "failures": [], "status": "complete", "timestamp": "2026-07-24T00:01:23.647569+00:00"}

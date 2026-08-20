@@ -1,0 +1,40 @@
+{
+ "run_id": "20260727T153812",
+ "N": 2000,
+ "P": 100,
+ "seed": 42,
+ "links": [
+  1
+ ],
+ "deltas": [
+  0.02
+ ],
+ "total_wall": 20.08242741599679,
+ "n_positive": 0,
+ "rows": [
+  {
+   "mu": 1,
+   "delta": 0.02,
+   "lam": 0.2838187079670318,
+   "lam_c": 0.3038187079670318,
+   "status": "index_certification_failed",
+   "node_residual": 1.7786971782644876e-14,
+   "n_alive": 29,
+   "succ_alive": false,
+   "pred_alive": false,
+   "saddle_residual": 6.269319241772254e-15,
+   "n_unstable": -1,
+   "z_u": NaN,
+   "eigmax": 0.39409477636336865,
+   "index_one": false,
+   "saddle_identity": true,
+   "d_saddle_node": 0.11030501048767706,
+   "fold_parameter": 0.30384829663505986,
+   "arc_wall": 19.94298783299746,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "wall": 20.082425833999878
+  }
+ ]
+}

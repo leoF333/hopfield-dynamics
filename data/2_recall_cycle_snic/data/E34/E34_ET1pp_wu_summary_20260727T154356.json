@@ -1,0 +1,588 @@
+{
+ "run_id": "20260727T154356",
+ "N": 2000,
+ "P": 100,
+ "seed": 42,
+ "links": [
+  28,
+  1,
+  91
+ ],
+ "deltas": [
+  0.005,
+  0.01,
+  0.02
+ ],
+ "total_wall": 1574.8169817500166,
+ "n_positive": 2,
+ "rows": [
+  {
+   "mu": 28,
+   "delta": 0.005,
+   "lam": 0.21445774214786434,
+   "lam_c": 0.21945774214786434,
+   "status": "arclength_failed",
+   "node_residual": 6.259220390183078e-16,
+   "n_alive": 100,
+   "succ_alive": true,
+   "pred_alive": true,
+   "forward_target": 29,
+   "target_is_succ": true,
+   "wall": 1.4395562499994412
+  },
+  {
+   "mu": 28,
+   "delta": 0.01,
+   "lam": 0.20945774214786433,
+   "lam_c": 0.21945774214786434,
+   "status": "arclength_failed",
+   "node_residual": 5.315104767182179e-15,
+   "n_alive": 100,
+   "succ_alive": true,
+   "pred_alive": true,
+   "forward_target": 29,
+   "target_is_succ": true,
+   "wall": 1.587171249993844
+  },
+  {
+   "mu": 28,
+   "delta": 0.02,
+   "lam": 0.19945774214786435,
+   "lam_c": 0.21945774214786434,
+   "status": "arclength_failed",
+   "node_residual": 4.869711341919997e-16,
+   "n_alive": 100,
+   "succ_alive": true,
+   "pred_alive": true,
+   "forward_target": 29,
+   "target_is_succ": true,
+   "wall": 1.6974191250046715
+  },
+  {
+   "mu": 1,
+   "delta": 0.005,
+   "lam": 0.2988187079670318,
+   "lam_c": 0.3038187079670318,
+   "status": "non_adjacent_landing",
+   "node_residual": 5.810900097645524e-16,
+   "n_alive": 9,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": 9,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 1.0832501658864822e-15,
+   "n_unstable": 1,
+   "z_u": 0.24695341054528497,
+   "eigmax": 0.24115482962641188,
+   "index_one": true,
+   "real_root": 0.24695341054528494,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": true,
+   "rho": 1.7790607637022227,
+   "saddle_identity": true,
+   "d_saddle_node": 0.03203872587672726,
+   "fold_parameter": 0.30384829663505974,
+   "arc_wall": 131.1225556670106,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "mode_residual": 6.380133411472412e-16,
+   "linear_gate_rel_err": 0.000492108410424313,
+   "landings": {
+    "minus_eps0.0001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.6592216250137426
+    },
+    "minus_eps0.0001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.304639874986606
+    },
+    "minus_eps0.001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.660409083007835
+    },
+    "minus_eps0.001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.313384083012352
+    },
+    "plus_eps0.0001_dt0.01": {
+     "omega": -4,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 4.431206250010291
+    },
+    "plus_eps0.0001_dt0.005": {
+     "omega": -4,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 8.813210708001861
+    },
+    "plus_eps0.001_dt0.01": {
+     "omega": -4,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 4.408607084013056
+    },
+    "plus_eps0.001_dt0.005": {
+     "omega": -4,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 8.85439470797428
+    }
+   },
+   "omega_minus": [
+    1
+   ],
+   "omega_plus": [
+    -4
+   ],
+   "wu_robust": true,
+   "landing_minus": 1,
+   "landing_plus": -4,
+   "adjacent_pair": false,
+   "wall": 173.6696185420151
+  },
+  {
+   "mu": 1,
+   "delta": 0.01,
+   "lam": 0.2938187079670318,
+   "lam_c": 0.3038187079670318,
+   "status": "necklace_brick_positive",
+   "node_residual": 5.768162600161784e-12,
+   "n_alive": 15,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": 3,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 5.351478531269281e-16,
+   "n_unstable": 1,
+   "z_u": 0.291201720597621,
+   "eigmax": 0.3204895933906613,
+   "index_one": true,
+   "real_root": 0.2912017205976211,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": true,
+   "rho": 1.8262261443058951,
+   "saddle_identity": true,
+   "d_saddle_node": 0.04697618260369579,
+   "fold_parameter": 0.3038482966350599,
+   "arc_wall": 125.46325829200214,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "mode_residual": 6.12401083424132e-16,
+   "linear_gate_rel_err": 0.005667455591117799,
+   "landings": {
+    "minus_eps0.0001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.6855519999808166
+    },
+    "minus_eps0.0001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.342590040992945
+    },
+    "minus_eps0.001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.6721528750204016
+    },
+    "minus_eps0.001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.341095667012269
+    },
+    "plus_eps0.0001_dt0.01": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 3.550631958991289
+    },
+    "plus_eps0.0001_dt0.005": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 7.10128679202171
+    },
+    "plus_eps0.001_dt0.01": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 3.5369815419835504
+    },
+    "plus_eps0.001_dt0.005": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 7.078203708981164
+    }
+   },
+   "omega_minus": [
+    1
+   ],
+   "omega_plus": [
+    3
+   ],
+   "wu_robust": true,
+   "landing_minus": 1,
+   "landing_plus": 3,
+   "adjacent_pair": true,
+   "wall": 162.90769012499368
+  },
+  {
+   "mu": 1,
+   "delta": 0.02,
+   "lam": 0.2838187079670318,
+   "lam_c": 0.3038187079670318,
+   "status": "necklace_brick_positive",
+   "node_residual": 1.7786971782644876e-14,
+   "n_alive": 29,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": 3,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 6.269319241772254e-15,
+   "n_unstable": 1,
+   "z_u": 0.35669881476281545,
+   "eigmax": 0.39409477636336865,
+   "index_one": true,
+   "real_root": 0.35669881466706055,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": true,
+   "rho": 1.8927510629692583,
+   "saddle_identity": true,
+   "d_saddle_node": 0.11030501048767706,
+   "fold_parameter": 0.30384829663505986,
+   "arc_wall": 132.28041700000176,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "mode_residual": 7.137963474319548e-11,
+   "linear_gate_rel_err": 0.0063091644136931985,
+   "landings": {
+    "minus_eps0.0001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.6789646669931244
+    },
+    "minus_eps0.0001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.330674625001848
+    },
+    "minus_eps0.001_dt0.01": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.6645052079984453
+    },
+    "minus_eps0.001_dt0.005": {
+     "omega": 1,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.307534958003089
+    },
+    "plus_eps0.0001_dt0.01": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 4.446656125015579
+    },
+    "plus_eps0.0001_dt0.005": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 8.837169500009622
+    },
+    "plus_eps0.001_dt0.01": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 4.388075915980153
+    },
+    "plus_eps0.001_dt0.005": {
+     "omega": 3,
+     "stationary": true,
+     "elapsed": 250.0,
+     "wall": 8.86083333400893
+    }
+   },
+   "omega_minus": [
+    1
+   ],
+   "omega_plus": [
+    3
+   ],
+   "wu_robust": true,
+   "landing_minus": 1,
+   "landing_plus": 3,
+   "adjacent_pair": true,
+   "wall": 174.98798570898362
+  },
+  {
+   "mu": 91,
+   "delta": 0.005,
+   "lam": 0.32262941024503666,
+   "lam_c": 0.32762941024503667,
+   "status": "non_adjacent_landing",
+   "node_residual": 7.201695718851036e-15,
+   "n_alive": 1,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": null,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 2.703781088980336e-15,
+   "n_unstable": 1,
+   "z_u": 0.22463030903520745,
+   "eigmax": 0.24900047322832553,
+   "index_one": true,
+   "real_root": 0.2246303090352075,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": true,
+   "rho": 1.8056895120228842,
+   "saddle_identity": true,
+   "d_saddle_node": 0.035819028782772294,
+   "fold_parameter": 0.32762641187322566,
+   "arc_wall": 125.08714708400657,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "mode_residual": 4.500874195848793e-16,
+   "linear_gate_rel_err": 0.0018918334563812894,
+   "landings": {
+    "minus_eps0.0001_dt0.01": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 3.6963991659868043
+    },
+    "minus_eps0.0001_dt0.005": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 7.373601874976885
+    },
+    "minus_eps0.001_dt0.01": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 3.561213000008138
+    },
+    "minus_eps0.001_dt0.005": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 200.0,
+     "wall": 7.673170374997426
+    },
+    "plus_eps0.0001_dt0.01": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 26.56868454098003
+    },
+    "plus_eps0.0001_dt0.005": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 53.180508499994176
+    },
+    "plus_eps0.001_dt0.01": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 25.423745084000984
+    },
+    "plus_eps0.001_dt0.005": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 51.060048790997826
+    }
+   },
+   "omega_minus": [
+    91
+   ],
+   "omega_plus": [
+    -1
+   ],
+   "wu_robust": true,
+   "landing_minus": 91,
+   "landing_plus": -1,
+   "adjacent_pair": false,
+   "wall": 303.6892379579949
+  },
+  {
+   "mu": 91,
+   "delta": 0.01,
+   "lam": 0.31762941024503666,
+   "lam_c": 0.32762941024503667,
+   "status": "non_adjacent_landing",
+   "node_residual": 3.708314369599369e-11,
+   "n_alive": 1,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": null,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 1.9549192342022948e-13,
+   "n_unstable": 1,
+   "z_u": 0.19769141012889302,
+   "eigmax": 0.22068783091780286,
+   "index_one": true,
+   "real_root": 0.19769141012889313,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": true,
+   "rho": 1.7525576755694559,
+   "saddle_identity": true,
+   "d_saddle_node": 0.0575134479145681,
+   "fold_parameter": 0.32762641187393937,
+   "arc_wall": 171.09784533301718,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "mode_residual": 4.356754439601994e-16,
+   "linear_gate_rel_err": 0.003684775556278771,
+   "landings": {
+    "minus_eps0.0001_dt0.01": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.617713875020854
+    },
+    "minus_eps0.0001_dt0.005": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.229089917003876
+    },
+    "minus_eps0.001_dt0.01": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 2.60712479200447
+    },
+    "minus_eps0.001_dt0.005": {
+     "omega": 91,
+     "stationary": true,
+     "elapsed": 150.0,
+     "wall": 5.196879791998072
+    },
+    "plus_eps0.0001_dt0.01": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 20.801111040986143
+    },
+    "plus_eps0.0001_dt0.005": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 41.96783162499196
+    },
+    "plus_eps0.001_dt0.01": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 20.880539667006815
+    },
+    "plus_eps0.001_dt0.005": {
+     "omega": -1,
+     "stationary": false,
+     "elapsed": 1200.0,
+     "wall": 41.714046625013
+    }
+   },
+   "omega_minus": [
+    91
+   ],
+   "omega_plus": [
+    -1
+   ],
+   "wu_robust": true,
+   "landing_minus": 91,
+   "landing_plus": -1,
+   "adjacent_pair": false,
+   "wall": 312.1743930419907
+  },
+  {
+   "mu": 91,
+   "delta": 0.02,
+   "lam": 0.30762941024503665,
+   "lam_c": 0.32762941024503667,
+   "status": "index_certification_failed",
+   "node_residual": 3.917997768148233e-11,
+   "n_alive": 2,
+   "succ_alive": false,
+   "pred_alive": false,
+   "forward_target": 43,
+   "target_is_succ": false,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "saddle_residual": 2.2095068557640621e-16,
+   "n_unstable": 1,
+   "z_u": NaN,
+   "eigmax": 0.360215380884499,
+   "index_one": false,
+   "real_root": 0.25904637406386316,
+   "contour_stable": true,
+   "base_reason": "count stable under contour refinement",
+   "shifted_reason": "count stable under contour refinement",
+   "localize_ok": false,
+   "rho": 1.8072003349223436,
+   "saddle_identity": true,
+   "d_saddle_node": 0.08395716553510679,
+   "fold_parameter": 0.3276264118739394,
+   "arc_wall": 442.64145975001156,
+   "a_saddle": null,
+   "m_saddle": null,
+   "a_node": null,
+   "wall": 442.6638979589916
+  }
+ ]
+}

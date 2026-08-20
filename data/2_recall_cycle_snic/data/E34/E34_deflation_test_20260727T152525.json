@@ -1,0 +1,32 @@
+{
+ "mu": 0,
+ "lam": 0.26212966841913843,
+ "delta": 0.02,
+ "s_star": 0.22988392040133476,
+ "verdict": "FIX INSUFFICIENT",
+ "plain": {
+  "res": 5.77956673553394e-15,
+  "n_unstable": 0,
+  "eigmax": -0.43666220117960663,
+  "d_to_node": 1.6837202653160505e-12
+ },
+ "deflated": {
+  "res": 0.10670997497006691,
+  "n_unstable": -1,
+  "eigmax": 1.022222412868198,
+  "z_u": NaN,
+  "z_u_imag": NaN,
+  "crosscheck": false,
+  "contour_stable": false,
+  "identity": false,
+  "d_to_node": 1.2533880348859734,
+  "wall": 17.971877166011836
+ },
+ "arclength": {
+  "d_to_deflated": 1.2557696824637952,
+  "d_to_plain": 0.13370054413625296,
+  "d_to_node": 0.13370054413584023,
+  "fold": 0.28352321247554024,
+  "wall": 1.5130894169851672
+ }
+}

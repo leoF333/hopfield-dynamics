@@ -1,0 +1,84 @@
+{
+ "summary": {
+  "lam": 0.35,
+  "n_ics": 2,
+  "n_with_fingerprint": 2,
+  "fingerprint_ref_bead": 0,
+  "fingerprint_dist_max": 0.005806545849380097,
+  "fingerprint_metric": "max over phase of ||m_ic(phase) - m_ref(phase)||, phase-aligned",
+  "fingerprint_dist_median": 0.0029032729246900486,
+  "fingerprint_dists": {
+   "0": 0.0,
+   "12": 0.005806545849380097
+  },
+  "period_mean_over_ics": 1633.475,
+  "period_spread_over_ics": 0.0500000000001819,
+  "verdict": "ONE cycle: every starting pattern reaches the same orbit (max fingerprint distance 5.81e-03)"
+ },
+ "rows": [
+  {
+   "n_transitions": 244,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1633.4499999999998,
+   "period_std": 0.04999999999972715,
+   "period_cv": 3.0610058465044634e-05,
+   "periods": [
+    1633.4,
+    1633.4999999999995
+   ],
+   "link_median": 16.100000000000364,
+   "T_used": 1633.4499999999998,
+   "dwell_sum": 1633.4499999999998,
+   "dwell_min": 14.154609472118409,
+   "dwell_max": 20.030983690645826,
+   "dwell_argmax": 91,
+   "dwell_argmin": 27,
+   "peak_min": 0.9999999950362606,
+   "peak_mean": 0.999999999840596,
+   "n_peaks": 100,
+   "anchor_time": 4896.0,
+   "T_refined": 1633.4607142857144,
+   "waveform_ok": true,
+   "mu": 0,
+   "lam": 0.35,
+   "wall": 201.10955283301882,
+   "stationary": false
+  },
+  {
+   "n_transitions": 244,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1633.5,
+   "period_std": 1.6077746776921858e-13,
+   "period_cv": 9.842514096676986e-17,
+   "periods": [
+    1633.4999999999998,
+    1633.5
+   ],
+   "link_median": 16.09999999999991,
+   "T_used": 1633.5,
+   "dwell_sum": 1633.5,
+   "dwell_min": 14.157467521740273,
+   "dwell_max": 20.04281573076969,
+   "dwell_argmax": 91,
+   "dwell_argmin": 27,
+   "peak_min": 0.9999999950362717,
+   "peak_mean": 0.9999999998405769,
+   "n_peaks": 100,
+   "anchor_time": 4699.78076923077,
+   "T_refined": 1633.4633012820514,
+   "waveform_ok": true,
+   "mu": 12,
+   "lam": 0.35,
+   "wall": 193.66534104099264,
+   "stationary": false
+  }
+ ]
+}

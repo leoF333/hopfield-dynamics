@@ -1,0 +1,66 @@
+{
+ "mode": "arc",
+ "mu": 28,
+ "delta": 0.02,
+ "lam": 0.19945774214786435,
+ "node_ok": true,
+ "node_residual": 4.869711341919997e-16,
+ "attempts": [
+  {
+   "lim_off": 0.004,
+   "near_lam": 0.21545774214786434,
+   "eigmax": -0.31647781943162334,
+   "converged": false,
+   "has_saddle": true,
+   "reason": "saddle polish or static index check failed: ok=True, residual=5.116e-16, identity=True, eig=-4.944e-01",
+   "node_eigmax": -0.4944295072072836,
+   "saddle_eigmax": -0.49442950720727974,
+   "fold": 0.23212162791418703,
+   "saddle_res_any": 5.115583469338432e-16,
+   "d_G_any": 4.0927362483877565e-16,
+   "identity_any": true
+  },
+  {
+   "lim_off": 0.002,
+   "near_lam": 0.21745774214786434,
+   "eigmax": -0.28525647584909075,
+   "converged": false,
+   "has_saddle": true,
+   "reason": "saddle polish or static index check failed: ok=False, residual=2.920e-03, identity=True, eig=-3.308e-03",
+   "node_eigmax": -0.4944295072072836,
+   "saddle_eigmax": -0.0033078412194605944,
+   "fold": 0.23212071258983055,
+   "saddle_res_any": 0.0029200917547620785,
+   "d_G_any": 0.13171753539161885,
+   "identity_any": true
+  },
+  {
+   "lim_off": 0.001,
+   "near_lam": 0.21845774214786434,
+   "eigmax": -0.19601563063051253,
+   "converged": false,
+   "has_saddle": true,
+   "reason": "saddle polish or static index check failed: ok=False, residual=2.784e-03, identity=True, eig=+2.555e-06",
+   "node_eigmax": -0.4944295072072836,
+   "saddle_eigmax": 2.554604920490533e-06,
+   "fold": 0.23212141299022135,
+   "saddle_res_any": 0.0027837797373402823,
+   "d_G_any": 0.1339708890577462,
+   "identity_any": true
+  },
+  {
+   "lim_off": 0.0005,
+   "near_lam": 0.21895774214786434,
+   "eigmax": -0.13613888184326295,
+   "converged": false,
+   "has_saddle": true,
+   "reason": "saddle polish or static index check failed: ok=True, residual=5.098e-16, identity=True, eig=-4.944e-01",
+   "node_eigmax": -0.4944295072072836,
+   "saddle_eigmax": -0.49442950720728485,
+   "fold": 0.23212164478775776,
+   "saddle_res_any": 5.097745431194744e-16,
+   "d_G_any": 4.493605683666942e-16,
+   "identity_any": true
+  }
+ ]
+}

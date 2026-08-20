@@ -1,0 +1,12 @@
+{
+  "completed": 20,
+  "elapsed_seconds": 0.7955522910051513,
+  "failures": [
+    17
+  ],
+  "pid": 37300,
+  "requested": 20,
+  "result_file": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/2_cycle_rappel_snic/data/E34/E34_thresholds_N400_P20_s42_20260723T191104_587960.npz",
+  "stage": "partial",
+  "timestamp": "2026-07-24T00:11:05.383669+00:00"
+}

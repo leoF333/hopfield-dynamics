@@ -1,0 +1,54 @@
+[
+ {
+  "mu": 1,
+  "lam": 0.2838187079670318,
+  "res": 6.305543067955057e-15,
+  "eigmax": 0.3940947763633671,
+  "real_root": 0.356698814667058,
+  "spe16_r7": {
+   "count": null,
+   "shifted": null,
+   "stable": false,
+   "reason": "integer count not yet stable",
+   "wall": 18.670028625027044
+  },
+  "spe32_r9": {
+   "count": 1,
+   "shifted": 1,
+   "stable": true,
+   "reason": "count stable under contour refinement",
+   "wall": 37.37081308400957
+  },
+  "first_stable": [
+   32,
+   9,
+   1
+  ]
+ },
+ {
+  "mu": 91,
+  "lam": 0.30762941024503665,
+  "res": 5.082045670209729e-16,
+  "eigmax": 0.36021538088449323,
+  "real_root": 0.2590463740638602,
+  "spe16_r7": {
+   "count": null,
+   "shifted": null,
+   "stable": false,
+   "reason": "integer count not yet stable",
+   "wall": 18.793814750009915
+  },
+  "spe32_r9": {
+   "count": 1,
+   "shifted": 1,
+   "stable": true,
+   "reason": "count stable under contour refinement",
+   "wall": 37.63349495900911
+  },
+  "first_stable": [
+   32,
+   9,
+   1
+  ]
+ }
+]

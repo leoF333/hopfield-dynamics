@@ -1,0 +1,2063 @@
+{
+  "completed_utc": "2026-07-24T17:32:20.150472+00:00",
+  "config": {
+    "K_list": [
+      4,
+      6,
+      8,
+      11
+    ],
+    "N": 500,
+    "P": 25,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "fixed_t_final": null,
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "lambdas": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "mode": "production",
+    "planned_entries": 12,
+    "planned_new_runs": 9,
+    "planned_reused_K6": 3,
+    "record_every": 5,
+    "seed": 45,
+    "strict_serial": true,
+    "t0": 1.0,
+    "target_relays": 10,
+    "transient_fraction": 0.25
+  },
+  "created_utc": "2026-07-24T17:31:50.822812+00:00",
+  "entries": [
+    {
+      "K": 4,
+      "analysis": {
+        "T1_cv": 0.060824162091539125,
+        "T1_median": 6.5949638770678405,
+        "analysis_t_end_recorded": 120.0,
+        "analysis_t_end_used": 120.0,
+        "analysis_t_start": 30.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            5.5884740657844025,
+            6.186315429969318
+          ],
+          "tau_relay_samples": [
+            5.5989519847360825,
+            6.117517146835485,
+            5.945715112059013
+          ],
+          "tau_xcorr_ci95": [
+            5.596579842137906,
+            6.215686896951743
+          ],
+          "tau_xcorr_samples": [
+            5.619039146806847,
+            6.163757303739993,
+            5.935603658087634
+          ]
+        },
+        "max_abs_by_layer": [
+          2.6095589176272127,
+          3.3822935959488905,
+          3.6295041642197154,
+          3.7090511114217195
+        ],
+        "mean_saturation_by_layer": [
+          0.8479811215991151,
+          0.9140510827318185,
+          0.9169705719045013,
+          0.9177623542476425
+        ],
+        "n_last_layer_relays": 14,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 1801,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999999716,
+          "trimmed_final_sample": false,
+          "used_records": 1801
+        },
+        "relative_estimator_disagreement": 0.020184585535820167,
+        "relay": {
+          "T1_cv": 0.060824162091539125,
+          "T1_median": 6.5949638770678405,
+          "count_by_layer": [
+            13,
+            13,
+            14
+          ],
+          "delta_by_layer": [
+            2.185738876507358,
+            1.898680340599455,
+            1.7604917089087486
+          ],
+          "n_last_layer_relays": 14,
+          "ordered_event_count_by_layer": [
+            13,
+            14,
+            14
+          ],
+          "tau_eff": 5.844910926015562
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 44,
+              "candidate_lag": 2.203136254460537,
+              "lag": 2.203136254460537,
+              "margin": 0.09133577416619187,
+              "max_lag": 9.899999999999437,
+              "peak": 0.9784304466295181,
+              "unique": true
+            },
+            {
+              "best_index": 39,
+              "candidate_lag": 1.951533695292272,
+              "lag": 1.951533695292272,
+              "margin": 0.09548511458507769,
+              "max_lag": 9.899999999999437,
+              "peak": 0.9943789061872588,
+              "unique": true
+            },
+            {
+              "best_index": 36,
+              "candidate_lag": 1.8094208792713777,
+              "lag": 1.8094208792713777,
+              "margin": 0.0942328483530076,
+              "max_lag": 9.899999999999437,
+              "peak": 0.9968858645938165,
+              "unique": true
+            }
+          ],
+          "tau_eff": 5.964090829024187,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 1.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam1_K4",
+      "status": "complete"
+    },
+    {
+      "K": 6,
+      "analysis": {
+        "T1_cv": 0.054728111750298236,
+        "T1_median": 9.99809265676203,
+        "analysis_t_end_recorded": 200.0,
+        "analysis_t_end_used": 200.0,
+        "analysis_t_start": 50.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            8.735108364479341,
+            9.897711855903765
+          ],
+          "tau_relay_samples": [
+            8.81459966845231,
+            9.84121912775305,
+            9.293411534369298
+          ],
+          "tau_xcorr_ci95": [
+            8.80551078476932,
+            9.927988853004633
+          ],
+          "tau_xcorr_samples": [
+            8.871249328894185,
+            9.863181204475204,
+            9.365818923291538
+          ]
+        },
+        "max_abs_by_layer": [
+          2.6527599440664726,
+          3.3886637042511016,
+          3.573670332145979,
+          3.648184793107091,
+          3.6830011860233105,
+          3.790632932254715
+        ],
+        "mean_saturation_by_layer": [
+          0.8831816061312997,
+          0.9398373875374901,
+          0.9452555814728465,
+          0.9462965678107325,
+          0.9485558147284275,
+          0.9483032322559171
+        ],
+        "n_last_layer_relays": 15,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 3001,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999998295,
+          "trimmed_final_sample": false,
+          "used_records": 3001
+        },
+        "relative_estimator_disagreement": 0.020174183741056274,
+        "relay": {
+          "T1_cv": 0.054728111750298236,
+          "T1_median": 9.99809265676203,
+          "count_by_layer": [
+            15,
+            15,
+            15,
+            14,
+            14
+          ],
+          "delta_by_layer": [
+            2.1638882842389933,
+            1.938396912362677,
+            1.7783910068993691,
+            1.6942401054552931,
+            1.6478866297913441
+          ],
+          "n_last_layer_relays": 15,
+          "ordered_event_count_by_layer": [
+            15,
+            15,
+            15,
+            14,
+            15
+          ],
+          "tau_eff": 9.222802938747677
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 44,
+              "candidate_lag": 2.1975526192669608,
+              "lag": 2.1975526192669608,
+              "margin": 0.1065898025500922,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9844058134950674,
+              "unique": true
+            },
+            {
+              "best_index": 39,
+              "candidate_lag": 1.963453080306426,
+              "lag": 1.963453080306426,
+              "margin": 0.11651241803945844,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9962287141426935,
+              "unique": true
+            },
+            {
+              "best_index": 37,
+              "candidate_lag": 1.8280376850106548,
+              "lag": 1.8280376850106548,
+              "margin": 0.10699474575245893,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9981100514426208,
+              "unique": true
+            },
+            {
+              "best_index": 35,
+              "candidate_lag": 1.739327387126295,
+              "lag": 1.739327387126295,
+              "margin": 0.1007654035663802,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9987935289316222,
+              "unique": true
+            },
+            {
+              "best_index": 34,
+              "candidate_lag": 1.6823906425414439,
+              "lag": 1.6823906425414439,
+              "margin": 0.09399148659070422,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9990201964545418,
+              "unique": true
+            }
+          ],
+          "tau_eff": 9.41076141425178,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 1.0,
+      "source": "reused_E36A1",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A_regimes_seed45/runs/lam1_coherent/coarse",
+      "status": "complete"
+    },
+    {
+      "K": 8,
+      "analysis": {
+        "T1_cv": 0.05800083568912981,
+        "T1_median": 12.873103725104158,
+        "analysis_t_end_recorded": 224.05,
+        "analysis_t_end_used": 224.05,
+        "analysis_t_start": 56.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            11.893587918560042,
+            12.900122715658567
+          ],
+          "tau_relay_samples": [
+            11.962334002991113,
+            12.377083268851479,
+            12.85114867948532
+          ],
+          "tau_xcorr_ci95": [
+            11.986789040841709,
+            12.999994819242625
+          ],
+          "tau_xcorr_samples": [
+            12.001927301717911,
+            12.600313406782245,
+            12.877935081626347
+          ]
+        },
+        "max_abs_by_layer": [
+          2.6870096306606785,
+          3.4523337703293637,
+          3.633172101057619,
+          3.715758995861078,
+          3.761045224188409,
+          3.7907540781096793,
+          3.8119713408943183,
+          3.828107787512095
+        ],
+        "mean_saturation_by_layer": [
+          0.9035568114217812,
+          0.9541618084473549,
+          0.9577096966091626,
+          0.958515169541943,
+          0.9587745389649053,
+          0.9591969066032149,
+          0.9615764425936988,
+          0.9621314693634783
+        ],
+        "n_last_layer_relays": 12,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 3362,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.05000000000001137,
+          "trimmed_final_sample": false,
+          "used_records": 3362
+        },
+        "relative_estimator_disagreement": 0.02544666508341594,
+        "relay": {
+          "T1_cv": 0.05800083568912981,
+          "T1_median": 12.873103725104158,
+          "count_by_layer": [
+            12,
+            13,
+            13,
+            13,
+            13,
+            12,
+            12
+          ],
+          "delta_by_layer": [
+            2.0989993486429483,
+            1.8720205228608933,
+            1.7671730170248736,
+            1.6778669729067133,
+            1.651634049265681,
+            1.6096087726015362,
+            1.5802480203657296
+          ],
+          "n_last_layer_relays": 12,
+          "ordered_event_count_by_layer": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            12,
+            12
+          ],
+          "tau_eff": 12.257550703668375
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 43,
+              "candidate_lag": 2.143968249989232,
+              "lag": 2.143968249989232,
+              "margin": 0.10907972101444252,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9881534759683864,
+              "unique": true
+            },
+            {
+              "best_index": 39,
+              "candidate_lag": 1.9472379263481456,
+              "lag": 1.9472379263481456,
+              "margin": 0.12809305425202233,
+              "max_lag": 19.3499999999989,
+              "peak": 0.997020234965024,
+              "unique": true
+            },
+            {
+              "best_index": 36,
+              "candidate_lag": 1.8224457771530334,
+              "lag": 1.8224457771530334,
+              "margin": 0.12684930379690817,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9984938969159638,
+              "unique": true
+            },
+            {
+              "best_index": 35,
+              "candidate_lag": 1.7423192843447681,
+              "lag": 1.7423192843447681,
+              "margin": 0.12468436542858341,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9990056636155328,
+              "unique": true
+            },
+            {
+              "best_index": 34,
+              "candidate_lag": 1.685916617571171,
+              "lag": 1.685916617571171,
+              "margin": 0.11447263543994268,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9992197588358512,
+              "unique": true
+            },
+            {
+              "best_index": 33,
+              "candidate_lag": 1.6322565889484024,
+              "lag": 1.6322565889484024,
+              "margin": 0.10765129772656923,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9994030169653642,
+              "unique": true
+            },
+            {
+              "best_index": 32,
+              "candidate_lag": 1.599339773981043,
+              "lag": 1.599339773981043,
+              "margin": 0.10368671257019046,
+              "max_lag": 19.3499999999989,
+              "peak": 0.9994607244380567,
+              "unique": true
+            }
+          ],
+          "tau_eff": 12.573484218335798,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 1.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam1_K8",
+      "status": "complete"
+    },
+    {
+      "K": 11,
+      "analysis": {
+        "T1_cv": 0.058429489419538155,
+        "T1_median": 17.538243860631184,
+        "analysis_t_end_recorded": 320.05,
+        "analysis_t_end_used": 320.05,
+        "analysis_t_start": 80.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            16.384445461819592,
+            17.729246120179933
+          ],
+          "tau_relay_samples": [
+            16.371283825516556,
+            17.375606978605376,
+            17.42364656887736
+          ],
+          "tau_xcorr_ci95": [
+            16.46815126011644,
+            17.855970214708936
+          ],
+          "tau_xcorr_samples": [
+            16.454039781627724,
+            17.50878842056168,
+            17.523354010048664
+          ]
+        },
+        "max_abs_by_layer": [
+          2.716234270797462,
+          3.462696871633982,
+          3.5514675576275576,
+          3.715561950380187,
+          3.7608738180503374,
+          3.7905076058567517,
+          3.811885717503497,
+          3.8277360938363043,
+          3.840582907416138,
+          3.8506777349239543,
+          3.859373764003473
+        ],
+        "mean_saturation_by_layer": [
+          0.9189196168263168,
+          0.9674977092877984,
+          0.9703361099541886,
+          0.969390670553937,
+          0.9690470637234491,
+          0.9690832986255733,
+          0.9690932944606422,
+          0.9701128696376518,
+          0.9708804664723043,
+          0.9710628904623102,
+          0.971112453144527
+        ],
+        "n_last_layer_relays": 13,
+        "record_dt": 0.05000000000001137,
+        "record_grid": {
+          "action": "none",
+          "input_records": 4802,
+          "nominal_record_dt": 0.05000000000001137,
+          "terminal_interval": 0.05000000000001137,
+          "trimmed_final_sample": false,
+          "used_records": 4802
+        },
+        "relative_estimator_disagreement": 0.025780182126579114,
+        "relay": {
+          "T1_cv": 0.058429489419538155,
+          "T1_median": 17.538243860631184,
+          "count_by_layer": [
+            13,
+            13,
+            13,
+            14,
+            14,
+            14,
+            13,
+            13,
+            13,
+            13
+          ],
+          "delta_by_layer": [
+            2.0528306815697874,
+            1.8668031902240045,
+            1.7762456209517268,
+            1.6762914877650132,
+            1.6421621950027685,
+            1.608339352821524,
+            1.58042806700972,
+            1.557201985662516,
+            1.5384540427767917,
+            1.5230709828766038
+          ],
+          "n_last_layer_relays": 13,
+          "ordered_event_count_by_layer": [
+            13,
+            13,
+            14,
+            14,
+            14,
+            14,
+            13,
+            13,
+            13,
+            13
+          ],
+          "tau_eff": 16.821827606660456
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 42,
+              "candidate_lag": 2.112065223053955,
+              "lag": 2.112065223053955,
+              "margin": 0.1199872823865884,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9909264143066332,
+              "unique": true
+            },
+            {
+              "best_index": 39,
+              "candidate_lag": 1.9416909580654738,
+              "lag": 1.9416909580654738,
+              "margin": 0.1327751073429908,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9977661571362495,
+              "unique": true
+            },
+            {
+              "best_index": 36,
+              "candidate_lag": 1.821892810485614,
+              "lag": 1.821892810485614,
+              "margin": 0.12886326135478543,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9989049752171925,
+              "unique": true
+            },
+            {
+              "best_index": 35,
+              "candidate_lag": 1.7394041916989846,
+              "lag": 1.7394041916989846,
+              "margin": 0.12991698932034446,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9992697371891011,
+              "unique": true
+            },
+            {
+              "best_index": 34,
+              "candidate_lag": 1.6821266346265777,
+              "lag": 1.6821266346265777,
+              "margin": 0.13255384027055794,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9994055182727323,
+              "unique": true
+            },
+            {
+              "best_index": 33,
+              "candidate_lag": 1.641164582792579,
+              "lag": 1.641164582792579,
+              "margin": 0.12640423908353748,
+              "max_lag": 26.35000000000599,
+              "peak": 0.999493239057174,
+              "unique": true
+            },
+            {
+              "best_index": 32,
+              "candidate_lag": 1.6120322428268472,
+              "lag": 1.6120322428268472,
+              "margin": 0.11987213706432875,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9995564411518608,
+              "unique": true
+            },
+            {
+              "best_index": 32,
+              "candidate_lag": 1.5893674540125484,
+              "lag": 1.5893674540125484,
+              "margin": 0.11893940937960346,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9995935612589478,
+              "unique": true
+            },
+            {
+              "best_index": 31,
+              "candidate_lag": 1.5689493009490865,
+              "lag": 1.5689493009490865,
+              "margin": 0.11554869835407278,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9995983336210256,
+              "unique": true
+            },
+            {
+              "best_index": 31,
+              "candidate_lag": 1.552467027600233,
+              "lag": 1.552467027600233,
+              "margin": 0.1152454613195536,
+              "max_lag": 26.35000000000599,
+              "peak": 0.9996208868970744,
+              "unique": true
+            }
+          ],
+          "tau_eff": 17.2611604261119,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 1.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam1_K11",
+      "status": "complete"
+    },
+    {
+      "K": 4,
+      "analysis": {
+        "T1_cv": 0.03230231537811095,
+        "T1_median": 4.277925355471552,
+        "analysis_t_end_recorded": 120.0,
+        "analysis_t_end_used": 120.0,
+        "analysis_t_start": 30.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 5,
+          "tau_relay_ci95": [
+            3.503586062052474,
+            3.6429613179567455
+          ],
+          "tau_relay_samples": [
+            3.4510616604168867,
+            3.6721965839086295,
+            3.5782624679838406,
+            3.5960102056338954,
+            3.5688375320797974
+          ],
+          "tau_xcorr_ci95": [
+            3.458175419620735,
+            3.6400346927683667
+          ],
+          "tau_xcorr_samples": [
+            3.3961639353602764,
+            3.677002377055457,
+            3.5768111512063907,
+            3.5833106295087545,
+            3.5122371878418748
+          ]
+        },
+        "max_abs_by_layer": [
+          2.4745707213768373,
+          4.329790260017396,
+          4.432942218003578,
+          4.49650810069383
+        ],
+        "mean_saturation_by_layer": [
+          0.8189061632426442,
+          0.939474736257638,
+          0.9403609106052231,
+          0.9406385341476996
+        ],
+        "n_last_layer_relays": 21,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 1801,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999999716,
+          "trimmed_final_sample": false,
+          "used_records": 1801
+        },
+        "relative_estimator_disagreement": 0.011236610830963771,
+        "relay": {
+          "T1_cv": 0.03230231537811095,
+          "T1_median": 4.277925355471552,
+          "count_by_layer": [
+            20,
+            21,
+            21
+          ],
+          "delta_by_layer": [
+            1.212019664818115,
+            1.1819179095599566,
+            1.1592727581413982
+          ],
+          "n_last_layer_relays": 21,
+          "ordered_event_count_by_layer": [
+            21,
+            21,
+            21
+          ],
+          "tau_eff": 3.5532103325194697
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2169801485198735,
+              "lag": 1.2169801485198735,
+              "margin": 0.10006831226048662,
+              "max_lag": 6.449999999999633,
+              "peak": 0.9953914440643374,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.19962902858958,
+              "lag": 1.19962902858958,
+              "margin": 0.10514084037579619,
+              "max_lag": 6.449999999999633,
+              "peak": 0.9966746245396971,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1767527812137906,
+              "lag": 1.1767527812137906,
+              "margin": 0.09451932025291476,
+              "max_lag": 6.449999999999633,
+              "peak": 0.9972185029208195,
+              "unique": true
+            }
+          ],
+          "tau_eff": 3.593361958323244,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 2.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam2_K4",
+      "status": "complete"
+    },
+    {
+      "K": 6,
+      "analysis": {
+        "T1_cv": 0.027296040115919504,
+        "T1_median": 6.777758540807014,
+        "analysis_t_end_recorded": 200.0,
+        "analysis_t_end_used": 200.0,
+        "analysis_t_start": 50.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 5,
+          "tau_relay_ci95": [
+            5.943954898410809,
+            6.073899451472455
+          ],
+          "tau_relay_samples": [
+            5.8829323370479365,
+            6.0629070745373355,
+            6.04256274267501,
+            6.053816236095457,
+            6.002417484352421
+          ],
+          "tau_xcorr_ci95": [
+            5.96321142608368,
+            6.085862516608996
+          ],
+          "tau_xcorr_samples": [
+            5.927272807478885,
+            6.105035475957308,
+            6.0597028967161695,
+            6.048752441438868,
+            5.981921235140456
+          ]
+        },
+        "max_abs_by_layer": [
+          2.494732918578586,
+          4.346772229714704,
+          4.435082837728221,
+          4.484337044106887,
+          4.519297761003225,
+          4.546280211298299
+        ],
+        "mean_saturation_by_layer": [
+          0.8783998667110988,
+          0.9618700433188951,
+          0.9623465511496179,
+          0.9623438853715468,
+          0.9613682105964717,
+          0.9624398533822104
+        ],
+        "n_last_layer_relays": 22,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 3001,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999998295,
+          "trimmed_final_sample": false,
+          "used_records": 3001
+        },
+        "relative_estimator_disagreement": 0.009715478786840462,
+        "relay": {
+          "T1_cv": 0.027296040115919504,
+          "T1_median": 6.777758540807014,
+          "count_by_layer": [
+            22,
+            22,
+            22,
+            22,
+            22
+          ],
+          "delta_by_layer": [
+            1.2220811747405804,
+            1.2233721547709493,
+            1.2037110532896094,
+            1.1856284476115277,
+            1.1742223648670915
+          ],
+          "n_last_layer_relays": 22,
+          "ordered_event_count_by_layer": [
+            22,
+            22,
+            22,
+            23,
+            22
+          ],
+          "tau_eff": 6.009015195279758
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 25,
+              "candidate_lag": 1.2393589715115327,
+              "lag": 1.2393589715115327,
+              "margin": 0.11571318864252444,
+              "max_lag": 10.19999999999942,
+              "peak": 0.99689813122773,
+              "unique": true
+            },
+            {
+              "best_index": 25,
+              "candidate_lag": 1.232385973450343,
+              "lag": 1.232385973450343,
+              "margin": 0.11757050308314432,
+              "max_lag": 10.19999999999942,
+              "peak": 0.9979682784853373,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2169671054885278,
+              "lag": 1.2169671054885278,
+              "margin": 0.11962787134713515,
+              "max_lag": 10.19999999999942,
+              "peak": 0.9985347664300176,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1986178036684534,
+              "lag": 1.1986178036684534,
+              "margin": 0.11585100490674316,
+              "max_lag": 10.19999999999942,
+              "peak": 0.9989441827764223,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1803507822446286,
+              "lag": 1.1803507822446286,
+              "margin": 0.10763784646504071,
+              "max_lag": 10.19999999999942,
+              "peak": 0.9991337253794943,
+              "unique": true
+            }
+          ],
+          "tau_eff": 6.067680636363486,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 2.0,
+      "source": "reused_E36A1",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A_regimes_seed45/runs/lam2_coherent/coarse",
+      "status": "complete"
+    },
+    {
+      "K": 8,
+      "analysis": {
+        "T1_cv": 0.02787381972806219,
+        "T1_median": 8.983429692553116,
+        "analysis_t_end_recorded": 151.20000000000002,
+        "analysis_t_end_used": 151.20000000000002,
+        "analysis_t_start": 37.800000000000004,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            8.044254411851382,
+            8.354906342011423
+          ],
+          "tau_relay_samples": [
+            8.062499717913106,
+            8.19921948493306,
+            8.337021927948044
+          ],
+          "tau_xcorr_ci95": [
+            8.075585558690827,
+            8.42590342449345
+          ],
+          "tau_xcorr_samples": [
+            8.078360514193067,
+            8.29604516801586,
+            8.377827792567489
+          ]
+        },
+        "max_abs_by_layer": [
+          2.5458746426270213,
+          4.261500991768508,
+          4.2973159362864815,
+          4.4120798922107145,
+          4.495135071440773,
+          4.55718488424451,
+          4.604850608231429,
+          4.64260153538454
+        ],
+        "mean_saturation_by_layer": [
+          0.8960475980608226,
+          0.9723287791978847,
+          0.9720528867342458,
+          0.970810048479508,
+          0.9708417805200538,
+          0.9708726311150302,
+          0.9709026002644348,
+          0.9723393565447355
+        ],
+        "n_last_layer_relays": 12,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 2269,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.05000000000001137,
+          "trimmed_final_sample": false,
+          "used_records": 2269
+        },
+        "relative_estimator_disagreement": 0.01046481049124162,
+        "relay": {
+          "T1_cv": 0.02787381972806219,
+          "T1_median": 8.983429692553116,
+          "count_by_layer": [
+            12,
+            12,
+            12,
+            13,
+            13,
+            13,
+            12
+          ],
+          "delta_by_layer": [
+            1.1884741978690627,
+            1.2083107711124086,
+            1.2005816501097968,
+            1.1751976649780005,
+            1.1569340905964296,
+            1.1559145294531845,
+            1.1330555397532933
+          ],
+          "n_last_layer_relays": 12,
+          "ordered_event_count_by_layer": [
+            12,
+            12,
+            13,
+            13,
+            13,
+            13,
+            12
+          ],
+          "tau_eff": 8.218468443872176
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2150391263601423,
+              "lag": 1.2150391263601423,
+              "margin": 0.12132311948570618,
+              "max_lag": 13.499999999999233,
+              "peak": 0.997443308546487,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2157804443893245,
+              "lag": 1.2157804443893245,
+              "margin": 0.12511818885529014,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9983131200208464,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2078737296306077,
+              "lag": 1.2078737296306077,
+              "margin": 0.12698179974535295,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9988472707310907,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1910425744464492,
+              "lag": 1.1910425744464492,
+              "margin": 0.1342290793877834,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9990718803024168,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.17438639397838,
+              "lag": 1.17438639397838,
+              "margin": 0.12896814276814716,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9992183202915464,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1586806387336732,
+              "lag": 1.1586806387336732,
+              "margin": 0.12325979433085588,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9994254334294351,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1421226296756948,
+              "lag": 1.1421226296756948,
+              "margin": 0.11530401196773243,
+              "max_lag": 13.499999999999233,
+              "peak": 0.9995345188828058,
+              "unique": true
+            }
+          ],
+          "tau_eff": 8.304925537214272,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 2.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam2_K8",
+      "status": "complete"
+    },
+    {
+      "K": 11,
+      "analysis": {
+        "T1_cv": 0.026706649550526297,
+        "T1_median": 12.269216993515236,
+        "analysis_t_end_recorded": 216.0,
+        "analysis_t_end_used": 216.0,
+        "analysis_t_start": 54.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            11.24255337303315,
+            11.727273647197329
+          ],
+          "tau_relay_samples": [
+            11.24238990801702,
+            11.564258520266094,
+            11.648092102062606
+          ],
+          "tau_xcorr_ci95": [
+            11.303156337731492,
+            11.80494527746947
+          ],
+          "tau_xcorr_samples": [
+            11.298439435982267,
+            11.6942979569214,
+            11.669415029897772
+          ]
+        },
+        "max_abs_by_layer": [
+          2.600300525280191,
+          4.313946892247989,
+          4.314368967031743,
+          4.318441439920777,
+          4.4949433380640915,
+          4.55679136118576,
+          4.6048148455772635,
+          4.642982097917877,
+          4.672921861071537,
+          4.697411760914883,
+          4.717050141823501
+        ],
+        "mean_saturation_by_layer": [
+          0.9121721690836222,
+          0.9789966059858084,
+          0.9793853748842953,
+          0.9795630978093182,
+          0.9793779697624216,
+          0.9783171860536894,
+          0.9786362233878451,
+          0.9794760876272784,
+          0.9796241900647985,
+          0.9796007405121911,
+          0.9796260413452674
+        ],
+        "n_last_layer_relays": 13,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 3241,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999998295,
+          "trimmed_final_sample": false,
+          "used_records": 3241
+        },
+        "relative_estimator_disagreement": 0.013345994055850935,
+        "relay": {
+          "T1_cv": 0.026706649550526297,
+          "T1_median": 12.269216993515236,
+          "count_by_layer": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            14,
+            13,
+            13,
+            13,
+            13
+          ],
+          "delta_by_layer": [
+            1.1618444522169682,
+            1.1909745987650808,
+            1.1863659044177837,
+            1.1640358752609217,
+            1.1596395052488475,
+            1.1458478277299022,
+            1.1399290149606145,
+            1.1215891799163131,
+            1.100358650213252,
+            1.0939971486337186
+          ],
+          "n_last_layer_relays": 13,
+          "ordered_event_count_by_layer": [
+            13,
+            13,
+            13,
+            13,
+            14,
+            14,
+            13,
+            13,
+            13,
+            13
+          ],
+          "tau_eff": 11.464582157363402
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1939460809453775,
+              "lag": 1.1939460809453775,
+              "margin": 0.13390728184950595,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9981397895494972,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.2008571027935446,
+              "lag": 1.2008571027935446,
+              "margin": 0.13648702064624663,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9987418572291942,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.1966683822172592,
+              "lag": 1.1966683822172592,
+              "margin": 0.13773142364722157,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9991362594224276,
+              "unique": true
+            },
+            {
+              "best_index": 24,
+              "candidate_lag": 1.185976900563916,
+              "lag": 1.185976900563916,
+              "margin": 0.13778990463402097,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9993164312425861,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1728712980964122,
+              "lag": 1.1728712980964122,
+              "margin": 0.1297752376176563,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9994432422803893,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1566312608162608,
+              "lag": 1.1566312608162608,
+              "margin": 0.12689407748315762,
+              "max_lag": 18.44999999999895,
+              "peak": 0.999592146340489,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1442377983566827,
+              "lag": 1.1442377983566827,
+              "margin": 0.12984144615448978,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9996814607955382,
+              "unique": true
+            },
+            {
+              "best_index": 23,
+              "candidate_lag": 1.1325012386823226,
+              "lag": 1.1325012386823226,
+              "margin": 0.12947974488845337,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9997000974558958,
+              "unique": true
+            },
+            {
+              "best_index": 22,
+              "candidate_lag": 1.1220995141556744,
+              "lag": 1.1220995141556744,
+              "margin": 0.12369521076045642,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9997189759644782,
+              "unique": true
+            },
+            {
+              "best_index": 22,
+              "candidate_lag": 1.112826695249285,
+              "lag": 1.112826695249285,
+              "margin": 0.12246863932361629,
+              "max_lag": 18.44999999999895,
+              "peak": 0.9997716361185073,
+              "unique": true
+            }
+          ],
+          "tau_eff": 11.618616271876736,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 2.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam2_K11",
+      "status": "complete"
+    },
+    {
+      "K": 4,
+      "analysis": {
+        "T1_cv": 0.02197037726700585,
+        "T1_median": 3.325735799023832,
+        "analysis_t_end_recorded": 120.0,
+        "analysis_t_end_used": 120.0,
+        "analysis_t_start": 30.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 6,
+          "tau_relay_ci95": [
+            2.6233092448483095,
+            2.6477139956634614
+          ],
+          "tau_relay_samples": [
+            2.6207974311760793,
+            2.6522733837753094,
+            2.644021314523741,
+            2.647906928184966,
+            2.6334121076427763,
+            2.614658556232442
+          ],
+          "tau_xcorr_ci95": [
+            2.5529527869322677,
+            2.6002183447844716
+          ],
+          "tau_xcorr_samples": [
+            2.5420304424177793,
+            2.607922080201868,
+            2.5826829233134587,
+            2.6075389033161716,
+            2.5772465356304792,
+            2.5420925102704612
+          ]
+        },
+        "max_abs_by_layer": [
+          2.3832520588227664,
+          6.189633811955543,
+          6.257352103616676,
+          6.32447105037254
+        ],
+        "mean_saturation_by_layer": [
+          0.7493881177123838,
+          0.962199888950587,
+          0.962419766796229,
+          0.963149361465858
+        ],
+        "n_last_layer_relays": 27,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 1801,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999999716,
+          "trimmed_final_sample": false,
+          "used_records": 1801
+        },
+        "relative_estimator_disagreement": 0.0074833358186408875,
+        "relay": {
+          "T1_cv": 0.02197037726700585,
+          "T1_median": 3.325735799023832,
+          "count_by_layer": [
+            27,
+            26,
+            27
+          ],
+          "delta_by_layer": [
+            0.8852405467286601,
+            0.8772485110007793,
+            0.8679430296861028
+          ],
+          "n_last_layer_relays": 27,
+          "ordered_event_count_by_layer": [
+            27,
+            27,
+            27
+          ],
+          "tau_eff": 2.6304320874155422
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 18,
+              "candidate_lag": 0.8763923268229458,
+              "lag": 0.8763923268229458,
+              "margin": 0.08065890639101947,
+              "max_lag": 4.999999999999716,
+              "peak": 0.9979989116061709,
+              "unique": true
+            },
+            {
+              "best_index": 17,
+              "candidate_lag": 0.8700266801962923,
+              "lag": 0.8700266801962923,
+              "margin": 0.08052752587793133,
+              "max_lag": 4.999999999999716,
+              "peak": 0.9979270915611228,
+              "unique": true
+            },
+            {
+              "best_index": 17,
+              "candidate_lag": 0.8644020516948064,
+              "lag": 0.8644020516948064,
+              "margin": 0.07989484423299709,
+              "max_lag": 4.999999999999716,
+              "peak": 0.9978358812269661,
+              "unique": true
+            }
+          ],
+          "tau_eff": 2.6108210587140444,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 4.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam4_K4",
+      "status": "complete"
+    },
+    {
+      "K": 6,
+      "analysis": {
+        "T1_cv": 0.014443744199386845,
+        "T1_median": 5.3560416258501675,
+        "analysis_t_end_recorded": 200.0,
+        "analysis_t_end_used": 200.0,
+        "analysis_t_start": 50.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 6,
+          "tau_relay_ci95": [
+            4.626364081198352,
+            4.675594922518442
+          ],
+          "tau_relay_samples": [
+            4.6968654878480045,
+            4.652972980169558,
+            4.672597086036312,
+            4.61977696545911,
+            4.646800869435495,
+            4.616863622201905
+          ],
+          "tau_xcorr_ci95": [
+            4.601964729107072,
+            4.657279956270539
+          ],
+          "tau_xcorr_samples": [
+            4.6872181373381965,
+            4.617421279663635,
+            4.65479643884542,
+            4.600110842831312,
+            4.618037264311463,
+            4.600150093142806
+          ]
+        },
+        "max_abs_by_layer": [
+          2.3061066969740067,
+          6.182307737648399,
+          6.258731469475352,
+          6.317449498225094,
+          6.359439913176225,
+          6.393578051220753
+        ],
+        "mean_saturation_by_layer": [
+          0.8623265578140623,
+          0.9764991669443545,
+          0.9765211596134653,
+          0.9765398200599823,
+          0.9767084305231618,
+          0.9766311229590166
+        ],
+        "n_last_layer_relays": 28,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 3001,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999998295,
+          "trimmed_final_sample": false,
+          "used_records": 3001
+        },
+        "relative_estimator_disagreement": 0.003457307871259324,
+        "relay": {
+          "T1_cv": 0.014443744199386845,
+          "T1_median": 5.3560416258501675,
+          "count_by_layer": [
+            28,
+            28,
+            28,
+            27,
+            28
+          ],
+          "delta_by_layer": [
+            0.9259914533905231,
+            0.9290147613594719,
+            0.9329310001326121,
+            0.9262903009182253,
+            0.9271217200843154
+          ],
+          "n_last_layer_relays": 28,
+          "ordered_event_count_by_layer": [
+            28,
+            28,
+            28,
+            28,
+            28
+          ],
+          "tau_eff": 4.641349235885148
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9347928825359192,
+              "lag": 0.9347928825359192,
+              "margin": 0.11670563502345332,
+              "max_lag": 8.049999999999542,
+              "peak": 0.9989630121308714,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9332317923546989,
+              "lag": 0.9332317923546989,
+              "margin": 0.11927625128065311,
+              "max_lag": 8.049999999999542,
+              "peak": 0.999024247583628,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9324749492474067,
+              "lag": 0.9324749492474067,
+              "margin": 0.11960444640250312,
+              "max_lag": 8.049999999999542,
+              "peak": 0.9991603162961857,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9297215693756727,
+              "lag": 0.9297215693756727,
+              "margin": 0.11771843827222961,
+              "max_lag": 8.049999999999542,
+              "peak": 0.9992634038028373,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9272024026240528,
+              "lag": 0.9272024026240528,
+              "margin": 0.1142149594393832,
+              "max_lag": 8.049999999999542,
+              "peak": 0.9993035774107416,
+              "unique": true
+            }
+          ],
+          "tau_eff": 4.65742359613775,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 4.0,
+      "source": "reused_E36A1",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A_regimes_seed45/runs/lam4_coherent/coarse",
+      "status": "complete"
+    },
+    {
+      "K": 8,
+      "analysis": {
+        "T1_cv": 0.013991241987267509,
+        "T1_median": 7.202643594643831,
+        "analysis_t_end_recorded": 120.0,
+        "analysis_t_end_used": 120.0,
+        "analysis_t_start": 30.0,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            6.436494223286862,
+            6.540648617091226
+          ],
+          "tau_relay_samples": [
+            6.4467937128837765,
+            6.481019777585985,
+            6.537900770097373
+          ],
+          "tau_xcorr_ci95": [
+            6.405419873515666,
+            6.543202374425067
+          ],
+          "tau_xcorr_samples": [
+            6.411398949603237,
+            6.478604453810131,
+            6.532929968497732
+          ]
+        },
+        "max_abs_by_layer": [
+          2.3632613187657534,
+          6.13541392352201,
+          6.148871424821924,
+          6.16370223763976,
+          6.199855607336228,
+          6.270566923601423,
+          6.329539551783676,
+          6.3778254932177925
+        ],
+        "mean_saturation_by_layer": [
+          0.8905752359800156,
+          0.9831671293725724,
+          0.98318156579678,
+          0.982585230427541,
+          0.9818567462520837,
+          0.9819000555247105,
+          0.9819056079955589,
+          0.9829205996668539
+        ],
+        "n_last_layer_relays": 12,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 1801,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.04999999999999716,
+          "trimmed_final_sample": false,
+          "used_records": 1801
+        },
+        "relative_estimator_disagreement": 0.004251742650375464,
+        "relay": {
+          "T1_cv": 0.013991241987267509,
+          "T1_median": 7.202643594643831,
+          "count_by_layer": [
+            12,
+            12,
+            12,
+            12,
+            13,
+            13,
+            12
+          ],
+          "delta_by_layer": [
+            0.9237127310978792,
+            0.9231964961027046,
+            0.9279788622669365,
+            0.9287472024690544,
+            0.9325585448641966,
+            0.925124796456199,
+            0.922285199085465
+          ],
+          "n_last_layer_relays": 12,
+          "ordered_event_count_by_layer": [
+            12,
+            12,
+            12,
+            13,
+            13,
+            13,
+            12
+          ],
+          "tau_eff": 6.483603832342435
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 19,
+              "candidate_lag": 0.933852239385627,
+              "lag": 0.933852239385627,
+              "margin": 0.1338570005354448,
+              "max_lag": 10.849999999999383,
+              "peak": 0.999105993150088,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9320337783199203,
+              "lag": 0.9320337783199203,
+              "margin": 0.13616604920289566,
+              "max_lag": 10.849999999999383,
+              "peak": 0.9991760590522721,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9325608297628427,
+              "lag": 0.9325608297628427,
+              "margin": 0.13713078840400006,
+              "max_lag": 10.849999999999383,
+              "peak": 0.9993250395450745,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9329401693743054,
+              "lag": 0.9329401693743054,
+              "margin": 0.13790668499022074,
+              "max_lag": 10.849999999999383,
+              "peak": 0.999401478942841,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.929630826927969,
+              "lag": 0.929630826927969,
+              "margin": 0.1458210690893209,
+              "max_lag": 10.849999999999383,
+              "peak": 0.9994003108119333,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9273905532939262,
+              "lag": 0.9273905532939262,
+              "margin": 0.14098531066386766,
+              "max_lag": 10.849999999999383,
+              "peak": 0.9994289277728134,
+              "unique": true
+            },
+            {
+              "best_index": 18,
+              "candidate_lag": 0.9228207781442014,
+              "lag": 0.9228207781442014,
+              "margin": 0.12537420035361757,
+              "max_lag": 10.849999999999383,
+              "peak": 0.9994924842172264,
+              "unique": true
+            }
+          ],
+          "tau_eff": 6.511229175208792,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 4.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam4_K8",
+      "status": "complete"
+    },
+    {
+      "K": 11,
+      "analysis": {
+        "T1_cv": 0.014000728901352304,
+        "T1_median": 9.974881629976114,
+        "analysis_t_end_recorded": 171.20000000000002,
+        "analysis_t_end_used": 171.20000000000002,
+        "analysis_t_start": 42.800000000000004,
+        "block_uncertainty": {
+          "method": "contiguous-block normal CI (descriptive)",
+          "n_blocks": 3,
+          "tau_relay_ci95": [
+            9.090035796886148,
+            9.288342681558891
+          ],
+          "tau_relay_samples": [
+            9.090390649245201,
+            9.219701628027728,
+            9.257475440394629
+          ],
+          "tau_xcorr_ci95": [
+            9.09248351798924,
+            9.29491454076522
+          ],
+          "tau_xcorr_samples": [
+            9.091058238697462,
+            9.235074800165805,
+            9.254964049268422
+          ]
+        },
+        "max_abs_by_layer": [
+          2.4425810116934747,
+          6.174265673769715,
+          6.175904051816707,
+          6.188341456164724,
+          6.200072397274735,
+          6.287280885304873,
+          6.343392000382001,
+          6.39089996823672,
+          6.430940748024454,
+          6.466761693206343,
+          6.498605053353943
+        ],
+        "mean_saturation_by_layer": [
+          0.9098154924095112,
+          0.9871755546905436,
+          0.9873063448812778,
+          0.9873374854028814,
+          0.987608407940835,
+          0.9877415336706907,
+          0.9873281432464013,
+          0.9873063448812784,
+          0.9872931101595972,
+          0.9873203581159996,
+          0.9873437135072042
+        ],
+        "n_last_layer_relays": 13,
+        "record_dt": 0.04999999999999716,
+        "record_grid": {
+          "action": "none",
+          "input_records": 2569,
+          "nominal_record_dt": 0.04999999999999716,
+          "terminal_interval": 0.05000000000001137,
+          "trimmed_final_sample": false,
+          "used_records": 2569
+        },
+        "relative_estimator_disagreement": 0.002907073575134288,
+        "relay": {
+          "T1_cv": 0.014000728901352304,
+          "T1_median": 9.974881629976114,
+          "count_by_layer": [
+            13,
+            13,
+            13,
+            13,
+            12,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "delta_by_layer": [
+            0.9223361229056621,
+            0.9192478747284838,
+            0.9259818148113794,
+            0.9235962229752772,
+            0.9293963582983551,
+            0.9258680385171445,
+            0.915316781165842,
+            0.923463873328572,
+            0.9155690867973902,
+            0.9058894065636736
+          ],
+          "n_last_layer_relays": 13,
+          "ordered_event_count_by_layer": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "tau_eff": 9.20666558009178
+        },
+        "valid": true,
+        "xcorr": {
+          "by_layer": [
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9277547708258961,
+              "lag": 0.9277547708258961,
+              "margin": 0.14283533681810856,
+              "max_lag": 14.999999999999147,
+              "peak": 0.999314675363589,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9266602035599983,
+              "lag": 0.9266602035599983,
+              "margin": 0.1444767162113525,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9993841835375548,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9283211181293749,
+              "lag": 0.9283211181293749,
+              "margin": 0.14206169124458923,
+              "max_lag": 14.999999999999147,
+              "peak": 0.999476625190219,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9281084796308935,
+              "lag": 0.9281084796308935,
+              "margin": 0.13580727768234957,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9995451883582159,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9274718892097582,
+              "lag": 0.9274718892097582,
+              "margin": 0.13457468009616202,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9996224220459932,
+              "unique": true
+            },
+            {
+              "best_index": 19,
+              "candidate_lag": 0.9251048319349966,
+              "lag": 0.9251048319349966,
+              "margin": 0.13473872105825857,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9996308902191621,
+              "unique": true
+            },
+            {
+              "best_index": 18,
+              "candidate_lag": 0.9221386207014026,
+              "lag": 0.9221386207014026,
+              "margin": 0.13471480522895118,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9996603650196924,
+              "unique": true
+            },
+            {
+              "best_index": 18,
+              "candidate_lag": 0.9193236537888705,
+              "lag": 0.9193236537888705,
+              "margin": 0.13714589620654094,
+              "max_lag": 14.999999999999147,
+              "peak": 0.999699550801809,
+              "unique": true
+            },
+            {
+              "best_index": 18,
+              "candidate_lag": 0.9157878027793501,
+              "lag": 0.9157878027793501,
+              "margin": 0.13612356139689807,
+              "max_lag": 14.999999999999147,
+              "peak": 0.999741399480847,
+              "unique": true
+            },
+            {
+              "best_index": 18,
+              "candidate_lag": 0.912797623502461,
+              "lag": 0.912797623502461,
+              "margin": 0.13479717062124852,
+              "max_lag": 14.999999999999147,
+              "peak": 0.9997748910039304,
+              "unique": true
+            }
+          ],
+          "tau_eff": 9.233468994063003,
+          "unique_fraction": 1.0
+        }
+      },
+      "lambda": 4.0,
+      "source": "E36A2_new",
+      "source_path": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A2_delay_seed45/runs/lam4_K11",
+      "status": "complete"
+    }
+  ],
+  "fits": {
+    "1.0": {
+      "K": [
+        4.0,
+        6.0,
+        8.0,
+        11.0
+      ],
+      "R2": 0.9992180802856827,
+      "T1": [
+        6.5949638770678405,
+        9.99809265676203,
+        12.873103725104158,
+        17.538243860631184
+      ],
+      "intercept": 2.0567099434959677,
+      "max_relative_estimator_disagreement": 0.025780182126579114,
+      "min_xcorr_unique_fraction": 1.0,
+      "n_valid_K": 4,
+      "reason": "linear_distributed_delay_nonunit_quantum",
+      "residuals": [
+        -0.11505378789789056,
+        0.18586984414979035,
+        -0.04132423515458861,
+        -0.029491821097327175
+      ],
+      "slope": 1.5511025738232542,
+      "verdict": "GO-limited"
+    },
+    "2.0": {
+      "K": [
+        4.0,
+        6.0,
+        8.0,
+        11.0
+      ],
+      "R2": 0.9990267270676542,
+      "T1": [
+        4.277925355471552,
+        6.777758540807014,
+        8.983429692553116,
+        12.269216993515236
+      ],
+      "intercept": 0.9808956330153158,
+      "max_relative_estimator_disagreement": 0.013345994055850935,
+      "min_xcorr_unique_fraction": 1.0,
+      "n_valid_K": 4,
+      "reason": "linear_K_unique_lags_unit_quantum",
+      "residuals": [
+        -0.10914004357804163,
+        0.11991329773456716,
+        0.054804605457817956,
+        -0.06557785961433993
+      ],
+      "slope": 1.135389922011426,
+      "verdict": "GO-strong"
+    },
+    "4.0": {
+      "K": [
+        4.0,
+        6.0,
+        8.0,
+        11.0
+      ],
+      "R2": 0.9995068605235662,
+      "T1": [
+        3.325735799023832,
+        5.3560416258501675,
+        7.202643594643831,
+        9.974881629976114
+      ],
+      "intercept": 0.5526538331087368,
+      "max_relative_estimator_disagreement": 0.0074833358186408875,
+      "min_xcorr_unique_fraction": 1.0,
+      "n_valid_K": 4,
+      "reason": "linear_K_unique_lags_unit_quantum",
+      "residuals": [
+        -0.06476051213198586,
+        0.07365032932962912,
+        0.02835731275857256,
+        -0.03724712995622603
+      ],
+      "slope": 0.9459474926823602,
+      "verdict": "GO-strong"
+    }
+  },
+  "output_bytes": 24378848,
+  "reuse_a1_root": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A_regimes_seed45",
+  "schema": "E36A2-campaign-v1",
+  "status": "complete",
+  "updated_utc": "2026-07-24T17:32:20.147968+00:00"
+}

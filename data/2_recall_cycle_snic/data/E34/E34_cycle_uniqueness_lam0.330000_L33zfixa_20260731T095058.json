@@ -1,0 +1,116 @@
+{
+ "summary": {
+  "lam": 0.33,
+  "n_ics": 3,
+  "n_with_fingerprint": 3,
+  "fingerprint_ref_bead": 6,
+  "fingerprint_dist_max": 0.0038885686956091577,
+  "fingerprint_metric": "max over phase of ||m_ic(phase) - m_ref(phase)||, phase-aligned",
+  "fingerprint_dist_median": 0.0034629256174431616,
+  "fingerprint_dists": {
+   "6": 0.0,
+   "13": 0.0034629256174431616,
+   "33": 0.0038885686956091577
+  },
+  "period_mean_over_ics": 1869.3999999999999,
+  "period_spread_over_ics": 2.2737367544323206e-13,
+  "verdict": "ONE cycle: every starting pattern reaches the same orbit (max fingerprint distance 3.89e-03)"
+ },
+ "rows": [
+  {
+   "n_transitions": 277,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1869.3999999999999,
+   "period_std": 2.2737367544323206e-13,
+   "period_cv": 1.216292261919504e-16,
+   "periods": [
+    1869.4,
+    1869.3999999999996
+   ],
+   "link_median": 18.099999999999454,
+   "T_used": 1869.3999999999999,
+   "dwell_sum": 1869.3999999999999,
+   "dwell_min": 15.342143209192727,
+   "dwell_max": 41.93713939671579,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999373939538,
+   "peak_mean": 0.9999999990449279,
+   "n_peaks": 100,
+   "anchor_time": 5492.524683544304,
+   "T_refined": 1869.408591772152,
+   "waveform_ok": true,
+   "mu": 6,
+   "lam": 0.33,
+   "wall": 361.9741810829728,
+   "stationary": false
+  },
+  {
+   "n_transitions": 277,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1869.3999999999999,
+   "period_std": 2.2737367544323206e-13,
+   "period_cv": 1.216292261919504e-16,
+   "periods": [
+    1869.4,
+    1869.3999999999996
+   ],
+   "link_median": 18.0,
+   "T_used": 1869.3999999999999,
+   "dwell_sum": 1869.3999999999999,
+   "dwell_min": 15.342152487723979,
+   "dwell_max": 41.93771626590478,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999374720813,
+   "peak_mean": 0.999999999045704,
+   "n_peaks": 100,
+   "anchor_time": 5362.997368421053,
+   "T_refined": 1869.4068167406467,
+   "waveform_ok": true,
+   "mu": 13,
+   "lam": 0.33,
+   "wall": 365.3415808340069,
+   "stationary": false
+  },
+  {
+   "n_transitions": 279,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1869.4,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1869.4
+   ],
+   "link_median": 18.0,
+   "T_used": 1869.4,
+   "dwell_sum": 1869.4,
+   "dwell_min": 15.342214117509684,
+   "dwell_max": 41.93776297560544,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999374789313,
+   "peak_mean": 0.9999999990457817,
+   "n_peaks": 100,
+   "anchor_time": 4998.792666666667,
+   "T_refined": 1869.4067692307694,
+   "waveform_ok": true,
+   "mu": 33,
+   "lam": 0.33,
+   "wall": 322.88099420798244,
+   "stationary": false
+  }
+ ]
+}

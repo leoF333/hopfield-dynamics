@@ -1,0 +1,29 @@
+{
+  "figure": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5/figures_ready/Figure_E34_bifurcation_architecture",
+  "created_from": {
+    "report": "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/E34_INVARIANT_CIRCLE_RESULTS.md",
+    "figures": [
+      "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/figures/E34/figE34_invariant_circle.png",
+      "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/figures/E34/figE34_bifurcation.png"
+    ]
+  },
+  "reference_parameters": {
+    "N": 2000,
+    "P": 100,
+    "seed": 42,
+    "beta": 20,
+    "tau": 10,
+    "lambda_star": 0.32763
+  },
+  "evidence_encoding": {
+    "solid": "direct closure or local connection certified in E34",
+    "dashed": "continuation supported but full global closure not certified"
+  },
+  "scientific_scope": [
+    "Direct terminal SNIC for the reference realization.",
+    "Direct closed invariant circle with one and two surviving canonical beads.",
+    "Certified local twin-mediated links for motifs 9 and 22.",
+    "The full twin-inclusive necklace with many beads remains incompletely closed.",
+    "Global uniqueness of the post-threshold limit cycle remains pending."
+  ]
+}

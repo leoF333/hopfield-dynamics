@@ -1,0 +1,199 @@
+{
+  "completed_utc": "2026-07-24T00:09:39.967852+00:00",
+  "config": {
+    "K": 6,
+    "N": 500,
+    "P": 25,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "dt_check": "all",
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "initial_conditions": [
+      "coherent",
+      "perturbed"
+    ],
+    "lambdas": [
+      1.0
+    ],
+    "mode": "production",
+    "perturbation_sigma": 0.3,
+    "planned_coarse_steps": 20000,
+    "planned_fine_steps_per_check": 40000,
+    "planned_integrations": 4,
+    "planned_parameter_pairs": 2,
+    "record_every": 5,
+    "seed": 42,
+    "t0": 1.0,
+    "t_final": 200.0,
+    "transient_fraction": 0.25
+  },
+  "created_utc": "2026-07-24T00:09:24.561939+00:00",
+  "output_bytes": 40385578,
+  "output_dir": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_dtcheck_lam1_seed42",
+  "runs": [
+    {
+      "coarse": {
+        "T1_cv": 0.06830914800591427,
+        "T1_median": 10.850000000000009,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 2.0,
+        "layer_disagreement_fraction": 0.4436854381872709,
+        "max_abs_by_layer": [
+          2.3802987805597517,
+          3.4258544870915704,
+          3.6785234426729496,
+          3.800938775235059,
+          3.870311678411913,
+          3.9130611725949356
+        ],
+        "mean_distinct_patterns_across_layers": 1.9263578807064312,
+        "mean_saturation_by_layer": [
+          0.9166137954015376,
+          0.9410343218927045,
+          0.9464031989336896,
+          0.947658113962016,
+          0.9484911696101344,
+          0.9500499833388919
+        ],
+        "n_interlayer_lags": 69,
+        "n_records": 3001,
+        "n_transitions_last_layer": 14,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4848338042846636,
+        "raw_physical_lead_disagreement_fraction": 0.0022770187715206044,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 0.0,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.2626422190845759e-07,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.06830914800591427,
+        "T1_median": 10.850000000000009,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 2.0,
+        "layer_disagreement_fraction": 0.4436854381872709,
+        "max_abs_by_layer": [
+          2.3802987839710705,
+          3.4258544822693056,
+          3.67852344439732,
+          3.8009387785297983,
+          3.8703116795311496,
+          3.9130611707953307
+        ],
+        "mean_distinct_patterns_across_layers": 1.9263578807064312,
+        "mean_saturation_by_layer": [
+          0.9166137954015376,
+          0.9410343218927045,
+          0.9464031989336896,
+          0.947658113962016,
+          0.9484911696101344,
+          0.9500499833388919
+        ],
+        "n_interlayer_lags": 69,
+        "n_records": 3001,
+        "n_transitions_last_layer": 14,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4848338038918218,
+        "raw_physical_lead_disagreement_fraction": 0.0022770187715206044,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "coherent",
+      "lambda": 1.0,
+      "run_id": "lam1_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.06720134857495362,
+        "T1_median": 10.975000000000009,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.950000000000017,
+        "layer_disagreement_fraction": 0.44435188270576476,
+        "max_abs_by_layer": [
+          2.38042669739415,
+          3.4261608051935495,
+          3.6783124215279908,
+          3.8011294939436446,
+          3.870274464230038,
+          3.912888331002636
+        ],
+        "mean_distinct_patterns_across_layers": 1.9266911029656781,
+        "mean_saturation_by_layer": [
+          0.9169456847717478,
+          0.9410083305564825,
+          0.9464271909363567,
+          0.9477067644118654,
+          0.9482465844718464,
+          0.9502532489170338
+        ],
+        "n_interlayer_lags": 69,
+        "n_records": 3001,
+        "n_transitions_last_layer": 13,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.495892552821992,
+        "raw_physical_lead_disagreement_fraction": 0.0023325558147284237,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 0.0,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.3027298395336778e-07,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.06720134857495362,
+        "T1_median": 10.975000000000009,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.950000000000017,
+        "layer_disagreement_fraction": 0.44435188270576476,
+        "max_abs_by_layer": [
+          2.380426696205162,
+          3.426160814005723,
+          3.678312420424209,
+          3.8011294937206044,
+          3.8702744604418813,
+          3.9128883335672966
+        ],
+        "mean_distinct_patterns_across_layers": 1.9266911029656781,
+        "mean_saturation_by_layer": [
+          0.9169456847717478,
+          0.9410083305564825,
+          0.9464271909363567,
+          0.9477067644118654,
+          0.9482465844718464,
+          0.9502532489170338
+        ],
+        "n_interlayer_lags": 69,
+        "n_records": 3001,
+        "n_transitions_last_layer": 13,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.495892576310954,
+        "raw_physical_lead_disagreement_fraction": 0.0023325558147284237,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "perturbed",
+      "lambda": 1.0,
+      "run_id": "lam1_perturbed",
+      "status": "complete"
+    }
+  ],
+  "schema": "E36A-campaign-v1",
+  "status": "complete",
+  "updated_utc": "2026-07-24T00:09:39.967441+00:00"
+}

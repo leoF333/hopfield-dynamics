@@ -1,0 +1,252 @@
+{
+ "lam": 0.306,
+ "alive": [
+  9,
+  22,
+  43,
+  91
+ ],
+ "beads": [
+  9,
+  22,
+  43,
+  91
+ ],
+ "t_wu": 4000.0,
+ "ladder": "E34_alive_ladder_20260729T212158.json",
+ "verdict": {
+  "n_alive": 4,
+  "n_bricks": 3,
+  "beads_without_brick": [
+   9
+  ],
+  "map": {
+   "22": 43,
+   "43": 91,
+   "91": 9
+  },
+  "closure": "incomplete: some alive bead has no certified brick"
+ },
+ "rows": [
+  {
+   "mu": 9,
+   "lam": 0.306,
+   "fold_measured": 0.30650000000000005,
+   "node_residual": 5.398621834279985e-16,
+   "node_route": "continuation",
+   "node_eigmax": -0.1477923180757822,
+   "lam_limit": 0.31,
+   "saddle_residual": 5.103146830523419e-16,
+   "fold_reached": 0.30657514353883236,
+   "d_saddle_node": 0.009736577628863955,
+   "arc_wall": 0.20292133296607062,
+   "arc_converged": true,
+   "certif_setting": [
+    16,
+    7
+   ],
+   "n_unstable": 1,
+   "z_u": 0.0985174238700556,
+   "eigmax": 0.13430849861408922,
+   "real_root": 0.09851742387005585,
+   "contour_stable": true,
+   "localize_ok": true,
+   "index_one": true,
+   "linear_gate_rel_err": 0.02289868735831574,
+   "landings": {
+    "minus_eps0.001_dt0.01": {
+     "residual": 6.116616462053539e-15,
+     "lead": 9,
+     "lead_overlap": 0.9934366724142121,
+     "eigmax": -0.14779231807532334,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 9,
+     "stationary": true,
+     "t_used": 500.0
+    },
+    "plus_eps0.001_dt0.01": {
+     "residual": 4.053742916434876e-15,
+     "lead": 9,
+     "lead_overlap": 0.9809827177428329,
+     "eigmax": -0.17066058457674793,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 9,
+     "stationary": true,
+     "t_used": 500.0
+    }
+   },
+   "back_bead": 9,
+   "forward_bead": 9,
+   "robust": true,
+   "brick_ok": false,
+   "status": "brick_broken"
+  },
+  {
+   "mu": 22,
+   "lam": 0.306,
+   "fold_measured": 0.30650000000000005,
+   "node_residual": 5.249527530807541e-16,
+   "node_route": "continuation",
+   "node_eigmax": -0.15691734831451343,
+   "lam_limit": 0.31,
+   "saddle_residual": 5.036249698867431e-16,
+   "fold_reached": 0.3065082156885834,
+   "d_saddle_node": 0.005881786583532719,
+   "arc_wall": 0.3208636670024134,
+   "arc_converged": true,
+   "certif_setting": [
+    16,
+    7
+   ],
+   "n_unstable": 1,
+   "z_u": 0.12046218519184006,
+   "eigmax": 0.09750124303691998,
+   "real_root": 0.12046218519183963,
+   "contour_stable": true,
+   "localize_ok": true,
+   "index_one": true,
+   "linear_gate_rel_err": 0.0025608116773102353,
+   "landings": {
+    "minus_eps0.001_dt0.01": {
+     "residual": 3.739254782353998e-15,
+     "lead": 22,
+     "lead_overlap": 0.9875666946531025,
+     "eigmax": -0.15691734831480408,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 22,
+     "stationary": true,
+     "t_used": 500.0
+    },
+    "plus_eps0.001_dt0.01": {
+     "residual": 2.168484268453634e-15,
+     "lead": 43,
+     "lead_overlap": 0.9881832419728378,
+     "eigmax": -0.18729118514113874,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 43,
+     "stationary": true,
+     "t_used": 1000.0
+    }
+   },
+   "back_bead": 22,
+   "forward_bead": 43,
+   "robust": true,
+   "brick_ok": true,
+   "status": "brick_positive"
+  },
+  {
+   "mu": 43,
+   "lam": 0.306,
+   "fold_measured": 0.3143000000000001,
+   "node_residual": 7.99595827623388e-15,
+   "node_route": "continuation",
+   "node_eigmax": -0.1872911851417408,
+   "lam_limit": 0.3103000000000001,
+   "saddle_residual": 9.85217453933171e-13,
+   "fold_reached": 0.31434877817784235,
+   "d_saddle_node": 0.06320324482939535,
+   "arc_wall": 0.9036975830094889,
+   "arc_converged": true,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "n_unstable": 1,
+   "z_u": 0.3262793472132868,
+   "eigmax": 0.3250984243112811,
+   "real_root": 0.3262793472132868,
+   "contour_stable": true,
+   "localize_ok": false,
+   "index_one": true,
+   "linear_gate_rel_err": 0.0005740930833600208,
+   "landings": {
+    "minus_eps0.001_dt0.01": {
+     "residual": 1.1249045908131016e-15,
+     "lead": 43,
+     "lead_overlap": 0.9881832419728377,
+     "eigmax": -0.18729118514114484,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 43,
+     "stationary": true,
+     "t_used": 500.0
+    },
+    "plus_eps0.001_dt0.01": {
+     "residual": 5.925756887483435e-15,
+     "lead": 91,
+     "lead_overlap": 0.9956518630350557,
+     "eigmax": -0.21771629572894846,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 91,
+     "stationary": true,
+     "t_used": 1500.0
+    }
+   },
+   "back_bead": 43,
+   "forward_bead": 91,
+   "robust": true,
+   "brick_ok": true,
+   "status": "brick_positive"
+  },
+  {
+   "mu": 91,
+   "lam": 0.306,
+   "fold_measured": 0.32760000000000006,
+   "node_residual": 2.2109483272066981e-16,
+   "node_route": "continuation",
+   "node_eigmax": -0.21771629572893347,
+   "lam_limit": 0.32360000000000005,
+   "saddle_residual": 1.528952208622303e-14,
+   "fold_reached": 0.32762717786498174,
+   "d_saddle_node": 0.08624971694422211,
+   "arc_wall": 1.4044682499952614,
+   "arc_converged": true,
+   "certif_setting": [
+    32,
+    9
+   ],
+   "n_unstable": 1,
+   "z_u": 0.32839296044981586,
+   "eigmax": 0.4528899081444495,
+   "real_root": 0.3283929599308331,
+   "contour_stable": true,
+   "localize_ok": true,
+   "index_one": true,
+   "linear_gate_rel_err": 0.0008800910964232524,
+   "landings": {
+    "minus_eps0.001_dt0.01": {
+     "residual": 4.529010378076451e-15,
+     "lead": 91,
+     "lead_overlap": 0.9956518630350562,
+     "eigmax": -0.21771629572886453,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 91,
+     "stationary": true,
+     "t_used": 500.0
+    },
+    "plus_eps0.001_dt0.01": {
+     "residual": 6.1018893685939986e-15,
+     "lead": 9,
+     "lead_overlap": 0.9934366724142174,
+     "eigmax": -0.14779231807622695,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 9,
+     "stationary": true,
+     "t_used": 1000.0
+    }
+   },
+   "back_bead": 91,
+   "forward_bead": 9,
+   "robust": true,
+   "brick_ok": true,
+   "status": "brick_positive"
+  }
+ ]
+}

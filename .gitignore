@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Matplotlib / runtime caches
+.mplconfig/
+mplconfig/
+cache/
+
+# Local heavy outputs: regenerate them, do not commit them.
+# Raw campaign output stays in the local archive; see data/MANIFEST_excluded.csv
+runs/
+*.chunk.npz
+**/chunks/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

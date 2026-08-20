@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: >-
+  Delayed non-reciprocal Hopfield networks: code, data and evidence for the
+  quenched bifurcation ensemble
+message: >-
+  If you use this software or data, please cite it using the metadata from this
+  file. The accompanying manuscript is in preparation.
+type: software
+authors:
+  - family-names: Flack
+    given-names: L.
+abstract: >-
+  Code, derived data and a claim-by-claim evidence register for the study of
+  sequential memory recall in delayed non-reciprocal Hopfield networks. The work
+  resolves, inside a single disordered sample, the ensemble of quenched
+  saddle-node bifurcations at which stored memories lose stability, and shows
+  that two distinct macroscopic phase boundaries are two different order
+  statistics of that one internal law.
+keywords:
+  - Hopfield network
+  - non-reciprocal dynamics
+  - delay differential equations
+  - saddle-node bifurcation
+  - extreme value statistics
+  - finite-size effects
+  - disordered systems
+  - hyperchaos
+  - sequential memory
+license: MIT

@@ -1,0 +1,48 @@
+{
+ "mode": "land",
+ "mu": 1,
+ "delta": 0.005,
+ "lam": 0.2988187079670318,
+ "omega": -4,
+ "stationary": true,
+ "z_u": 0.24695341054528488,
+ "identify": {
+  "top5": [
+   {
+    "nu": 3,
+    "m": 0.9862088786556124,
+    "lam_c": 0.2975289729572891,
+    "in_census": false
+   },
+   {
+    "nu": 36,
+    "m": 0.08426336489085695,
+    "lam_c": 0.28502078514837204,
+    "in_census": false
+   },
+   {
+    "nu": 91,
+    "m": -0.05508658795449565,
+    "lam_c": 0.32762941024503667,
+    "in_census": true
+   },
+   {
+    "nu": 95,
+    "m": -0.05322112049813406,
+    "lam_c": 0.22943892197286553,
+    "in_census": false
+   },
+   {
+    "nu": 22,
+    "m": 0.04812483151686455,
+    "lam_c": 0.3064895491498283,
+    "in_census": true
+   }
+  ],
+  "best": 3,
+  "res_final": 3.9576847905812844e-11,
+  "node_solve_ok": false,
+  "node_residual": 0.0006751594323063601
+ },
+ "verdict": "landing is NOT a memory bead (genuine non-census state)"
+}

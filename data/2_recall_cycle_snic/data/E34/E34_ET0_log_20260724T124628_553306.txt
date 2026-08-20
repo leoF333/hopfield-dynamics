@@ -1,0 +1,19 @@
+2026-07-24T17:46:28.553446+00:00 E34-ET0 run 20260724T124628_553306  mode=smoke  N=400 P=20 seed=42 beta=20.0
+2026-07-24T17:46:28.553664+00:00 threshold table: /Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_thresholds_N400_P20_s42_20260723T191104_587960.npz
+2026-07-24T17:46:28.553683+00:00 sentinels: [14]
+2026-07-24T17:46:28.553718+00:00 [mu=14] lam_local=0.236525 lam_c=0.256525
+2026-07-24T17:46:28.561943+00:00 [mu=14] alive nodes at lam_local: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19]
+2026-07-24T17:46:29.015913+00:00 [mu=14] basin B=15 sep_d_G=1.0655 admissible=True
+2026-07-24T17:47:01.032585+00:00 [mu=14] edge S1_dt0.01: ok=True s*=1.464e-01 reason=converged (32.0s)
+2026-07-24T17:47:31.272081+00:00 [mu=14] edge S2_dt0.01: ok=True s*=1.046e-01 reason=converged (30.2s)
+2026-07-24T17:47:31.272581+00:00 [mu=14] boundary Newton res=1.29e-14 identity=True
+2026-07-24T17:47:33.462714+00:00 [mu=14] n_unstable=1 z_u=0.52322 eigmax=+0.5545 real_root=0.52322 crosscheck=True
+2026-07-24T17:47:33.494345+00:00 [mu=14] fold_cont=0.256562 mismatch=3.71e-05 turns_up=1 turns_down=0 rejoins=True
+2026-07-24T17:47:33.512147+00:00 [mu=14] W^u linear gate rel_err=0.0019
+2026-07-24T17:47:34.757948+00:00 [mu=14] W^u minus eps=0.001 dt=0.01 -> omega=14
+2026-07-24T17:47:35.585690+00:00 [mu=14] W^u plus eps=0.001 dt=0.01 -> omega=15
+2026-07-24T17:47:35.585741+00:00 [mu=14] VERDICT = positive
+2026-07-24T17:47:35.585768+00:00 [mu=14] done in 67.0s status=done
+2026-07-24T17:47:35.587139+00:00 GATE ET0 = GO  verdicts={14: 'positive'}
+2026-07-24T17:47:35.587149+00:00 elapsed=67.0s  npz=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_results_20260724T124628_553306.npz
+2026-07-24T17:47:35.587156+00:00 summary=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_summary_20260724T124628_553306.json

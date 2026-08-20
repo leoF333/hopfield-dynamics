@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "N": 500,
+    "P": 25,
+    "K": 6,
+    "beta": 20.0,
+    "t0": 1.0,
+    "dt": 0.01,
+    "t_final": 200.0,
+    "transient_fraction": 0.25,
+    "perturbation_sigma": 0.3,
+    "tol": 0.03,
+    "elapsed_seconds": 171.9
+  },
+  "seeds": [
+    {
+      "seed": 42,
+      "status": "ok",
+      "bracket": [
+        0.6562,
+        0.6719
+      ],
+      "bracket_width": 0.0157,
+      "mixed_points": [
+        0.625,
+        0.6562
+      ],
+      "n_evals": 7,
+      "evals": [
+        {
+          "lambda": 0.5,
+          "label": "stationary",
+          "detail": {
+            "coherent": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            },
+            "perturbed": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            }
+          }
+        },
+        {
+          "lambda": 1.0,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.850000000000009,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.975000000000009,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.75,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.849999999999994,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.800000000000011,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.625,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 19.349999999999994,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 19.349999999999994,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6875,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 18.450000000000003,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 18.500000000000007,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6562,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 20.5,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 20.50000000000001,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6719,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 19.250000000000007,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 19.25,
+              "order_fraction": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "status": "ok",
+      "bracket": [
+        0.6406,
+        0.6562
+      ],
+      "bracket_width": 0.0156,
+      "mixed_points": [
+        0.625,
+        0.6406
+      ],
+      "n_evals": 7,
+      "evals": [
+        {
+          "lambda": 0.5,
+          "label": "stationary",
+          "detail": {
+            "coherent": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            },
+            "perturbed": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            }
+          }
+        },
+        {
+          "lambda": 1.0,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.624999999999993,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.600000000000001,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.75,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 14.25,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 14.25,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.625,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.975,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.974999999999994,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6875,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.774999999999999,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.774999999999999,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6562,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 16.900000000000006,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 16.89999999999999,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6406,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.55000000000001,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.55000000000001,
+              "order_fraction": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "status": "ok",
+      "bracket": [
+        0.6875,
+        0.7031
+      ],
+      "bracket_width": 0.0156,
+      "mixed_points": [
+        0.625,
+        0.6875
+      ],
+      "n_evals": 7,
+      "evals": [
+        {
+          "lambda": 0.5,
+          "label": "stationary",
+          "detail": {
+            "coherent": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 1.0,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.424999999999997,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.424999999999997,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.75,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 13.650000000000006,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 13.649999999999999,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.625,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.799999999999997,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 17.80000000000001,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6875,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 15.250000000000028,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 15.299999999999997,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.7188,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.600000000000009,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.575000000000006,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.7031,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.000000000000014,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.000000000000007,
+              "order_fraction": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 45,
+      "status": "ok",
+      "bracket": [
+        0.6406,
+        0.6562
+      ],
+      "bracket_width": 0.0156,
+      "mixed_points": [
+        0.625,
+        0.6406
+      ],
+      "n_evals": 7,
+      "evals": [
+        {
+          "lambda": 0.5,
+          "label": "stationary",
+          "detail": {
+            "coherent": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            },
+            "perturbed": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            }
+          }
+        },
+        {
+          "lambda": 1.0,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.000000000000007,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 9.949999999999989,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.75,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 12.649999999999995,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 12.649999999999995,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.625,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 15.375000000000007,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 15.375,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6875,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 13.899999999999991,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 13.950000000000003,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6562,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.449999999999996,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 14.45000000000001,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6406,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 14.875000000000014,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 14.875,
+              "order_fraction": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 46,
+      "status": "ok",
+      "bracket": [
+        0.6562,
+        0.6719
+      ],
+      "bracket_width": 0.0157,
+      "mixed_points": [
+        0.625,
+        0.6562
+      ],
+      "n_evals": 7,
+      "evals": [
+        {
+          "lambda": 0.5,
+          "label": "stationary",
+          "detail": {
+            "coherent": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            },
+            "perturbed": {
+              "regime": "stationary",
+              "go": false,
+              "T1": null,
+              "order_fraction": null
+            }
+          }
+        },
+        {
+          "lambda": 1.0,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.699999999999989,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": true,
+              "T1": 10.650000000000006,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.75,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.150000000000006,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 15.149999999999977,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.625,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 23.35000000000001,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 23.35,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6875,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 16.5,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 16.44999999999999,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6562,
+          "label": "mixed",
+          "detail": {
+            "coherent": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 18.325000000000003,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "irregular_switching",
+              "go": false,
+              "T1": 18.299999999999997,
+              "order_fraction": 1.0
+            }
+          }
+        },
+        {
+          "lambda": 0.6719,
+          "label": "wave",
+          "detail": {
+            "coherent": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 17.099999999999994,
+              "order_fraction": 1.0
+            },
+            "perturbed": {
+              "regime": "ordered_wave",
+              "go": false,
+              "T1": 17.100000000000023,
+              "order_fraction": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

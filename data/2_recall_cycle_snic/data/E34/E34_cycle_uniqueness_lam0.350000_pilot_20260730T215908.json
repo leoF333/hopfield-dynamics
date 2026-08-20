@@ -1,0 +1,55 @@
+{
+ "summary": {
+  "lam": 0.35,
+  "n_ics": 2,
+  "n_with_fingerprint": 2,
+  "fingerprint_ref_bead": 0,
+  "fingerprint_dist_max": 0.23945686904696722,
+  "fingerprint_dist_median": 0.11972843452348361,
+  "fingerprint_dists": {
+   "0": 0.0,
+   "50": 0.23945686904696722
+  },
+  "period_mean_over_ics": 1634.0,
+  "period_spread_over_ics": 0.0,
+  "verdict": "SEVERAL attractors: fingerprints differ (max 2.39e-01, median 1.20e-01)"
+ },
+ "rows": [
+  {
+   "n_transitions": 153,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1634.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1634.0
+   ],
+   "fingerprint_time": 4891.0,
+   "mu": 0,
+   "lam": 0.35,
+   "wall": 88.9341976250289,
+   "stationary": false
+  },
+  {
+   "n_transitions": 153,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 1,
+   "period_mean": NaN,
+   "period_std": NaN,
+   "period_cv": NaN,
+   "periods": [],
+   "fingerprint_time": 4078.0,
+   "mu": 50,
+   "lam": 0.35,
+   "wall": 88.29540237504989,
+   "stationary": false
+  }
+ ]
+}

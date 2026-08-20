@@ -1,0 +1,50 @@
+{
+ "lam": 0.298819,
+ "mu": 22,
+ "ladder": "E34_alive_ladder_20260729T212158.json",
+ "node_route": "continuation",
+ "saddle1_d_G": 0.030824739774600835,
+ "z_u1": 0.19935565018496787,
+ "twin_d_G_to_node": 0.04303311343554535,
+ "twin_lead": 22,
+ "twin_overlap": 0.9762474390731236,
+ "twin_eigmax": -0.13965774977845924,
+ "twin_stationary": true,
+ "twin_arc_wall": 0.45178699999814853,
+ "saddle2_residual": 1.0831238644922603e-13,
+ "saddle2_d_G_twin": 0.0048055152802062556,
+ "saddle2_d_G_node": 0.04633962481673891,
+ "saddle2_d_G_saddle1": 0.018645380485403446,
+ "saddle2_n_unstable": 1,
+ "saddle2_eigmax": 0.11408087185678983,
+ "saddle2_z_u": 0.09068786428715007,
+ "saddle2_fold": 0.2991090857579669,
+ "saddle2_contour_stable": true,
+ "landings": {
+  "minus": {
+   "lead": 22,
+   "overlap": 0.9762474390731167,
+   "residual": 6.255146832286372e-15,
+   "eigmax": -0.13965774977720713,
+   "d_G_to_node_mu": 0.043033113435563125,
+   "d_G_to_twin": 2.601284609779989e-14,
+   "d_G_to_node_lead": NaN,
+   "is_node_lead": null,
+   "stationary": true,
+   "elapsed": 500.0
+  },
+  "plus": {
+   "lead": 27,
+   "overlap": 0.9905642580797278,
+   "residual": 2.242658619775096e-15,
+   "eigmax": -0.47782902462488464,
+   "d_G_to_node_mu": 1.0720347010210178,
+   "d_G_to_twin": 1.0737038135941075,
+   "d_G_to_node_lead": 3.12106362038305e-13,
+   "is_node_lead": true,
+   "stationary": true,
+   "elapsed": 500.0
+  }
+ },
+ "status": "necklace_closes_through_twin"
+}

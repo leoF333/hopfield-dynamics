@@ -1,0 +1,124 @@
+{
+  "all_dynamic_uncensored": true,
+  "allowed_manuscript_wording": "compatible with a saddle-node square-root law",
+  "critical_bond_identity_all_dt_0p01": true,
+  "dynamic_exponent_all": {
+    "bootstrap_95": [
+      0.42449662941083327,
+      0.5291579845785132
+    ],
+    "mean": 0.4768364965076374,
+    "n_bootstrap": 5000,
+    "per_seed": [
+      0.5385273236366763,
+      0.5197591347593272,
+      0.4099703389266233,
+      0.4390891887079226
+    ],
+    "seeds": [
+      42,
+      47,
+      52,
+      60
+    ]
+  },
+  "dynamic_exponent_near_5e-4": {
+    "bootstrap_95": [
+      0.4348988445803037,
+      0.5040732550078658
+    ],
+    "mean": 0.4702937137643304,
+    "n_bootstrap": 5000,
+    "per_seed": [
+      0.5118215949220432,
+      0.4961701362439035,
+      0.458675408027282,
+      0.41450771586409285
+    ],
+    "seeds": [
+      42,
+      47,
+      52,
+      60
+    ]
+  },
+  "dynamic_local_scaling_excluded": {
+    "51": "static fold lies above the independently measured dynamic onset bracket; the offset exceeds the smallest local deltas"
+  },
+  "dynamic_local_scaling_seeds": [
+    42,
+    47,
+    52,
+    60
+  ],
+  "maximum_half_power_delta_aicc": 24.468570893836947,
+  "minimum_logarithmic_delta_aicc": 35.14444261569261,
+  "normal_form_seed42": {
+    "a_delta": -0.5680447758162489,
+    "b_x2": 4.997607132150558,
+    "n_samples": 3000,
+    "rms_residual": 0.0006812771200464526
+  },
+  "seeds": [
+    42,
+    47,
+    51,
+    52,
+    60
+  ],
+  "sources": [
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s51_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json"
+  ],
+  "static_branch_and_residual_gate": true,
+  "static_exponent_near_1e-4": {
+    "bootstrap_95": [
+      0.44802698321136647,
+      1.0179255256350583
+    ],
+    "mean": 0.6544404344248889,
+    "n_bootstrap": 5000,
+    "per_seed": [
+      0.4133987730151007,
+      0.5074188106181233,
+      1.376416512617638,
+      0.45295927970425387,
+      0.5220087961693282
+    ],
+    "seeds": [
+      42,
+      47,
+      51,
+      52,
+      60
+    ]
+  },
+  "static_exponent_near_5e-4": {
+    "bootstrap_95": [
+      0.33510537012460395,
+      0.5916124303879543
+    ],
+    "mean": 0.4742462753697228,
+    "n_bootstrap": 5000,
+    "per_seed": [
+      0.20149168826556274,
+      0.6221271132316212,
+      0.4835678800369104,
+      0.6151200227198094,
+      0.4489246725947105
+    ],
+    "seeds": [
+      42,
+      47,
+      51,
+      52,
+      60
+    ]
+  },
+  "static_mean_exponent_window_shift": 0.18019415905516606,
+  "strict_measured_half_exponent_gate": false,
+  "timestep_max_relative_difference": 0.0
+}

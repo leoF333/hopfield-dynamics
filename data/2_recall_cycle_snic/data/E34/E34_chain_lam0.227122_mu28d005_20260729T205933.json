@@ -1,0 +1,47 @@
+{
+ "lam": 0.227122,
+ "alive": [
+  1,
+  3,
+  8,
+  91
+ ],
+ "beads": [
+  28
+ ],
+ "t_wu": 4000.0,
+ "ladder": "E34_alive_ladder_20260729T205206.json",
+ "verdict": {
+  "closure": "partial shard -- merge required",
+  "map": {
+   "28": null
+  }
+ },
+ "rows": [
+  {
+   "mu": 28,
+   "lam": 0.227122,
+   "fold_measured": 0.23210000000000006,
+   "node_residual": 7.457690655283028e-15,
+   "node_route": "pattern",
+   "node_eigmax": 0.23180123189898127,
+   "saddle_residual": 1.8421785587670354e-15,
+   "fold_reached": 0.23211564697141204,
+   "d_saddle_node": 0.02865733234524879,
+   "arc_wall": 0.24694337497930974,
+   "arc_converged": false,
+   "certif_setting": [
+    16,
+    7
+   ],
+   "n_unstable": 0,
+   "z_u": -0.08967472429208093,
+   "eigmax": -0.18793758800873095,
+   "real_root": -0.08967472429208093,
+   "contour_stable": true,
+   "localize_ok": false,
+   "index_one": false,
+   "status": "index_certification_failed"
+  }
+ ]
+}

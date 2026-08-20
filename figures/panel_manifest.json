@@ -1,0 +1,539 @@
+{
+  "created_in": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild",
+  "source_policy": "All Desktop and historical numerical folders were read only. Every output was written under the Codex output directory.",
+  "components": {
+    "q_a": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figQ_chaos_nature.png",
+      "source_sha256": "12ef45043e2c4e398c039fa6e60725eaf6eb25a451b342abdb9e32d876896a1f",
+      "normalized_crop": [
+        0.0,
+        0.035,
+        0.333,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/q_a.png"
+    },
+    "q_c": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figQ_chaos_nature.png",
+      "source_sha256": "12ef45043e2c4e398c039fa6e60725eaf6eb25a451b342abdb9e32d876896a1f",
+      "normalized_crop": [
+        0.667,
+        0.035,
+        1.0,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/q_c.png"
+    },
+    "q_f": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figQ_chaos_nature.png",
+      "source_sha256": "12ef45043e2c4e398c039fa6e60725eaf6eb25a451b342abdb9e32d876896a1f",
+      "normalized_crop": [
+        0.667,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/q_f.png"
+    },
+    "bif_schematic": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/diagramme de bifurcation v1.png",
+      "source_sha256": "1fde49c1f23e51af610d2ecc766ad17712e14d11f222f1a5a194642e4ad0e3fb",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/bif_schematic.png"
+    },
+    "mechanism_a": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/fig1_mechanism.png",
+      "source_sha256": "d544bba90e432b047294e1b69b5ea90d56e87ecdb5a354a2d09912b4d479aea1",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        1.0,
+        0.54
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/mechanism_a.png"
+    },
+    "mechanism_b": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/fig1_mechanism.png",
+      "source_sha256": "d544bba90e432b047294e1b69b5ea90d56e87ecdb5a354a2d09912b4d479aea1",
+      "normalized_crop": [
+        0.0,
+        0.54,
+        0.535,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/mechanism_b.png"
+    },
+    "mechanism_c": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/fig1_mechanism.png",
+      "source_sha256": "d544bba90e432b047294e1b69b5ea90d56e87ecdb5a354a2d09912b4d479aea1",
+      "normalized_crop": [
+        0.55,
+        0.54,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/mechanism_c.png"
+    },
+    "front_birth_left": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figS_front_birth.png",
+      "source_sha256": "066341c113d96e1322059834e7a1934bbcbe1acd87573e5e9160e2b144cf1f96",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/front_birth_left.png"
+    },
+    "n4_fig2_a": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N4_Figure2.png",
+      "source_sha256": "bb50d0f7fb7cd41ec411acdfdf91b796b269ed7beaf9a5ddf0bb27fc90902cff",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n4_fig2_a.png"
+    },
+    "branch_geometry_a": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figU_branch_geometry.png",
+      "source_sha256": "50403d8165a6980583f254db2c14ee567ed9f2862a2f3b3e900bbc41cede7182",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/branch_geometry_a.png"
+    },
+    "fold_n10000_left": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/fold_N10000_a0.05.png",
+      "source_sha256": "7be0b3a4d6e8aac3331832e92912ef1781ed00bf3a8ae59f60c6d9e3a30e5881",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/fold_n10000_left.png"
+    },
+    "fold_n10000_right": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/fold_N10000_a0.05.png",
+      "source_sha256": "7be0b3a4d6e8aac3331832e92912ef1781ed00bf3a8ae59f60c6d9e3a30e5881",
+      "normalized_crop": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/fold_n10000_right.png"
+    },
+    "alpha_law_hist": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figZ_alpha_law.png",
+      "source_sha256": "439b17e49db3bb799aac57107130367c0fb7ab9dc04d63b6d13663e63f895db2",
+      "normalized_crop": [
+        0.0,
+        0.075,
+        0.465,
+        0.51
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/alpha_law_hist.png"
+    },
+    "alpha_law_cdf": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figZ_alpha_law.png",
+      "source_sha256": "439b17e49db3bb799aac57107130367c0fb7ab9dc04d63b6d13663e63f895db2",
+      "normalized_crop": [
+        0.0,
+        0.545,
+        0.465,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/alpha_law_cdf.png"
+    },
+    "ae_width": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figAE_threshold_scaling.png",
+      "source_sha256": "5010150c9b7327292d51c32cae6c03b7a8917cb7caca3b10ce27233dbb6029a8",
+      "normalized_crop": [
+        0.0,
+        0.08,
+        0.335,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/ae_width.png"
+    },
+    "ae_gap": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figAE_threshold_scaling.png",
+      "source_sha256": "5010150c9b7327292d51c32cae6c03b7a8917cb7caca3b10ce27233dbb6029a8",
+      "normalized_crop": [
+        0.34,
+        0.08,
+        0.68,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/ae_gap.png"
+    },
+    "ae_normal": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figAE_threshold_scaling.png",
+      "source_sha256": "5010150c9b7327292d51c32cae6c03b7a8917cb7caca3b10ce27233dbb6029a8",
+      "normalized_crop": [
+        0.69,
+        0.08,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/ae_normal.png"
+    },
+    "n3_gaussian_evt": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N3_E30_seed_aware.png",
+      "source_sha256": "359e9b97802bd7e68f0fe492764809f2261d56c9c31458477d92d2d60924a330",
+      "normalized_crop": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n3_gaussian_evt.png"
+    },
+    "n4_fig3_a": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N4_Figure3.png",
+      "source_sha256": "cec7c0ab0af7575950ecbb027050366d74634b90290481e33d0418e16b6fd2c9",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.333,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n4_fig3_a.png"
+    },
+    "n4_fig3_b": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N4_Figure3.png",
+      "source_sha256": "cec7c0ab0af7575950ecbb027050366d74634b90290481e33d0418e16b6fd2c9",
+      "normalized_crop": [
+        0.333,
+        0.0,
+        0.667,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n4_fig3_b.png"
+    },
+    "threshold_size_width": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/panel_thresholds.png",
+      "source_sha256": "5c441b0ae0217ea88a6ff067ada69cc87debfecfc3c748a0400c2a54c2df3d58",
+      "normalized_crop": [
+        0.0,
+        0.235,
+        0.43,
+        0.505
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/threshold_size_width.png"
+    },
+    "threshold_load_center": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/panel_thresholds.png",
+      "source_sha256": "5c441b0ae0217ea88a6ff067ada69cc87debfecfc3c748a0400c2a54c2df3d58",
+      "normalized_crop": [
+        0.435,
+        0.235,
+        0.9,
+        0.505
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/threshold_load_center.png"
+    },
+    "n4_fig4_c": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N4_Figure4.png",
+      "source_sha256": "6e7c135149901c7eabd6a27c9bebc613d19350c82e78b47238458c8a9df8d6a7",
+      "normalized_crop": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n4_fig4_c.png"
+    },
+    "depinning_left": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figB_depinning_transition.png",
+      "source_sha256": "b4c3bce71b9d7eb8e07c2c00271f3f9b56b85bdf6d74a1e60f4256f8634c560f",
+      "normalized_crop": [
+        0.0,
+        0.26,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/depinning_left.png"
+    },
+    "depinning_right": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figB_depinning_transition.png",
+      "source_sha256": "b4c3bce71b9d7eb8e07c2c00271f3f9b56b85bdf6d74a1e60f4256f8634c560f",
+      "normalized_crop": [
+        0.5,
+        0.26,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/depinning_right.png"
+    },
+    "e34_a": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figE34_invariant_circle.png",
+      "source_sha256": "755240877d84cc000b8c9b7cd094ffa4087949c11910b3e265e19dca238e926c",
+      "normalized_crop": [
+        0.0,
+        0.045,
+        0.5,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/e34_a.png"
+    },
+    "e34_b": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figE34_invariant_circle.png",
+      "source_sha256": "755240877d84cc000b8c9b7cd094ffa4087949c11910b3e265e19dca238e926c",
+      "normalized_crop": [
+        0.5,
+        0.045,
+        1.0,
+        0.5
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/e34_b.png"
+    },
+    "e34_d": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/figE34_invariant_circle.png",
+      "source_sha256": "755240877d84cc000b8c9b7cd094ffa4087949c11910b3e265e19dca238e926c",
+      "normalized_crop": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/e34_d.png"
+    },
+    "pacemaker_full": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/fig_pacemaker.png",
+      "source_sha256": "bc7f0e7719ec1c455bba84d8d20dd54c1c3443f5527b2baceedfc42ef25385a9",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/pacemaker_full.png"
+    },
+    "cycle_exact_recall": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/figAA_cycle_vs_ghosts.png",
+      "source_sha256": "004744229b01e0f39b99a6165fe9b4ec7d3697e2722c155fc7800151d8651bad",
+      "normalized_crop": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/cycle_exact_recall.png"
+    },
+    "cycle_ghost_bottleneck": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/figAA_cycle_vs_ghosts.png",
+      "source_sha256": "004744229b01e0f39b99a6165fe9b4ec7d3697e2722c155fc7800151d8651bad",
+      "normalized_crop": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/cycle_ghost_bottleneck.png"
+    },
+    "n5a_left": {
+      "method": "crop",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/figures à ne pas oublier dans l'article/N5A_delay_boundary.png",
+      "source_sha256": "00ba2a7ea2cdc287f74ac2b385c4b991f877066cec52e3da7d9ea6eecee99cc5",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n5a_left.png"
+    },
+    "desync_order": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/figP_desync_cdf.png",
+      "source_sha256": "cec4bddd3a81cac16989e36d058f2eecc4736ee345d6f20ea5d56f7e45f8fdcd",
+      "normalized_crop": [
+        0.0,
+        0.0,
+        0.318,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/desync_order.png"
+    },
+    "desync_front": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/figP_desync_cdf.png",
+      "source_sha256": "cec4bddd3a81cac16989e36d058f2eecc4736ee345d6f20ea5d56f7e45f8fdcd",
+      "normalized_crop": [
+        0.318,
+        0.0,
+        0.642,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/desync_front.png"
+    },
+    "desync_kymograph": {
+      "method": "crop_with_clean_title",
+      "source": "/Users/leoflack/Desktop/Recherche/Chicago/dossier pour article écrit par IA/agent redacteur/figures/figP_desync_cdf.png",
+      "source_sha256": "cec4bddd3a81cac16989e36d058f2eecc4736ee345d6f20ea5d56f7e45f8fdcd",
+      "normalized_crop": [
+        0.642,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/desync_kymograph.png"
+    },
+    "n6_raw": {
+      "method": "regenerated_from_npz",
+      "sources": [
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s42_lam0p310_dt0p01.npz",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s43_lam0p310_dt0p01.npz",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p01.npz",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s45_lam0p310_dt0p01.npz",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s46_lam0p310_dt0p01.npz"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s42_lam0p310_dt0p01.npz": "0149fb10f6eccdc5057c749d06b0c9df911aa51f38f79a51d8a11d353789c4c5",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s43_lam0p310_dt0p01.npz": "05e46b07ddd747fd8d181d3045016e1d4c0ee61add52869e318b41771653c984",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p01.npz": "4ca3c5b0114204ca68ba7c483ec6d92ae610ef853f5177bf344f5cda6edffdad",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s45_lam0p310_dt0p01.npz": "7b14fdb236fa83fd22cae22855aa5abdb902392625056c7f1117ee8446364bb6",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s46_lam0p310_dt0p01.npz": "40bd9e95cd624a5aa3a3d0eec0a5f3af8b52f769604113056bef4bbc209e3317"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n6_spectrum_raw.png"
+    },
+    "n2a_raw_no_seed51": {
+      "method": "regenerated_from_json",
+      "excluded_by_user_request": [
+        51
+      ],
+      "included_seeds": [
+        42,
+        47,
+        52,
+        60
+      ],
+      "sources": [
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json": "d77d390be07e93b7b79891a20d58f0ea4aa03d7908864eaa26e4e11f3f3c249c",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json": "117f7bf1198fab86d30843514087db4831ec05fd25e896e5ab222af9790f95aa",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json": "b1b624579fc730e30f966ce77b8a5c9f9d87b382b3e3743508ee5913f210f301",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json": "a526895403c67a84e8b541ee72a1b4ed0545aaa083a2b4bc3ba76fb0905ad923"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n2a_without_seed51_raw.png"
+    },
+    "n2_c": {
+      "method": "regenerated_from_json",
+      "included_seeds": [
+        42,
+        47,
+        51,
+        52,
+        60
+      ],
+      "sources": [
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s51_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json": "d77d390be07e93b7b79891a20d58f0ea4aa03d7908864eaa26e4e11f3f3c249c",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json": "117f7bf1198fab86d30843514087db4831ec05fd25e896e5ab222af9790f95aa",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s51_production.json": "ca3c3894dff1e47f192d26105dd8dc40b74a58c7be28d5c90aed7dab5736bae1",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json": "b1b624579fc730e30f966ce77b8a5c9f9d87b382b3e3743508ee5913f210f301",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json": "a526895403c67a84e8b541ee72a1b4ed0545aaa083a2b4bc3ba76fb0905ad923"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n2_static_softening_raw.png"
+    },
+    "n4_fig4_b": {
+      "method": "regenerated_from_npz",
+      "sources": [
+        "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E29_cycle_ghosts.npz"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E29_cycle_ghosts.npz": "03214a358a7ab983bcde546937e80b3ad4cbdf18202852f1d3fae1b3daa79216"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n4_critical_slowing_raw.png"
+    },
+    "n1_identity_raw": {
+      "method": "regenerated_from_csv",
+      "sources": [
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset.csv"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset.csv": "222bd8b6e281711658daedeb5bc5f5dce7f6b5d5f1dbee481d57651e71b2eee3"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n1_identity_raw.png"
+    },
+    "n1_residual_raw": {
+      "method": "regenerated_from_csv",
+      "sources": [
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset.csv"
+      ],
+      "source_sha256": {
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset.csv": "222bd8b6e281711658daedeb5bc5f5dce7f6b5d5f1dbee481d57651e71b2eee3"
+      },
+      "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/components/n1_residual_raw.png"
+    }
+  },
+  "panels": [
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel01_lyapunov_chaos.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel02_global_bifurcation.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel03_static_folds_memory_distortion.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel04_threshold_distributions.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel07_extreme_selection.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel05_snic_characterization.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel08_invariant_circle.png",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/panels/Panel06_short_delay.png"
+  ],
+  "contact_sheet": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/figure_panel_rebuild/qa/all_panels_contact_sheet.png",
+  "current_figure_mapping": {
+    "Figure 6": "N1 static extreme versus dynamic onset, regenerated from the N1 CSV as two components and moved to the extreme-selection panel.",
+    "Figure 13": "E36 implicit-delay panels intentionally omitted after the user correction; the short-delay panel now uses figP_desync_cdf."
+  }
+}

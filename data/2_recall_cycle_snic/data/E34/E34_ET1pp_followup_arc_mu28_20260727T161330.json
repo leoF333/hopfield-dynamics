@@ -1,0 +1,42 @@
+{
+ "mode": "arc",
+ "mu": 28,
+ "delta": 0.02,
+ "lam": 0.19945774214786435,
+ "node_ok": true,
+ "node_residual": 4.869711341919997e-16,
+ "attempts": [
+  {
+   "lim_off": 0.004,
+   "near_lam": 0.21545774214786434,
+   "eigmax": -0.31647781943162334,
+   "converged": false,
+   "has_saddle": true,
+   "fold": 0.23212162791418703
+  },
+  {
+   "lim_off": 0.002,
+   "near_lam": 0.21745774214786434,
+   "eigmax": -0.28525647584909075,
+   "converged": false,
+   "has_saddle": true,
+   "fold": 0.23212071258983055
+  },
+  {
+   "lim_off": 0.001,
+   "near_lam": 0.21845774214786434,
+   "eigmax": -0.19601563063051253,
+   "converged": false,
+   "has_saddle": true,
+   "fold": 0.23212141299022135
+  },
+  {
+   "lim_off": 0.0005,
+   "near_lam": 0.21895774214786434,
+   "eigmax": -0.13613888184326295,
+   "converged": false,
+   "has_saddle": true,
+   "fold": 0.23212164478775776
+  }
+ ]
+}

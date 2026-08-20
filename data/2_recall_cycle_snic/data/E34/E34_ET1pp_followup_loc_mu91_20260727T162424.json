@@ -1,0 +1,17 @@
+{
+ "mode": "loc",
+ "mu": 91,
+ "delta": 0.02,
+ "lam": 0.30762941024503665,
+ "z_u": 0.2590463740638602,
+ "mode_residual": 7.512341156312134e-16,
+ "linear_gate": 0.007467418813888181,
+ "landings": {
+  "minus_eps0.0001": 91,
+  "minus_eps0.001": 91,
+  "plus_eps0.0001": -1,
+  "plus_eps0.001": -1
+ },
+ "forward_target": 43,
+ "status": "non_adjacent_landing"
+}

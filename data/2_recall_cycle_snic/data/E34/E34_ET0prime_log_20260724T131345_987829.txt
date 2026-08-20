@@ -1,0 +1,28 @@
+2026-07-24T18:13:45.987966+00:00 E34-ET0prime run 20260724T131345_987829  mode=et0prime  N=400 P=20 seed=42 beta=20.0
+2026-07-24T18:13:45.988142+00:00 threshold table: /Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_thresholds_N400_P20_s42_20260723T191104_587960.npz
+2026-07-24T18:13:45.988159+00:00 ET0' primary: mu=2 at lam'=0.2229096 (= lam_c(3)-0.02); node_2 and node_3 both alive; upward continuation target lam_c(2)=0.3499078
+2026-07-24T18:13:45.988169+00:00 [mu=2] lam_local=0.222910 lam_c=0.349908
+2026-07-24T18:13:45.992963+00:00 [mu=2] alive nodes at lam_local: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19]
+2026-07-24T18:13:46.388879+00:00 [mu=2] basin B=3 sep_d_G=1.1670 admissible=True
+2026-07-24T18:14:29.151677+00:00 [mu=2] edge S1_dt0.01: ok=True s*=3.326e-01 reason=converged (42.8s)
+2026-07-24T18:15:54.403222+00:00 [mu=2] edge S1_dt0.005: ok=True s*=3.326e-01 reason=converged (85.3s)
+2026-07-24T18:16:44.004147+00:00 [mu=2] edge S2_dt0.01: ok=True s*=2.376e-01 reason=converged (49.6s)
+2026-07-24T18:18:30.333866+00:00 [mu=2] edge S2_dt0.005: ok=True s*=2.376e-01 reason=converged (106.3s)
+2026-07-24T18:18:30.334464+00:00 [mu=2] boundary Newton res=3.14e-16 identity=True
+2026-07-24T18:18:31.444699+00:00 [mu=2] n_unstable=1 z_u=0.53747 eigmax=+0.5229 real_root=0.53747 crosscheck=True
+2026-07-24T18:18:31.641029+00:00 [mu=2] fold_cont=0.349904 mismatch=3.55e-06 turns_up=17 turns_down=0 rejoins=False
+2026-07-24T18:18:31.659312+00:00 [mu=2] W^u linear gate rel_err=0.0002
+2026-07-24T18:18:32.498900+00:00 [mu=2] W^u minus eps=0.0001 dt=0.01 -> omega=2
+2026-07-24T18:18:34.174204+00:00 [mu=2] W^u minus eps=0.0001 dt=0.005 -> omega=2
+2026-07-24T18:18:35.013229+00:00 [mu=2] W^u minus eps=0.001 dt=0.01 -> omega=2
+2026-07-24T18:18:36.672778+00:00 [mu=2] W^u minus eps=0.001 dt=0.005 -> omega=2
+2026-07-24T18:18:40.397771+00:00 [mu=2] W^u plus eps=0.0001 dt=0.01 -> omega=-4
+2026-07-24T18:18:47.878261+00:00 [mu=2] W^u plus eps=0.0001 dt=0.005 -> omega=-4
+2026-07-24T18:18:51.620772+00:00 [mu=2] W^u plus eps=0.001 dt=0.01 -> omega=-4
+2026-07-24T18:18:59.081709+00:00 [mu=2] W^u plus eps=0.001 dt=0.005 -> omega=-4
+2026-07-24T18:18:59.081756+00:00 [mu=2] VERDICT = limited
+2026-07-24T18:18:59.081831+00:00 [mu=2] ET0' done in 313.1s status=done
+2026-07-24T18:19:16.428461+00:00 [probe mu=2 lam=0.3299] labels reached: ['2', 'other']; distinct non-node_2: ['other']
+2026-07-24T18:19:16.430053+00:00 GATE ET0prime = NO-GO  verdicts={2: 'limited'}
+2026-07-24T18:19:16.430064+00:00 elapsed=330.4s  npz=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0prime_results_20260724T131345_987829.npz
+2026-07-24T18:19:16.430071+00:00 summary=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0prime_summary_20260724T131345_987829.json

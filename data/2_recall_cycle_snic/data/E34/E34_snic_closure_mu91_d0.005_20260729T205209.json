@@ -1,0 +1,26 @@
+{
+ "mu": 91,
+ "delta": 0.005,
+ "lam": 0.32262941024503666,
+ "z_u": 0.22463030903520745,
+ "t_max": 12000.0,
+ "t_reached": 2500.0,
+ "stationary": true,
+ "d_node_final": 3.48826029046448e-14,
+ "d_node_min": 3.48826029046448e-14,
+ "t_of_min": 2360.0,
+ "lead_final": 91,
+ "n_leader_changes": 100,
+ "ring_steps": [
+  1
+ ],
+ "n_tours": 1.0,
+ "tour_times": [
+  1991.0
+ ],
+ "tour_dt": [],
+ "tour_dt_cv": NaN,
+ "settled_on": 91,
+ "settled_dist": 3.48826029046448e-14,
+ "verdict": "CIRCLE CLOSED: the forward branch returns to node_91 -- invariant circle, SNIC picture"
+}

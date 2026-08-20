@@ -1,0 +1,24 @@
+{
+ "mu": 91,
+ "delta": 0.02,
+ "lam": 0.30762941024503665,
+ "z_u": 0.2590463740638602,
+ "t_max": 12000.0,
+ "t_reached": 2000.0,
+ "stationary": true,
+ "d_node_final": 1.0697844224593913,
+ "d_node_min": 0.08467946300977736,
+ "t_of_min": 0.0,
+ "lead_final": 43,
+ "n_leader_changes": 52,
+ "ring_steps": [
+  1
+ ],
+ "n_tours": 0.52,
+ "tour_times": [],
+ "tour_dt": [],
+ "tour_dt_cv": NaN,
+ "settled_on": 43,
+ "settled_dist": 1.723261979275335e-10,
+ "verdict": "settled on node_43 (d_G=1.72e-10), not back on node_91"
+}

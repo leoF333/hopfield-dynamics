@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "lambda": 0.31,
+  "time_steps": [
+    0.01,
+    0.005
+  ],
+  "minimum_third_exponent": 0.01145419617121602,
+  "statement": "All five tested disorder realizations retain at least three positive Lyapunov exponents under a factor-two time-step control.",
+  "sources": [
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s42_lam0p310_dt0p01.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s42_lam0p310_dt0p005.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s43_lam0p310_dt0p01.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s43_lam0p310_dt0p005.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p01.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p005.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s45_lam0p310_dt0p01.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s45_lam0p310_dt0p005.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s46_lam0p310_dt0p01.npz",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s46_lam0p310_dt0p005.npz"
+  ]
+}

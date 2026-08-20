@@ -1,0 +1,12 @@
+{
+  "reference_root": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT",
+  "sha256": {
+    "src/couplings.py": "86753d9185d55d24b4711864f7510bc82c3ecb462301acab2e227e8867c91b00",
+    "src/cycle_reduced.py": "a51356064e7f58dbdfc224291e35795518f7812d7fc133abeb80e589f257e750",
+    "src/e23a_chaos_nature.py": "3a8cf05040cd70e69460317ae96a3a8d4bdd2042b3a021f194c397ceb2411232",
+    "src/floquet_monodromy.py": "888f166bbef3ffc098ac626e6737035c90e337e8c2dcb8809105536f6f12d708",
+    "src/pacemaker_cycle.py": "fe7a507eedd54c85bc31243b54e897ce333b45c94dba95af9e95529f0e00ed41",
+    "src/reduced_spectrum.py": "bb197b66acdac1b647eb8a6ae3ba2165dd3f34f2019763d5851fb9c26b350669",
+    "src/robust_branch.py": "591ec16f571908f7608874b257cedeff3582f26a0fb7a7d741207fb02e9723fc"
+  }
+}

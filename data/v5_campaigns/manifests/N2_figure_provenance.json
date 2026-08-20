@@ -1,0 +1,22 @@
+{
+  "figure": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5/figures_ready/Figure4b_N2_critical_laws.pdf",
+  "generated_from": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_analyse.py",
+  "gate": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N2_GATE_STATUS.md",
+  "summary": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N2_summary.json",
+  "fit_windows": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N2_fit_windows.csv",
+  "timestep_controls": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N2_timestep_controls.csv",
+  "sources": [
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s42_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s47_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s51_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s52_production.json",
+    "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/seed_N2000_P100_s60_production.json"
+  ],
+  "panels": {
+    "a": "base-step critical-bond passage times and per-seed fixed-half fits; seed 51 retained but not used in local exponent aggregation",
+    "b": "per-seed free dynamic exponent across four predeclared fit windows",
+    "c": "dedicated real-axis characteristic root on the corrected stable branch",
+    "d": "per-seed static free exponent versus largest included offset"
+  },
+  "qualification": "The strict measured-one-half gate fails; the permitted claim is compatibility with a saddle-node square-root law."
+}

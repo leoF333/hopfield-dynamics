@@ -1,0 +1,6 @@
+2026-07-27T22:39:07.595669+00:00 E34 ET1'' (W^u of the fold partner) N=2000 P=100 seed=42 beta=20.0 tau=10.0
+2026-07-27T22:39:07.595884+00:00 links=[28, 1, 91] deltas=[0.02]  lam_c=28:0.219458, 1:0.303819, 91:0.327629
+2026-07-27T22:39:29.419527+00:00 [mu=1 d=0.02] saddle res=6.3e-15 n_unst=-1 z_u=nan eigmax=+0.3941 real_root=0.3567 d_G(node)=0.1103 fold=0.303848 contour_stable=False base=integer count not yet stable shifted=integer count not yet stable (20.0s)
+2026-07-27T22:39:49.386752+00:00 [mu=91 d=0.02] saddle res=2.2e-16 n_unst=-1 z_u=nan eigmax=+0.3602 real_root=0.2590 d_G(node)=0.0840 fold=0.327626 contour_stable=False base=integer count not yet stable shifted=integer count not yet stable (20.0s)
+2026-07-27T22:39:49.386931+00:00 DONE 3 cells in 41.8s; necklace_brick_positive=0/3
+2026-07-27T22:39:49.387918+00:00 npz=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET1pp_wu_results_20260727T153907.npz

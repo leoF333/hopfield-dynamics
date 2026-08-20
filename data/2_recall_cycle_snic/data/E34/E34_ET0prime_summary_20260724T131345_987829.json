@@ -1,0 +1,178 @@
+{
+  "run_id": "20260724T131345_987829",
+  "mode": "et0prime",
+  "gate": "NO-GO",
+  "verdicts": {
+    "2": "limited"
+  },
+  "elapsed_seconds": 330.4440985839901,
+  "npz": "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0prime_results_20260724T131345_987829.npz",
+  "log": "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0prime_log_20260724T131345_987829.txt",
+  "anomalies": {
+    "probe_0.3299": {
+      "labels": [
+        "2",
+        "other"
+      ],
+      "distinct_non_mu": [
+        "other"
+      ],
+      "detail": [
+        {
+          "label": "other",
+          "stationary": true,
+          "d_to_node_mu": 1.5506763784771809
+        },
+        {
+          "label": "other",
+          "stationary": true,
+          "d_to_node_mu": 1.5506763785132454
+        },
+        {
+          "label": "2",
+          "stationary": false,
+          "d_to_node_mu": 8.743556789479328e-08
+        },
+        {
+          "label": "2",
+          "stationary": true,
+          "d_to_node_mu": 1.392788934603799e-11
+        },
+        {
+          "label": "2",
+          "stationary": true,
+          "d_to_node_mu": 3.515054793655937e-12
+        },
+        {
+          "label": "other",
+          "stationary": true,
+          "d_to_node_mu": 1.5506763784682684
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "mu": 2,
+      "lam_local": 0.22290962483241955,
+      "lam_c_table": 0.349907841923781,
+      "status": "done",
+      "node_residual": 5.883467457601517e-13,
+      "node_eigmax": -0.9994357287806785,
+      "alive_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "far_source": "node_3",
+      "basinB_label": "3",
+      "basinB_dist": 2.3945922054032478e-11,
+      "basin_separation": 1.1669849323820483,
+      "basinB_stationary": true,
+      "basin_admissible": true,
+      "edge_results": {
+        "S1_dt0.01": {
+          "ok": true,
+          "s_star": 0.3326331190764904,
+          "reason": "converged",
+          "dwell_speed": 0.001487298088040863
+        },
+        "S1_dt0.005": {
+          "ok": true,
+          "s_star": 0.3326331190764904,
+          "reason": "converged",
+          "dwell_speed": 0.0015009965842259626
+        },
+        "S2_dt0.01": {
+          "ok": true,
+          "s_star": 0.237595085054636,
+          "reason": "converged",
+          "dwell_speed": 0.0017186284033213876
+        },
+        "S2_dt0.005": {
+          "ok": true,
+          "s_star": 0.237595085054636,
+          "reason": "converged",
+          "dwell_speed": 0.0017436235488784684
+        }
+      },
+      "saddle_residual": 3.1369783375717863e-16,
+      "saddle_identity": true,
+      "n_unstable_saddle": 1,
+      "contour_stable": true,
+      "saddle_eigmax": 0.5229147239555092,
+      "z_u": 0.5374745171702089,
+      "z_u_imag": -2.0365153180902477e-12,
+      "root_residual": 4.819966049825356e-12,
+      "real_root": 0.5374745171773367,
+      "z_u_crosscheck_ok": true,
+      "localize_ok": true,
+      "mode_residual": 4.634639044622305e-12,
+      "index_one_certified": true,
+      "n_unstable_node": 0,
+      "arclength_saddle_ok": true,
+      "edge_vs_arclength_dG": 0.15856958394150217,
+      "dt_refine_ok": true,
+      "segment_agree_ok": true,
+      "boundary_agree_dG": 1.773642032429644e-14,
+      "edge_converged": true,
+      "fold_cont": 0.34990428904882054,
+      "fold_mismatch": 3.552874960455199e-06,
+      "fold_tol": 0.002,
+      "turns_up": 17,
+      "rejoins_fold": false,
+      "turns_down": 0,
+      "identity_down_ok": true,
+      "reached_down": false,
+      "lam_down_min": 0.20433149983241955,
+      "continuation_identity_ok": false,
+      "linear_gate_relerr": 0.00022883631624793905,
+      "wu_minus": {
+        "omega": 2,
+        "robust": true,
+        "settings": {
+          "eps0.0001_dt0.01": 2,
+          "eps0.0001_dt0.005": 2,
+          "eps0.001_dt0.01": 2,
+          "eps0.001_dt0.005": 2
+        }
+      },
+      "wu_plus": {
+        "omega": -4,
+        "robust": true,
+        "settings": {
+          "eps0.0001_dt0.01": -4,
+          "eps0.0001_dt0.005": -4,
+          "eps0.001_dt0.01": -4,
+          "eps0.001_dt0.005": -4
+        }
+      },
+      "wu_robust": true,
+      "wu_landed_on_nodes": false,
+      "wu_adjacent": false,
+      "linear_gate_ok": true,
+      "gate_dyn": false,
+      "gate_branch": false,
+      "verdict": "limited",
+      "et0prime_lam": 0.22290962483241955,
+      "et0prime_succ": 3,
+      "wall_seconds": 313.09719966699777
+    }
+  ]
+}

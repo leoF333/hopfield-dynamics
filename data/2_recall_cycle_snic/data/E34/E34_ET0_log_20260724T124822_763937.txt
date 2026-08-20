@@ -1,0 +1,57 @@
+2026-07-24T17:48:22.764054+00:00 E34-ET0 run 20260724T124822_763937  mode=production  N=400 P=20 seed=42 beta=20.0
+2026-07-24T17:48:22.764214+00:00 threshold table: /Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_thresholds_N400_P20_s42_20260723T191104_587960.npz
+2026-07-24T17:48:22.764226+00:00 sentinels: [14, 8, 2]
+2026-07-24T17:48:22.764244+00:00 [mu=14] lam_local=0.236525 lam_c=0.256525
+2026-07-24T17:48:22.769498+00:00 [mu=14] alive nodes at lam_local: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19]
+2026-07-24T17:48:23.202113+00:00 [mu=14] basin B=15 sep_d_G=1.0655 admissible=True
+2026-07-24T17:48:54.471212+00:00 [mu=14] edge S1_dt0.01: ok=True s*=1.464e-01 reason=converged (31.3s)
+2026-07-24T17:49:56.713873+00:00 [mu=14] edge S1_dt0.005: ok=True s*=1.464e-01 reason=converged (62.3s)
+2026-07-24T17:50:27.742351+00:00 [mu=14] edge S2_dt0.01: ok=True s*=1.046e-01 reason=converged (31.0s)
+2026-07-24T17:51:29.359013+00:00 [mu=14] edge S2_dt0.005: ok=True s*=1.046e-01 reason=converged (61.6s)
+2026-07-24T17:51:29.359551+00:00 [mu=14] boundary Newton res=1.29e-14 identity=True
+2026-07-24T17:51:31.591022+00:00 [mu=14] n_unstable=1 z_u=0.52322 eigmax=+0.5545 real_root=0.52322 crosscheck=True
+2026-07-24T17:51:31.620958+00:00 [mu=14] fold_cont=0.256562 mismatch=3.71e-05 turns_up=1 turns_down=0 rejoins=True
+2026-07-24T17:51:31.638821+00:00 [mu=14] W^u linear gate rel_err=0.0019
+2026-07-24T17:51:32.878388+00:00 [mu=14] W^u minus eps=0.0001 dt=0.01 -> omega=14
+2026-07-24T17:51:35.359100+00:00 [mu=14] W^u minus eps=0.0001 dt=0.005 -> omega=14
+2026-07-24T17:51:36.599619+00:00 [mu=14] W^u minus eps=0.001 dt=0.01 -> omega=14
+2026-07-24T17:51:39.082355+00:00 [mu=14] W^u minus eps=0.001 dt=0.005 -> omega=14
+2026-07-24T17:51:39.911378+00:00 [mu=14] W^u plus eps=0.0001 dt=0.01 -> omega=15
+2026-07-24T17:51:41.563065+00:00 [mu=14] W^u plus eps=0.0001 dt=0.005 -> omega=15
+2026-07-24T17:51:42.390832+00:00 [mu=14] W^u plus eps=0.001 dt=0.01 -> omega=15
+2026-07-24T17:51:44.047743+00:00 [mu=14] W^u plus eps=0.001 dt=0.005 -> omega=15
+2026-07-24T17:51:44.047786+00:00 [mu=14] VERDICT = positive
+2026-07-24T17:51:44.047809+00:00 [mu=14] done in 201.3s status=done
+2026-07-24T17:51:44.047822+00:00 [mu=8] lam_local=0.268459 lam_c=0.288459
+2026-07-24T17:51:44.053371+00:00 [mu=8] alive nodes at lam_local: [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 19]
+2026-07-24T17:51:44.488585+00:00 [mu=8] basin B=9 sep_d_G=1.0294 admissible=True
+2026-07-24T17:52:11.298600+00:00 [mu=8] edge S1_dt0.01: ok=True s*=2.063e-01 reason=converged (26.8s)
+2026-07-24T17:53:04.582347+00:00 [mu=8] edge S1_dt0.005: ok=True s*=2.063e-01 reason=converged (53.3s)
+2026-07-24T17:53:31.527196+00:00 [mu=8] edge S2_dt0.01: ok=True s*=1.473e-01 reason=converged (26.9s)
+2026-07-24T17:54:24.865265+00:00 [mu=8] edge S2_dt0.005: ok=True s*=1.473e-01 reason=converged (53.3s)
+2026-07-24T17:54:24.865986+00:00 [mu=8] boundary Newton res=1.99e-16 identity=True
+2026-07-24T17:54:27.039532+00:00 [mu=8] n_unstable=1 z_u=0.65642 eigmax=+0.6840 real_root=0.65642 crosscheck=True
+2026-07-24T17:54:27.108057+00:00 [mu=8] fold_cont=0.288448 mismatch=1.15e-05 turns_up=7 turns_down=0 rejoins=False
+2026-07-24T17:54:27.125999+00:00 [mu=8] W^u linear gate rel_err=0.0000
+2026-07-24T17:54:27.963457+00:00 [mu=8] W^u minus eps=0.0001 dt=0.01 -> omega=8
+2026-07-24T17:54:29.619003+00:00 [mu=8] W^u minus eps=0.0001 dt=0.005 -> omega=8
+2026-07-24T17:54:30.447319+00:00 [mu=8] W^u minus eps=0.001 dt=0.01 -> omega=8
+2026-07-24T17:54:32.094190+00:00 [mu=8] W^u minus eps=0.001 dt=0.005 -> omega=8
+2026-07-24T17:54:32.921541+00:00 [mu=8] W^u plus eps=0.0001 dt=0.01 -> omega=9
+2026-07-24T17:54:34.586747+00:00 [mu=8] W^u plus eps=0.0001 dt=0.005 -> omega=9
+2026-07-24T17:54:35.425579+00:00 [mu=8] W^u plus eps=0.001 dt=0.01 -> omega=9
+2026-07-24T17:54:37.089978+00:00 [mu=8] W^u plus eps=0.001 dt=0.005 -> omega=9
+2026-07-24T17:54:37.090028+00:00 [mu=8] VERDICT = limited
+2026-07-24T17:54:37.090051+00:00 [mu=8] done in 173.0s status=done
+2026-07-24T17:54:37.090063+00:00 [mu=2] lam_local=0.329908 lam_c=0.349908
+2026-07-24T17:54:37.091281+00:00 [mu=2] alive nodes at lam_local: [2]
+2026-07-24T17:54:41.708962+00:00 [mu=2] basin B=2 sep_d_G=0.0000 admissible=False
+2026-07-24T17:54:41.709003+00:00 [mu=2] done in 4.6s status=basin_ambiguous
+2026-07-24T17:54:41.714879+00:00 [anomaly mu=17] retry with lam_start seed near fold, tight arclength
+2026-07-24T17:54:42.028889+00:00 [anomaly mu=17] status=arclength_spectral_fit_failed lam_c=None
+2026-07-24T17:54:42.028939+00:00 [anomaly mu=3] counting turning points on the branch component
+2026-07-24T17:54:42.080669+00:00 [anomaly mu=3] turns=7 fold_cont=0.262241
+2026-07-24T17:54:42.080685+00:00 anomaly probes done in 0.4s
+2026-07-24T17:54:42.082847+00:00 GATE ET0 = NO-GO  verdicts={14: 'positive', 8: 'limited', 2: 'basin_ambiguous'}
+2026-07-24T17:54:42.082857+00:00 elapsed=379.3s  npz=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_results_20260724T124822_763937.npz
+2026-07-24T17:54:42.082863+00:00 summary=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_summary_20260724T124822_763937.json

@@ -1,0 +1,87 @@
+{
+  "campaign": "N8",
+  "trajectory_files_expected": 100,
+  "trajectory_files_valid": 100,
+  "classification_counts": {
+    "strict_sequence": 96,
+    "degraded_forward": 1,
+    "irregular_nonsequence": 2,
+    "fixed_point": 1
+  },
+  "strict_sequence_definition": {
+    "minimum_transitions": 50,
+    "forward_fraction_greater_than": 0.99,
+    "reversal_fraction_less_than": 0.01,
+    "fixed_residual_not_less_than": 1e-10
+  },
+  "strict_sequence_cells_5_of_5": 19,
+  "strict_sequence_trajectories": 96,
+  "minimum_quarter_transition_ratio": 0.96,
+  "lyapunov_trajectories": 19,
+  "lyapunov_strict_coverage": 0.19791666666666666,
+  "lyapunov_disorder_seeds": [
+    46
+  ],
+  "lyapunov_final_range": [
+    -0.008271037659508373,
+    -0.0029400231434340146
+  ],
+  "lyapunov_tail_250_range": [
+    -0.0013408660973408982,
+    0.0012017640603222545
+  ],
+  "positive_tail_lyapunov_count": 0,
+  "corner_alpha_0p15_lambda_0p35": [
+    {
+      "seed": 42,
+      "trajectory_class": "degraded_forward",
+      "transitions": 85,
+      "forward_fraction": 1.0,
+      "reversal_fraction": 0.08235294117647059,
+      "fixed_residual": 0.0012104963783957242,
+      "binary_retrieval_mean": 0.5713220000000001,
+      "participation_mean": 21.294410742326637
+    },
+    {
+      "seed": 43,
+      "trajectory_class": "irregular_nonsequence",
+      "transitions": 42,
+      "forward_fraction": 0.9,
+      "reversal_fraction": 0.35714285714285715,
+      "fixed_residual": 0.00367467477338127,
+      "binary_retrieval_mean": 0.23639700000000002,
+      "participation_mean": 55.89727256983476
+    },
+    {
+      "seed": 44,
+      "trajectory_class": "strict_sequence",
+      "transitions": 100,
+      "forward_fraction": 1.0,
+      "reversal_fraction": 0.0,
+      "fixed_residual": 0.026409385607097872,
+      "binary_retrieval_mean": 0.840884,
+      "participation_mean": 1.7494939510728345
+    },
+    {
+      "seed": 45,
+      "trajectory_class": "fixed_point",
+      "transitions": 8,
+      "forward_fraction": 0.5,
+      "reversal_fraction": 0.5,
+      "fixed_residual": 4.317770353702307e-16,
+      "binary_retrieval_mean": 0.14615599999999998,
+      "participation_mean": 51.45326331399163
+    },
+    {
+      "seed": 46,
+      "trajectory_class": "irregular_nonsequence",
+      "transitions": 89,
+      "forward_fraction": 0.64,
+      "reversal_fraction": 0.4943820224719101,
+      "fixed_residual": 0.0032205298516713664,
+      "binary_retrieval_mean": 0.161446,
+      "participation_mean": 52.00694063243089
+    }
+  ],
+  "figure": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N8_preliminary_audit.pdf"
+}

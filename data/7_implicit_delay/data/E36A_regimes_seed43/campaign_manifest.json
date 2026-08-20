@@ -1,0 +1,922 @@
+{
+  "completed_utc": "2026-07-24T17:29:00.136018+00:00",
+  "config": {
+    "K": 6,
+    "N": 500,
+    "P": 25,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "dt_check": "high",
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "initial_conditions": [
+      "coherent",
+      "perturbed"
+    ],
+    "lambdas": [
+      0.0,
+      0.125,
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "mode": "production",
+    "perturbation_sigma": 0.3,
+    "planned_coarse_steps": 20000,
+    "planned_fine_steps_per_check": 40000,
+    "planned_integrations": 22,
+    "planned_parameter_pairs": 16,
+    "record_every": 5,
+    "seed": 43,
+    "t0": 1.0,
+    "t_final": 200.0,
+    "transient_fraction": 0.25
+  },
+  "created_utc": "2026-07-24T17:27:49.402185+00:00",
+  "output_bytes": 222111675,
+  "output_dir": "/Users/leoflack/Desktop/numerics copie/results/7_tau_implicite/data/E36A_regimes_seed43",
+  "runs": [
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5480000000307361,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "coherent",
+      "lambda": 0.0,
+      "run_id": "lam0_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5480000000307361,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279,
+          1.5560000000266279
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "perturbed",
+      "lambda": 0.0,
+      "run_id": "lam0_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.548000000000196,
+          1.6810000011848123,
+          1.681000000000168,
+          1.681000000000168,
+          1.681000000000168,
+          1.681000000000168
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.9960000000000576,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "coherent",
+      "lambda": 0.125,
+      "run_id": "lam0p125_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.548000000000196,
+          1.6810000011848123,
+          1.681000000000168,
+          1.681000000000168,
+          1.681000000000168,
+          1.681000000000168
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.9960000000000576,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "perturbed",
+      "lambda": 0.125,
+      "run_id": "lam0p125_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5479999999999894,
+          1.8060001758270654,
+          1.8059999999999892,
+          1.8059999999999892,
+          1.8059999999999892,
+          1.8059999999999892
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.9659999999999342,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "coherent",
+      "lambda": 0.25,
+      "run_id": "lam0p25_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5479999999999894,
+          1.8060001758270654,
+          1.8059999999999892,
+          1.8059999999999892,
+          1.8059999999999892,
+          1.8059999999999892
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.9659999999999342,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "perturbed",
+      "lambda": 0.25,
+      "run_id": "lam0p25_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5479999999999894,
+          2.062607342911095,
+          2.0559999999999783,
+          2.0559999999999783,
+          2.0559999999999783,
+          2.0559999999999783
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.75,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "coherent",
+      "lambda": 0.5,
+      "run_id": "lam0p5_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": null,
+        "T1_median": null,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": false,
+        "interlayer_lag_median": null,
+        "layer_disagreement_fraction": 0.16666666666666666,
+        "max_abs_by_layer": [
+          1.5479999999999894,
+          2.062607342911095,
+          2.0559999999999783,
+          2.0559999999999783,
+          2.0559999999999783,
+          2.0559999999999783
+        ],
+        "mean_distinct_patterns_across_layers": 2.0,
+        "mean_saturation_by_layer": [
+          1.0,
+          0.75,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_interlayer_lags": 0,
+        "n_records": 3001,
+        "n_transitions_last_layer": 0,
+        "order_fraction": null,
+        "overlap_drift": 0.0,
+        "raw_physical_lead_disagreement_fraction": 0.0,
+        "regime": "stationary"
+      },
+      "dt_check": null,
+      "initial_condition": "perturbed",
+      "lambda": 0.5,
+      "run_id": "lam0p5_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.04366006867831229,
+        "T1_median": 10.624999999999993,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.9249999999999972,
+        "layer_disagreement_fraction": 0.4454070865267133,
+        "max_abs_by_layer": [
+          2.7849140692031478,
+          3.3543388113120134,
+          3.4219338208983863,
+          3.4641185175262934,
+          3.522605730073517,
+          3.5630764723451342
+        ],
+        "mean_distinct_patterns_across_layers": 1.9193602132622458,
+        "mean_saturation_by_layer": [
+          0.9042265911363004,
+          0.9424871709430214,
+          0.9474315228257262,
+          0.9485804731756089,
+          0.9481539486837758,
+          0.9465344885038331
+        ],
+        "n_interlayer_lags": 70,
+        "n_records": 3001,
+        "n_transitions_last_layer": 15,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4619537093299364,
+        "raw_physical_lead_disagreement_fraction": 0.002443629901144063,
+        "regime": "ordered_wave"
+      },
+      "dt_check": null,
+      "initial_condition": "coherent",
+      "lambda": 1.0,
+      "run_id": "lam1_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.04314289484429365,
+        "T1_median": 10.600000000000001,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.9000000000000057,
+        "layer_disagreement_fraction": 0.4447961790514273,
+        "max_abs_by_layer": [
+          2.784660995811728,
+          3.3545411978001067,
+          3.4215767445993275,
+          3.464024965802889,
+          3.5227719490167515,
+          3.563259552510975
+        ],
+        "mean_distinct_patterns_across_layers": 1.9196934355214927,
+        "mean_saturation_by_layer": [
+          0.9039240253249042,
+          0.9424218593802083,
+          0.9474288570476517,
+          0.9485998000666457,
+          0.9484998333888732,
+          0.9464785071642801
+        ],
+        "n_interlayer_lags": 70,
+        "n_records": 3001,
+        "n_transitions_last_layer": 15,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4459945429072218,
+        "raw_physical_lead_disagreement_fraction": 0.0023880928579362434,
+        "regime": "ordered_wave"
+      },
+      "dt_check": null,
+      "initial_condition": "perturbed",
+      "lambda": 1.0,
+      "run_id": "lam1_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.024676036634409683,
+        "T1_median": 6.849999999999994,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.200000000000017,
+        "layer_disagreement_fraction": 0.4419082528046207,
+        "max_abs_by_layer": [
+          2.4199496268916745,
+          4.108047607160969,
+          4.207694101476446,
+          4.266106727458664,
+          4.305363113211236,
+          4.334315146029781
+        ],
+        "mean_distinct_patterns_across_layers": 1.891036321226258,
+        "mean_saturation_by_layer": [
+          0.894313895368215,
+          0.962147284238589,
+          0.9634148617127638,
+          0.9626977674108645,
+          0.9626651116294589,
+          0.9626951016327921
+        ],
+        "n_interlayer_lags": 108,
+        "n_records": 3001,
+        "n_transitions_last_layer": 22,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4006698633262895,
+        "raw_physical_lead_disagreement_fraction": 0.0021104076418971456,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 6.664445185711187e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.025637056026997e-06,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.024676036634409683,
+        "T1_median": 6.849999999999994,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.200000000000017,
+        "layer_disagreement_fraction": 0.4419082528046207,
+        "max_abs_by_layer": [
+          2.4199495902497574,
+          4.10804754613203,
+          4.207694128681205,
+          4.2661066312890465,
+          4.305363098646501,
+          4.33431521435898
+        ],
+        "mean_distinct_patterns_across_layers": 1.891036321226258,
+        "mean_saturation_by_layer": [
+          0.8943132289236965,
+          0.9621466177940705,
+          0.9634155281572823,
+          0.9626977674108645,
+          0.9626651116294589,
+          0.9626957680773106
+        ],
+        "n_interlayer_lags": 108,
+        "n_records": 3001,
+        "n_transitions_last_layer": 22,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4006699351776075,
+        "raw_physical_lead_disagreement_fraction": 0.0021104076418971456,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "coherent",
+      "lambda": 2.0,
+      "run_id": "lam2_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.02477864013989799,
+        "T1_median": 6.8500000000000085,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.200000000000017,
+        "layer_disagreement_fraction": 0.4412973453293347,
+        "max_abs_by_layer": [
+          2.4199212835529393,
+          4.107921177041168,
+          4.207791805591239,
+          4.265946343700652,
+          4.305351559373799,
+          4.334496184102775
+        ],
+        "mean_distinct_patterns_across_layers": 1.8900366544485172,
+        "mean_saturation_by_layer": [
+          0.8942019326891077,
+          0.9621466177940703,
+          0.9630916361212942,
+          0.9628743752082655,
+          0.9626631122959028,
+          0.962693102299236
+        ],
+        "n_interlayer_lags": 109,
+        "n_records": 3001,
+        "n_transitions_last_layer": 22,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4087690708583065,
+        "raw_physical_lead_disagreement_fraction": 0.0019437965122736866,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 0.0,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.001729309850061e-06,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.02477864013989799,
+        "T1_median": 6.8500000000000085,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 1.200000000000017,
+        "layer_disagreement_fraction": 0.4412973453293347,
+        "max_abs_by_layer": [
+          2.4199212457690047,
+          4.107921105360937,
+          4.207791822756925,
+          4.265946242947825,
+          4.305351536788275,
+          4.334496229588306
+        ],
+        "mean_distinct_patterns_across_layers": 1.8900366544485172,
+        "mean_saturation_by_layer": [
+          0.8942019326891077,
+          0.9621466177940703,
+          0.9630916361212942,
+          0.9628743752082655,
+          0.9626631122959028,
+          0.962693102299236
+        ],
+        "n_interlayer_lags": 109,
+        "n_records": 3001,
+        "n_transitions_last_layer": 22,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4087690526911476,
+        "raw_physical_lead_disagreement_fraction": 0.0019437965122736866,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "perturbed",
+      "lambda": 2.0,
+      "run_id": "lam2_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.01257295156123648,
+        "T1_median": 5.400000000000006,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.9499999999999886,
+        "layer_disagreement_fraction": 0.43285571476174606,
+        "max_abs_by_layer": [
+          2.299853619756304,
+          5.922497859952381,
+          6.001671538339188,
+          6.060693358318656,
+          6.105604737459745,
+          6.142255048783915
+        ],
+        "mean_distinct_patterns_across_layers": 1.8673775408197268,
+        "mean_saturation_by_layer": [
+          0.8761259580139924,
+          0.9765198267244287,
+          0.9770769743418882,
+          0.9771822725758101,
+          0.976603132289239,
+          0.9765684771742774
+        ],
+        "n_interlayer_lags": 137,
+        "n_records": 3001,
+        "n_transitions_last_layer": 28,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.3902277925439872,
+        "raw_physical_lead_disagreement_fraction": 0.0021104076418971456,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 1.3328890370312152e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 6.03238099137053e-06,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.01257295156123648,
+        "T1_median": 5.400000000000006,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.9499999999999886,
+        "layer_disagreement_fraction": 0.43285571476174606,
+        "max_abs_by_layer": [
+          2.2998541898584186,
+          5.922496636582374,
+          6.001671844816052,
+          6.060693230560624,
+          6.105605419682635,
+          6.142254266812975
+        ],
+        "mean_distinct_patterns_across_layers": 1.8673775408197268,
+        "mean_saturation_by_layer": [
+          0.8761259580139924,
+          0.9765198267244287,
+          0.9770756414528512,
+          0.9771809396867733,
+          0.9766044651782758,
+          0.9765671442852405
+        ],
+        "n_interlayer_lags": 137,
+        "n_records": 3001,
+        "n_transitions_last_layer": 28,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.3902266404084662,
+        "raw_physical_lead_disagreement_fraction": 0.0021104076418971456,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "coherent",
+      "lambda": 4.0,
+      "run_id": "lam4_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.012318163643324961,
+        "T1_median": 5.400000000000006,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.9499999999999886,
+        "layer_disagreement_fraction": 0.43246695545929137,
+        "max_abs_by_layer": [
+          2.299542068194162,
+          5.9232693195022215,
+          6.001234039286219,
+          6.060422754237061,
+          6.104789738002277,
+          6.143040806758701
+        ],
+        "mean_distinct_patterns_across_layers": 1.8680439853382207,
+        "mean_saturation_by_layer": [
+          0.8760093302232559,
+          0.9765338220593159,
+          0.9769130289903378,
+          0.9773382205931372,
+          0.976561812729091,
+          0.9765971342885716
+        ],
+        "n_interlayer_lags": 137,
+        "n_records": 3001,
+        "n_transitions_last_layer": 28,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.378695278538225,
+        "raw_physical_lead_disagreement_fraction": 0.0023880928579362434,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 2.6657780738403858e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 5.678289323127984e-06,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.012318163643324961,
+        "T1_median": 5.400000000000006,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.9499999999999886,
+        "layer_disagreement_fraction": 0.43246695545929137,
+        "max_abs_by_layer": [
+          2.299541401258248,
+          5.923268629553106,
+          6.001234736318381,
+          6.060423448066136,
+          6.10478931637698,
+          6.143040708061786
+        ],
+        "mean_distinct_patterns_across_layers": 1.8680439853382207,
+        "mean_saturation_by_layer": [
+          0.8760106631122928,
+          0.9765311562812421,
+          0.9769130289903378,
+          0.9773382205931374,
+          0.9765611462845725,
+          0.9765984671776087
+        ],
+        "n_interlayer_lags": 137,
+        "n_records": 3001,
+        "n_transitions_last_layer": 28,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.3786952483983654,
+        "raw_physical_lead_disagreement_fraction": 0.0023880928579362434,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "perturbed",
+      "lambda": 4.0,
+      "run_id": "lam4_perturbed",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.008491248048906577,
+        "T1_median": 4.75,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.8000000000000043,
+        "layer_disagreement_fraction": 0.42563589914472955,
+        "max_abs_by_layer": [
+          2.1603173536706133,
+          9.829604044854587,
+          9.858015754455037,
+          9.885696577389492,
+          9.913723325062453,
+          9.953594678741434
+        ],
+        "mean_distinct_patterns_across_layers": 1.8560479840053317,
+        "mean_saturation_by_layer": [
+          0.8660799733422283,
+          0.9867157614128641,
+          0.9867430856381219,
+          0.9867377540819754,
+          0.9870183272242601,
+          0.9871049650116654
+        ],
+        "n_interlayer_lags": 157,
+        "n_records": 3001,
+        "n_transitions_last_layer": 31,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4155766186277567,
+        "raw_physical_lead_disagreement_fraction": 0.0023880928579362434,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 4.665111629220675e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 4.165646144471786e-05,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.008491248048906577,
+        "T1_median": 4.75,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.8000000000000043,
+        "layer_disagreement_fraction": 0.42563589914472955,
+        "max_abs_by_layer": [
+          2.1603274246866278,
+          9.829592757925633,
+          9.85801260261767,
+          9.885701520490334,
+          9.913730336548102,
+          9.953598642662532
+        ],
+        "mean_distinct_patterns_across_layers": 1.8560479840053317,
+        "mean_saturation_by_layer": [
+          0.8660779740086728,
+          0.9867177607464195,
+          0.9867384205264926,
+          0.9867337554148645,
+          0.9870163278907048,
+          0.9871076307897393
+        ],
+        "n_interlayer_lags": 157,
+        "n_records": 3001,
+        "n_transitions_last_layer": 31,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.415561270457925,
+        "raw_physical_lead_disagreement_fraction": 0.0023880928579362434,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "coherent",
+      "lambda": 8.0,
+      "run_id": "lam8_coherent",
+      "status": "complete"
+    },
+    {
+      "coarse": {
+        "T1_cv": 0.008916779719221127,
+        "T1_median": 4.75,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.8000000000000114,
+        "layer_disagreement_fraction": 0.42596912140397647,
+        "max_abs_by_layer": [
+          2.159943324729449,
+          9.829439084174805,
+          9.85801799490807,
+          9.885853443130742,
+          9.913559546322192,
+          9.952678462575953
+        ],
+        "mean_distinct_patterns_across_layers": 1.8560479840053317,
+        "mean_saturation_by_layer": [
+          0.8663052315894774,
+          0.9867357547484193,
+          0.9867264245251604,
+          0.986696434521828,
+          0.9869696767744096,
+          0.9871469510163308
+        ],
+        "n_interlayer_lags": 157,
+        "n_records": 3001,
+        "n_transitions_last_layer": 31,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4060368290128216,
+        "raw_physical_lead_disagreement_fraction": 0.001999333555481506,
+        "regime": "ordered_wave"
+      },
+      "dt_check": {
+        "class_match": true,
+        "max_saturation_error": 3.332222592522527e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 2.0533932397649674e-05,
+        "status": "pass"
+      },
+      "fine": {
+        "T1_cv": 0.008916779719221127,
+        "T1_median": 4.75,
+        "analysis_t_end": 200.0,
+        "analysis_t_start": 50.0,
+        "go_A1_ordered_wave": true,
+        "interlayer_lag_median": 0.8000000000000114,
+        "layer_disagreement_fraction": 0.42596912140397647,
+        "max_abs_by_layer": [
+          2.159933337149156,
+          9.829449674242776,
+          9.858024183603263,
+          9.88585012908955,
+          9.913552899731208,
+          9.952672465972427
+        ],
+        "mean_distinct_patterns_across_layers": 1.8560479840053317,
+        "mean_saturation_by_layer": [
+          0.8663078973675513,
+          0.9867357547484191,
+          0.9867264245251604,
+          0.986696434521828,
+          0.9869683438853724,
+          0.9871436187937382
+        ],
+        "n_interlayer_lags": 157,
+        "n_records": 3001,
+        "n_transitions_last_layer": 31,
+        "order_fraction": 1.0,
+        "overlap_drift": 1.4060368035062132,
+        "raw_physical_lead_disagreement_fraction": 0.001999333555481506,
+        "regime": "ordered_wave"
+      },
+      "initial_condition": "perturbed",
+      "lambda": 8.0,
+      "run_id": "lam8_perturbed",
+      "status": "complete"
+    }
+  ],
+  "schema": "E36A-campaign-v1",
+  "status": "complete",
+  "updated_utc": "2026-07-24T17:29:00.135091+00:00"
+}

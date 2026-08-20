@@ -1,0 +1,295 @@
+{
+  "N4_Figure1": {
+    "derived": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure1_data.npz",
+    "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure1.pdf",
+    "panels": {
+      "a": {
+        "kind": "schematic",
+        "measured": false
+      },
+      "b": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/cycle_lam0.9_tau10.0_N2000.npz",
+        "keys": [
+          "a_grid",
+          "dt",
+          "L",
+          "T1_mean"
+        ],
+        "parameters": {
+          "N": 2000,
+          "P": 100,
+          "lambda": 0.9,
+          "seed": 42
+        }
+      },
+      "c": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N1/static_N2000_P100_seed42.npz",
+        "keys": [
+          "lambda_low",
+          "resolved"
+        ],
+        "parameters": {
+          "N": 2000,
+          "P": 100,
+          "seed": 42
+        }
+      },
+      "d": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N1/static_N2000_P100_seed42.npz",
+        "keys": [
+          "lambda_low",
+          "lambda_high",
+          "resolved"
+        ],
+        "note": "labels state only regimes directly resolved for seed 42"
+      }
+    },
+    "sources": [
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/cycle_lam0.9_tau10.0_N2000.npz",
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N1/static_N2000_P100_seed42.npz"
+    ]
+  },
+  "N4_Figure2": {
+    "derived": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure2_data.npz",
+    "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure2.pdf",
+    "panels": {
+      "a": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E24_curves_N2000_s42.npz",
+        "keys": [
+          "curve_28",
+          "curve_38",
+          "curve_91"
+        ]
+      },
+      "b": {
+        "columns": [
+          "lambda",
+          "a_mu",
+          "a_successor",
+          "leading_real"
+        ],
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E24_curves_N2000_s42.npz",
+        "keys": [
+          "curve_28",
+          "curve_38",
+          "curve_91"
+        ]
+      },
+      "c": {
+        "columns": [
+          "lambda",
+          "a_mu",
+          "a_successor",
+          "leading_real"
+        ],
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E24_curves_N2000_s42.npz",
+        "keys": [
+          "curve_0",
+          "curve_1",
+          "curve_2",
+          "curve_3",
+          "curve_4",
+          "curve_5",
+          "curve_6",
+          "curve_7",
+          "curve_8",
+          "curve_9",
+          "curve_10",
+          "curve_11",
+          "curve_12",
+          "curve_13",
+          "curve_14",
+          "curve_15",
+          "curve_16",
+          "curve_17",
+          "curve_18",
+          "curve_19",
+          "curve_20",
+          "curve_21",
+          "curve_22",
+          "curve_23",
+          "curve_24",
+          "curve_25",
+          "curve_26",
+          "curve_27",
+          "curve_28",
+          "curve_29",
+          "curve_30",
+          "curve_31",
+          "curve_32",
+          "curve_33",
+          "curve_34",
+          "curve_35",
+          "curve_36",
+          "curve_37",
+          "curve_38",
+          "curve_39",
+          "curve_40",
+          "curve_41",
+          "curve_42",
+          "curve_43",
+          "curve_44",
+          "curve_45",
+          "curve_46",
+          "curve_47",
+          "curve_48",
+          "curve_49",
+          "curve_50",
+          "curve_51",
+          "curve_52",
+          "curve_53",
+          "curve_54",
+          "curve_55",
+          "curve_56",
+          "curve_57",
+          "curve_58",
+          "curve_59",
+          "curve_60",
+          "curve_61",
+          "curve_62",
+          "curve_63",
+          "curve_64",
+          "curve_65",
+          "curve_66",
+          "curve_67",
+          "curve_68",
+          "curve_69",
+          "curve_70",
+          "curve_71",
+          "curve_72",
+          "curve_73",
+          "curve_74",
+          "curve_75",
+          "curve_76",
+          "curve_77",
+          "curve_78",
+          "curve_79",
+          "curve_80",
+          "curve_81",
+          "curve_82",
+          "curve_83",
+          "curve_84",
+          "curve_85",
+          "curve_86",
+          "curve_87",
+          "curve_88",
+          "curve_89",
+          "curve_90",
+          "curve_91",
+          "curve_92",
+          "curve_93",
+          "curve_94",
+          "curve_95",
+          "curve_96",
+          "curve_97",
+          "curve_98",
+          "curve_99"
+        ],
+        "normalization": "each branch maps its first/last saved lambda and a_mu values to 0/1; lines plus pointwise median and IQR"
+      },
+      "d": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E25_deathshape.npz",
+        "keys": [
+          "lam_c",
+          "r_c",
+          "q"
+        ]
+      }
+    },
+    "sources": [
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E24_curves_N2000_s42.npz",
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E25_deathshape.npz"
+    ]
+  },
+  "N4_Figure3": {
+    "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure3.pdf",
+    "panels": {
+      "a": {
+        "columns": [
+          "N",
+          "alpha",
+          "seed",
+          "std"
+        ],
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N3_E30_seed_statistics.csv"
+      },
+      "b": {
+        "columns": [
+          "N",
+          "alpha",
+          "seed",
+          "gap"
+        ],
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N3_E30_seed_statistics.csv"
+      },
+      "c": {
+        "files": [
+          "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/3_unification_seuils_scaling/data/E30_scaling/E30_N14000_P700_s1000.npz"
+        ],
+        "key": "lam_c",
+        "standardization": "within seed"
+      },
+      "d": {
+        "columns": [
+          "mean",
+          "std",
+          "max",
+          "n_resolved"
+        ],
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N3_E30_seed_statistics.csv",
+        "prediction": "finite-P Gaussian order statistic"
+      },
+      "e": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset_summary.json",
+        "status": "filled"
+      }
+    },
+    "sources": [
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N3_E30_seed_statistics.csv",
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N3/E30_seed_aware_analysis.json",
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/reports/N1_static_extreme_vs_dynamic_onset_summary.json"
+    ]
+  },
+  "N4_Figure4": {
+    "note": "Floquet panel uses lower-bound arrows for floor-limited multipliers.",
+    "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/figures/N4_Figure4.pdf",
+    "panels": {
+      "a": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/E9_bond_times.npz",
+        "keys": [
+          "bonds",
+          "dts",
+          "lam"
+        ]
+      },
+      "b": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/E29_cycle_ghosts.npz",
+        "keys": [
+          "lam_star",
+          "lams",
+          "Ts"
+        ]
+      },
+      "c": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/E29_cycle_ghosts.npz",
+        "keys": [
+          "fold_lc",
+          "dwell_0p330"
+        ]
+      },
+      "d": {
+        "file": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/floquet_scan_N2000_tau10.0.npz",
+        "keys": [
+          "lam",
+          "mu_star"
+        ],
+        "rendering": "machine-floor values converted to lower-bound arrows"
+      }
+    },
+    "sources": [
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/E9_bond_times.npz",
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/E29_cycle_ghosts.npz",
+      "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT/results/2_cycle_rappel_snic/data/floquet_scan_N2000_tau10.0.npz"
+    ]
+  }
+}

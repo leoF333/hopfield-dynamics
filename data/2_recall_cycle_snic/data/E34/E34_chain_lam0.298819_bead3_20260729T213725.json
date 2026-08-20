@@ -1,0 +1,84 @@
+{
+ "lam": 0.298819,
+ "alive": [
+  1,
+  9,
+  22,
+  27,
+  43,
+  56,
+  76,
+  83,
+  89,
+  91,
+  96
+ ],
+ "beads": [
+  3
+ ],
+ "t_wu": 4000.0,
+ "ladder": "E34_alive_ladder_20260729T212158.json",
+ "verdict": {
+  "closure": "partial shard -- merge required",
+  "map": {
+   "3": 9
+  }
+ },
+ "rows": [
+  {
+   "mu": 3,
+   "lam": 0.298819,
+   "fold_measured": 0.29750000000000004,
+   "node_residual": 5.464690860227043e-16,
+   "node_route": "relaxation",
+   "node_eigmax": -0.15686293944433072,
+   "lam_limit": 0.302819,
+   "saddle_residual": 2.1019900639499903e-13,
+   "fold_reached": 0.2993431564754569,
+   "d_saddle_node": 0.008718019323760156,
+   "arc_wall": 0.28674683399731293,
+   "arc_converged": true,
+   "certif_setting": [
+    16,
+    7
+   ],
+   "n_unstable": 1,
+   "z_u": 0.11976015428000776,
+   "eigmax": 0.1507002070676735,
+   "real_root": 0.11976015428000773,
+   "contour_stable": true,
+   "localize_ok": true,
+   "index_one": true,
+   "linear_gate_rel_err": 0.022997960684083513,
+   "landings": {
+    "minus_eps0.001_dt0.01": {
+     "residual": 6.374056387098304e-15,
+     "lead": 3,
+     "lead_overlap": 0.9862085570567729,
+     "eigmax": -0.15686293944397667,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 3,
+     "stationary": true,
+     "t_used": 500.0
+    },
+    "plus_eps0.001_dt0.01": {
+     "residual": 4.442444873462203e-15,
+     "lead": 9,
+     "lead_overlap": 0.9962101692440053,
+     "eigmax": -0.41443853707573397,
+     "identity": true,
+     "kind": "stable_bead",
+     "bead": 9,
+     "stationary": true,
+     "t_used": 500.0
+    }
+   },
+   "back_bead": 3,
+   "forward_bead": 9,
+   "robust": true,
+   "brick_ok": true,
+   "status": "brick_positive"
+  }
+ ]
+}

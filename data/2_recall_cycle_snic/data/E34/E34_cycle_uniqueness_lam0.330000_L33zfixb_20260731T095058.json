@@ -1,0 +1,84 @@
+{
+ "summary": {
+  "lam": 0.33,
+  "n_ics": 2,
+  "n_with_fingerprint": 2,
+  "fingerprint_ref_bead": 60,
+  "fingerprint_dist_max": 0.0027244488534457958,
+  "fingerprint_metric": "max over phase of ||m_ic(phase) - m_ref(phase)||, phase-aligned",
+  "fingerprint_dist_median": 0.0013622244267228979,
+  "fingerprint_dists": {
+   "60": 0.0,
+   "80": 0.0027244488534457958
+  },
+  "period_mean_over_ics": 1869.4,
+  "period_spread_over_ics": 0.0,
+  "verdict": "ONE cycle: every starting pattern reaches the same orbit (max fingerprint distance 2.72e-03)"
+ },
+ "rows": [
+  {
+   "n_transitions": 278,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1869.4,
+   "period_std": 4.547473508864641e-13,
+   "period_cv": 2.432584523839008e-16,
+   "periods": [
+    1869.3999999999996,
+    1869.4000000000005
+   ],
+   "link_median": 18.0,
+   "T_used": 1869.4,
+   "dwell_sum": 1869.4,
+   "dwell_min": 15.335638836006638,
+   "dwell_max": 41.93716479919476,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999373972707,
+   "peak_mean": 0.9999999990449556,
+   "n_peaks": 100,
+   "anchor_time": 6364.921604938271,
+   "T_refined": 1869.4076774691357,
+   "waveform_ok": true,
+   "mu": 60,
+   "lam": 0.33,
+   "wall": 351.39889854198555,
+   "stationary": false
+  },
+  {
+   "n_transitions": 278,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1869.4,
+   "period_std": 4.547473508864641e-13,
+   "period_cv": 2.432584523839008e-16,
+   "periods": [
+    1869.3999999999996,
+    1869.4000000000005
+   ],
+   "link_median": 18.0,
+   "T_used": 1869.4,
+   "dwell_sum": 1869.4,
+   "dwell_min": 15.341787387411387,
+   "dwell_max": 41.93766092305668,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999374642177,
+   "peak_mean": 0.9999999990456356,
+   "n_peaks": 100,
+   "anchor_time": 5999.601315789474,
+   "T_refined": 1869.4065220922678,
+   "waveform_ok": true,
+   "mu": 80,
+   "lam": 0.33,
+   "wall": 352.89595337503124,
+   "stationary": false
+  }
+ ]
+}

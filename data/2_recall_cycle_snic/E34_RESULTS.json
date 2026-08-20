@@ -1,0 +1,271 @@
+{
+  "analysis": "E34 first N=400 gate results",
+  "common_gate": {
+    "lambda": 0.23290962483241953,
+    "multifold_mus": [
+      8,
+      2
+    ],
+    "records": {
+      "14": {
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.2565623274255847,
+        "fold_mismatch": 3.707271141106805e-05,
+        "lam_fold_reference": 0.25652525471417364,
+        "mu": 14,
+        "node_eigmax": -0.5205785517683937,
+        "node_residual": 1.8198332399376142e-16,
+        "node_unstable_count": 0,
+        "raw_status": "ok",
+        "saddle_eigmax": 0.5082844463450407,
+        "saddle_residual": 2.37455241064726e-14,
+        "saddle_unstable_count": 1,
+        "target_lambda": 0.23290962483241953,
+        "turning_count": 1
+      },
+      "2": {
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.3499042890488204,
+        "fold_mismatch": 3.5528749605662213e-06,
+        "lam_fold_reference": 0.349907841923781,
+        "mu": 2,
+        "node_eigmax": -0.9990272185987311,
+        "node_residual": 3.2232424280565258e-12,
+        "node_unstable_count": -1,
+        "raw_status": "multifold_indeterminate",
+        "saddle_eigmax": 0.03135785594281204,
+        "saddle_residual": 5.6555522181363624e-15,
+        "saddle_unstable_count": -1,
+        "target_lambda": 0.23290962483241953,
+        "turning_count": 11
+      },
+      "8": {
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.28844755208427175,
+        "fold_mismatch": 1.1485249287013222e-05,
+        "lam_fold_reference": 0.28845903733355877,
+        "mu": 8,
+        "node_eigmax": -0.9951211166208127,
+        "node_residual": 2.2560690718651737e-16,
+        "node_unstable_count": -1,
+        "raw_status": "multifold_indeterminate",
+        "saddle_eigmax": 0.6771218225962072,
+        "saddle_residual": 2.0217746315708995e-16,
+        "saddle_unstable_count": -1,
+        "target_lambda": 0.23290962483241953,
+        "turning_count": 9
+      }
+    },
+    "simple_branches": [
+      14
+    ],
+    "verdict": "NO-GO for a simple three-link necklace"
+  },
+  "inputs": {
+    "common_gate": {
+      "bytes": 7309,
+      "path": "results/2_cycle_rappel_snic/data/E34/E34a_census_20260723T191922_621256.npz",
+      "sha256": "500f5c81834663153b81607eab77c09de64fa4accec87f4899b16e2fc458790a"
+    },
+    "local_original": {
+      "bytes": 6789,
+      "path": "results/2_cycle_rappel_snic/data/E34/E34a_census_20260723T191129_596021.npz",
+      "sha256": "d86d20c68e9bda014c1edc1fc24e2e908f81e60e99f366b2da167c2940f4ba9f"
+    },
+    "local_replacement_mu14": {
+      "bytes": 5756,
+      "path": "results/2_cycle_rappel_snic/data/E34/E34a_census_20260723T191854_621183.npz",
+      "sha256": "8ba48e3daa9fa563186b54803deb00896ca3d11f2099a819a6da98f5e51d4a7f"
+    },
+    "threshold_table": {
+      "bytes": 70022,
+      "path": "results/2_cycle_rappel_snic/data/E34/E34_thresholds_N400_P20_s42_20260723T191104_587960.npz",
+      "sha256": "10c013b51382447f17b502ca1df8e799c5bcfe5066af280c8327f75d9b29f993"
+    }
+  },
+  "local_gate": {
+    "crosscheck_tolerance": 0.002,
+    "excluded_mus": [
+      3
+    ],
+    "records": {
+      "14": {
+        "curated_status": "ok",
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.25656232742558466,
+        "fold_mismatch": 3.707271141101254e-05,
+        "fold_reference": 0.25652525471417364,
+        "lam_fold_reference": 0.25652525471417364,
+        "mu": 14,
+        "node_eigmax": -0.32641692203787953,
+        "node_residual": 9.30337637053206e-13,
+        "node_unstable_count": 0,
+        "raw_status": "ok",
+        "saddle_eigmax": 0.5545399705624587,
+        "saddle_residual": 7.132596028157844e-14,
+        "saddle_unstable_count": 1,
+        "target_lambda": 0.23652525471417365,
+        "turning_count": 1
+      },
+      "2": {
+        "curated_status": "ok",
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.34990428904881976,
+        "fold_mismatch": 3.552874961232355e-06,
+        "fold_reference": 0.349907841923781,
+        "mu": 2,
+        "node_eigmax": -0.5012603572243937,
+        "node_residual": 1.3007476028021278e-12,
+        "node_unstable_count": 0,
+        "raw_status": "ok",
+        "saddle_eigmax": 0.6238310567620524,
+        "saddle_residual": 8.748584781558606e-16,
+        "saddle_unstable_count": 1,
+        "target_lambda": 0.329907841923781
+      },
+      "3": {
+        "curated_status": "fold_mismatch_indeterminate",
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.2622405316211589,
+        "fold_mismatch": 0.01933090678873936,
+        "fold_reference": 0.24290962483241954,
+        "mu": 3,
+        "node_eigmax": -0.34810238396559556,
+        "node_residual": 8.331035474156128e-12,
+        "node_unstable_count": 0,
+        "raw_status": "ok",
+        "saddle_eigmax": 0.5889399444252523,
+        "saddle_residual": 2.5724833851185965e-16,
+        "saddle_unstable_count": 1,
+        "target_lambda": 0.22290962483241955
+      },
+      "8": {
+        "curated_status": "ok",
+        "fold_crosscheck_tol": 0.002,
+        "fold_lambda": 0.2884475520845398,
+        "fold_mismatch": 1.1485249018949872e-05,
+        "fold_reference": 0.28845903733355877,
+        "mu": 8,
+        "node_eigmax": -0.9075799151772703,
+        "node_residual": 5.563237331343457e-11,
+        "node_unstable_count": 0,
+        "raw_status": "ok",
+        "saddle_eigmax": 0.6840214667405107,
+        "saddle_residual": 1.3553977971776734e-14,
+        "saddle_unstable_count": 1,
+        "target_lambda": 0.26845903733355875
+      }
+    },
+    "valid_mus": [
+      14,
+      8,
+      2
+    ],
+    "verdict": "GO on replacement set {14,8,2}"
+  },
+  "overall_verdict": "19/20 local spectral folds; mu=3 is multifold for the local pairing; local replacement set {14,8,2} passes index (0,1); the common-lambda simple necklace is NO-GO because mu=8 and mu=2 have 9 and 11 resolved turns",
+  "scope": {
+    "N2000_run": false,
+    "claim": "N=400, P=20, seed=42 pilot evidence only; no finite-size or multiseed validation"
+  },
+  "thresholds": {
+    "N": 400,
+    "P": 20,
+    "beta": 20.0,
+    "indeterminate": 1,
+    "indeterminate_mus": [
+      17
+    ],
+    "indeterminate_reasons": {
+      "17": "arclength_spectral_fit_failed"
+    },
+    "lambda_c_max": 0.349907841923781,
+    "lambda_c_median": 0.28845903733355877,
+    "lambda_c_min": 0.24290962483241954,
+    "max_abs_threshold_side_eig": 0.012410192322727331,
+    "max_fold_bracket_width": 0.00045079426581540183,
+    "max_fold_fit_error": 0.00022539713290770091,
+    "max_threshold_side_residual": 9.560808269108317e-12,
+    "method": "pseudo_arclength_spectral_v2",
+    "seed": 42,
+    "sorted_thresholds": [
+      {
+        "lambda_c": 0.24290962483241954,
+        "mu": 3
+      },
+      {
+        "lambda_c": 0.25652525471417364,
+        "mu": 14
+      },
+      {
+        "lambda_c": 0.2588531942195812,
+        "mu": 13
+      },
+      {
+        "lambda_c": 0.2642257237439031,
+        "mu": 15
+      },
+      {
+        "lambda_c": 0.2784319982565379,
+        "mu": 10
+      },
+      {
+        "lambda_c": 0.27886634030723073,
+        "mu": 7
+      },
+      {
+        "lambda_c": 0.28163635036012086,
+        "mu": 9
+      },
+      {
+        "lambda_c": 0.2870734296822568,
+        "mu": 18
+      },
+      {
+        "lambda_c": 0.2882065515669085,
+        "mu": 19
+      },
+      {
+        "lambda_c": 0.28845903733355877,
+        "mu": 8
+      },
+      {
+        "lambda_c": 0.29790802465009836,
+        "mu": 6
+      },
+      {
+        "lambda_c": 0.29991800318374523,
+        "mu": 11
+      },
+      {
+        "lambda_c": 0.3019622266113775,
+        "mu": 0
+      },
+      {
+        "lambda_c": 0.3034891163163473,
+        "mu": 1
+      },
+      {
+        "lambda_c": 0.3087953758212061,
+        "mu": 16
+      },
+      {
+        "lambda_c": 0.3117103615199646,
+        "mu": 4
+      },
+      {
+        "lambda_c": 0.3223679483731175,
+        "mu": 12
+      },
+      {
+        "lambda_c": 0.32590486919328343,
+        "mu": 5
+      },
+      {
+        "lambda_c": 0.349907841923781,
+        "mu": 2
+      }
+    ],
+    "spectral_folds": 19
+  }
+}

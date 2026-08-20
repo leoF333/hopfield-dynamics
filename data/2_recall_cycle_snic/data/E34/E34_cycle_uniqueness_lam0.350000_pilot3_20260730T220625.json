@@ -1,0 +1,79 @@
+{
+ "summary": {
+  "lam": 0.35,
+  "n_ics": 3,
+  "n_with_fingerprint": 1
+ },
+ "rows": [
+  {
+   "n_transitions": 196,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.0
+   ],
+   "link_median": 16.0,
+   "T_from_links": 1600.0,
+   "dwell_sum": 3200.0,
+   "dwell_min": 14.258556581250105,
+   "dwell_max": 1583.607268764319,
+   "dwell_argmax": 45,
+   "dwell_argmin": 6,
+   "peak_min": 0.999999994968323,
+   "peak_mean": 0.9999999998356521,
+   "n_peaks": 100,
+   "mu": 0,
+   "lam": 0.35,
+   "wall": 73.48859120899579,
+   "stationary": false
+  },
+  {
+   "n_transitions": 196,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1634.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1634.0
+   ],
+   "link_median": 16.0,
+   "T_from_links": 1600.0,
+   "n_peaks": 99,
+   "mu": 50,
+   "lam": 0.35,
+   "wall": 72.87669754197123,
+   "stationary": false
+  },
+  {
+   "n_transitions": 196,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.0
+   ],
+   "link_median": 16.0,
+   "T_from_links": 1600.0,
+   "n_peaks": 99,
+   "mu": 77,
+   "lam": 0.35,
+   "wall": 72.52522549999412,
+   "stationary": false
+  }
+ ]
+}

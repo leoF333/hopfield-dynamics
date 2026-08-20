@@ -1,0 +1,1505 @@
+{
+  "A1_regime_scan": {
+    "initial_condition_classification_matches": true,
+    "ordered_wave_lambdas": [
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "rows": [
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": null,
+        "lambda": 0.0,
+        "last_layer_transitions": 0,
+        "max_abs": 1.5800000001469208,
+        "mean_saturation": 0.9976666666667081,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": null,
+        "lambda": 0.0,
+        "last_layer_transitions": 0,
+        "max_abs": 1.5800000001469208,
+        "mean_saturation": 0.9976666666667081,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": null,
+        "lambda": 0.125,
+        "last_layer_transitions": 0,
+        "max_abs": 1.6810000096583022,
+        "mean_saturation": 0.9983333333333467,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": null,
+        "lambda": 0.125,
+        "last_layer_transitions": 0,
+        "max_abs": 1.6810000096583022,
+        "mean_saturation": 0.9983333333333467,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": null,
+        "lambda": 0.25,
+        "last_layer_transitions": 0,
+        "max_abs": 1.806001433552247,
+        "mean_saturation": 0.9906666666666747,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": null,
+        "lambda": 0.25,
+        "last_layer_transitions": 0,
+        "max_abs": 1.806001433552247,
+        "mean_saturation": 0.9906666666666747,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": null,
+        "lambda": 0.5,
+        "last_layer_transitions": 0,
+        "max_abs": 2.0967986999041983,
+        "mean_saturation": 0.9683397756303561,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": null,
+        "T1_median": null,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": null,
+        "lambda": 0.5,
+        "last_layer_transitions": 0,
+        "max_abs": 2.098795329796384,
+        "mean_saturation": 0.968342108186171,
+        "order_fraction": null,
+        "regime": "stationary"
+      },
+      {
+        "T1_cv": 0.06830914800591427,
+        "T1_median": 10.850000000000009,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 2.0,
+        "lambda": 1.0,
+        "last_layer_transitions": 14,
+        "max_abs": 3.9130611725949356,
+        "mean_saturation": 0.9417084305231623,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.06720134857495362,
+        "T1_median": 10.975000000000009,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 1.950000000000017,
+        "lambda": 1.0,
+        "last_layer_transitions": 13,
+        "max_abs": 3.912888331002636,
+        "mean_saturation": 0.9417646340108887,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.030094161623775793,
+        "T1_median": 6.950000000000017,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 1.25,
+        "lambda": 2.0,
+        "last_layer_transitions": 22,
+        "max_abs": 4.4047771987556334,
+        "mean_saturation": 0.9508152837942926,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.029070691641264097,
+        "T1_median": 6.950000000000017,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 1.25,
+        "lambda": 2.0,
+        "last_layer_transitions": 22,
+        "max_abs": 4.404629401098557,
+        "mean_saturation": 0.9508072864600714,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.01324594493548856,
+        "T1_median": 5.400000000000006,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 0.9499999999999886,
+        "lambda": 4.0,
+        "last_layer_transitions": 28,
+        "max_abs": 6.225911449714543,
+        "mean_saturation": 0.9603720981894958,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.013245944935488772,
+        "T1_median": 5.400000000000006,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 0.9499999999999957,
+        "lambda": 4.0,
+        "last_layer_transitions": 28,
+        "max_abs": 6.225913893787496,
+        "mean_saturation": 0.9603603243363357,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.009712069543980746,
+        "T1_median": 4.75,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 0.8000000000000043,
+        "lambda": 8.0,
+        "last_layer_transitions": 31,
+        "max_abs": 10.03131820945291,
+        "mean_saturation": 0.9669713428857071,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.00946426152396251,
+        "T1_median": 4.75,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 0.8000000000000114,
+        "lambda": 8.0,
+        "last_layer_transitions": 31,
+        "max_abs": 10.031260018918273,
+        "mean_saturation": 0.9670103298900394,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      }
+    ],
+    "sampled_transition_bracket": [
+      0.5,
+      1.0
+    ],
+    "stationary_lambdas": [
+      0.0,
+      0.125,
+      0.25,
+      0.5
+    ]
+  },
+  "A2_delay_scaling": {
+    "T1_fits_from_manifest": {
+      "1.0": {
+        "K": [
+          4.0,
+          6.0,
+          8.0,
+          11.0
+        ],
+        "R2": 0.999009018876606,
+        "T1": [
+          7.265357807835585,
+          10.891364529523628,
+          14.43069422332384,
+          19.235900836039633
+        ],
+        "intercept": 2.271009193743451,
+        "max_relative_estimator_disagreement": 0.014392474769550502,
+        "min_xcorr_unique_fraction": 1.0,
+        "n_valid_K": 4,
+        "reason": "linear_distributed_delay_nonunit_quantum",
+        "residuals": [
+          -0.1343650605177329,
+          0.07249921143039906,
+          0.19268645549069952,
+          -0.13082060640337545
+        ],
+        "slope": 1.7095712248699557,
+        "verdict": "GO-limited"
+      },
+      "2.0": {
+        "K": [
+          4.0,
+          6.0,
+          8.0,
+          11.0
+        ],
+        "R2": 0.9996284918231488,
+        "T1": [
+          4.423983768863941,
+          6.938078065973798,
+          9.315951811451392,
+          12.78586970333103
+        ],
+        "intercept": 0.9165712077777434,
+        "max_relative_estimator_disagreement": 0.008283237290310384,
+        "min_xcorr_unique_fraction": 1.0,
+        "n_valid_K": 4,
+        "reason": "linear_K_unique_lags_unit_quantum",
+        "residuals": [
+          -0.06829926113490536,
+          0.06198715449421588,
+          0.056053018491073914,
+          -0.04974091185038887
+        ],
+        "slope": 1.1919039407403678,
+        "verdict": "GO-strong"
+      },
+      "4.0": {
+        "K": [
+          4.0,
+          6.0,
+          8.0,
+          11.0
+        ],
+        "R2": 0.9996591926757432,
+        "T1": [
+          3.4171445322505605,
+          5.402774327513129,
+          7.3179214548154405,
+          10.073640100582349
+        ],
+        "intercept": 0.6170280876479274,
+        "max_relative_estimator_disagreement": 0.005101523870037456,
+        "min_xcorr_unique_fraction": 1.0,
+        "n_valid_K": 4,
+        "reason": "linear_K_unique_lags_unit_quantum",
+        "residuals": [
+          -0.04908772314573939,
+          0.03707262695124669,
+          0.052750309087977953,
+          -0.04073521289348747
+        ],
+        "slope": 0.9497347225827908,
+        "verdict": "GO-strong"
+      }
+    },
+    "derived_effective_lag_fits": {
+      "1.0": {
+        "tau_relay": {
+          "R2": 0.9995495746214651,
+          "intercept": 1.2573954502228974,
+          "slope": 1.748449375364112
+        },
+        "tau_xcorr": {
+          "R2": 0.9996849432182838,
+          "intercept": 1.2718893787193275,
+          "slope": 1.7690354298608504
+        }
+      },
+      "2.0": {
+        "tau_relay": {
+          "R2": 0.9996596698015635,
+          "intercept": 0.25749843468309663,
+          "slope": 1.1744381460513538
+        },
+        "tau_xcorr": {
+          "R2": 0.9997093134216345,
+          "intercept": 0.2717884076900431,
+          "slope": 1.1773214107274754
+        }
+      },
+      "4.0": {
+        "tau_relay": {
+          "R2": 0.9998341384190128,
+          "intercept": -0.03163178686976485,
+          "slope": 0.9391631604638524
+        },
+        "tau_xcorr": {
+          "R2": 0.999735932813704,
+          "intercept": -0.03993043837208289,
+          "slope": 0.9435379883114481
+        }
+      }
+    },
+    "rows": [
+      {
+        "K": 4,
+        "T1_cv": 0.06396434576742951,
+        "T1_median": 7.265357807835585,
+        "block_count": 3,
+        "lambda": 1.0,
+        "max_abs": 3.7971345784919794,
+        "mean_saturation": 0.9089428095502516,
+        "relative_estimator_disagreement": 0.014392474769550502,
+        "source": "E36A2_new",
+        "tau_relay": 6.3979371748025535,
+        "tau_xcorr": 6.490686772288923,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 6,
+        "T1_cv": 0.06750186148385459,
+        "T1_median": 10.891364529523628,
+        "block_count": 3,
+        "lambda": 1.0,
+        "max_abs": 3.9130611725949356,
+        "mean_saturation": 0.9417084305231623,
+        "relative_estimator_disagreement": 0.010247475671675391,
+        "source": "reused_E36A1",
+        "tau_relay": 10.080790487293697,
+        "tau_xcorr": 10.184625164226368,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 8,
+        "T1_cv": 0.07025499128611341,
+        "T1_median": 14.43069422332384,
+        "block_count": 3,
+        "lambda": 1.0,
+        "max_abs": 3.961636074809209,
+        "mean_saturation": 0.9562935974773813,
+        "relative_estimator_disagreement": 0.010437161735339855,
+        "source": "E36A2_new",
+        "tau_relay": 13.605842414217534,
+        "tau_xcorr": 13.74859375143752,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 11,
+        "T1_cv": 0.07225192787795529,
+        "T1_median": 19.235900836039633,
+        "block_count": 3,
+        "lambda": 1.0,
+        "max_abs": 3.999875497912731,
+        "mean_saturation": 0.9684452433724874,
+        "relative_estimator_disagreement": 0.012427039304347067,
+        "source": "E36A2_new",
+        "tau_relay": 18.656246108680605,
+        "tau_xcorr": 18.889537573445754,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 4,
+        "T1_cv": 0.02458340031541691,
+        "T1_median": 4.423983768863941,
+        "block_count": 5,
+        "lambda": 2.0,
+        "max_abs": 4.181261432308587,
+        "mean_saturation": 0.9185188784008897,
+        "relative_estimator_disagreement": 0.008283237290310384,
+        "source": "E36A2_new",
+        "tau_relay": 3.719634560948858,
+        "tau_xcorr": 3.750573313163467,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 6,
+        "T1_cv": 0.029002922102201345,
+        "T1_median": 6.938078065973798,
+        "block_count": 5,
+        "lambda": 2.0,
+        "max_abs": 4.4047771987556334,
+        "mean_saturation": 0.9508152837942926,
+        "relative_estimator_disagreement": 0.0025394004646191364,
+        "source": "reused_E36A1",
+        "tau_relay": 6.177031752732724,
+        "tau_xcorr": 6.192737651819299,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 8,
+        "T1_cv": 0.027378542880277888,
+        "T1_median": 9.315951811451392,
+        "block_count": 3,
+        "lambda": 2.0,
+        "max_abs": 4.7010988692353,
+        "mean_saturation": 0.9651345742404813,
+        "relative_estimator_disagreement": 0.0043774332346024555,
+        "source": "E36A2_new",
+        "tau_relay": 8.542410538460505,
+        "tau_xcorr": 8.579886394283568,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 11,
+        "T1_cv": 0.02865786511749083,
+        "T1_median": 12.78586970333103,
+        "block_count": 3,
+        "lambda": 2.0,
+        "max_abs": 4.804284076032531,
+        "mean_saturation": 0.9755345607059229,
+        "relative_estimator_disagreement": 0.0037681123771521946,
+        "source": "E36A2_new",
+        "tau_relay": 11.951870537874143,
+        "tau_xcorr": 11.996991539680716,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 4,
+        "T1_cv": 0.01512050554038507,
+        "T1_median": 3.4171445322505605,
+        "block_count": 6,
+        "lambda": 4.0,
+        "max_abs": 6.084390787031333,
+        "mean_saturation": 0.9251560244308739,
+        "relative_estimator_disagreement": 0.0015610846503570732,
+        "source": "E36A2_new",
+        "tau_relay": 2.749037385347453,
+        "tau_xcorr": 2.744749252351229,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 6,
+        "T1_cv": 0.012625302050393045,
+        "T1_median": 5.402774327513129,
+        "block_count": 6,
+        "lambda": 4.0,
+        "max_abs": 6.225911449714543,
+        "mean_saturation": 0.9603720981894958,
+        "relative_estimator_disagreement": 0.004155898979854941,
+        "source": "reused_E36A1",
+        "tau_relay": 4.7010668651679275,
+        "tau_xcorr": 4.720644705921316,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 8,
+        "T1_cv": 0.011907491681648532,
+        "T1_median": 7.3179214548154405,
+        "block_count": 3,
+        "lambda": 4.0,
+        "max_abs": 6.390230446422533,
+        "mean_saturation": 0.9736552863436145,
+        "relative_estimator_disagreement": 0.005101523870037456,
+        "source": "E36A2_new",
+        "tau_relay": 6.566952974919939,
+        "tau_xcorr": 6.600540115073517,
+        "xcorr_unique_fraction": 1.0
+      },
+      {
+        "K": 11,
+        "T1_cv": 0.013080909183069322,
+        "T1_median": 10.073640100582349,
+        "block_count": 3,
+        "lambda": 4.0,
+        "max_abs": 6.5238372469249395,
+        "mean_saturation": 0.9820927314782376,
+        "relative_estimator_disagreement": 0.0029199723002674037,
+        "source": "E36A2_new",
+        "tau_relay": 9.33549463868193,
+        "tau_xcorr": 9.362793880951799,
+        "xcorr_unique_fraction": 1.0
+      }
+    ]
+  },
+  "dt_convergence": {
+    "comparison": "dt=0.01 versus dt=0.005",
+    "rows": [
+      {
+        "campaign": "E36A_dtcheck_lam1_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 1.0,
+        "max_saturation_error": 0.0,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.2626422190845759e-07,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_dtcheck_lam1_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 1.0,
+        "max_saturation_error": 0.0,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.3027298395336778e-07,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 2.0,
+        "max_saturation_error": 6.664445185711187e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.0093899123949957e-06,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 2.0,
+        "max_saturation_error": 6.664445184600964e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.0274864509121868e-06,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 4.0,
+        "max_saturation_error": 3.332222592633549e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 5.885396477642449e-06,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 4.0,
+        "max_saturation_error": 1.3328890370312152e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 5.316856493697279e-06,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 8.0,
+        "max_saturation_error": 4.665111629664764e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 5.126462971203665e-05,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_regimes_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 8.0,
+        "max_saturation_error": 3.998667110982623e-06,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 1.8039747260795835e-05,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_reference_N2000_P100_K11_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 2.0,
+        "max_saturation_error": 4.998333890116058e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 6.299576933151501e-07,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_reference_N2000_P100_K11_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 2.0,
+        "max_saturation_error": 1.6661112967053526e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 5.845421797196643e-07,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_reference_N2000_P100_K11_seed42",
+        "class_match": true,
+        "initial_condition": "coherent",
+        "lambda": 4.0,
+        "max_saturation_error": 6.664445184600964e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 4.389516531128519e-06,
+        "status": "pass"
+      },
+      {
+        "campaign": "E36A_reference_N2000_P100_K11_seed42",
+        "class_match": true,
+        "initial_condition": "perturbed",
+        "lambda": 4.0,
+        "max_saturation_error": 8.330556480196094e-07,
+        "relative_T1_error": 0.0,
+        "relative_final_state_error": 3.5874685797594663e-06,
+        "status": "pass"
+      }
+    ],
+    "summary": {
+      "all_class_match": true,
+      "all_pass": true,
+      "checks": 12,
+      "max_relative_T1_error": 0.0,
+      "max_relative_final_state_error": 5.126462971203665e-05,
+      "max_saturation_error": 4.665111629664764e-06
+    }
+  },
+  "interpretation": {
+    "K_scaling": "T1 and both effective-lag estimators are nearly linear in K-1. The inferred delay quantum depends on lambda.",
+    "model_caveat": "The finite-dimensional K-layer Markovian chain contains nonlinear intermediate states. Eliminating them gives a history-dependent, generally distributed/state-dependent memory, not an exact discrete-delay DDE. An Erlang/gamma kernel would require additional linearization/filter assumptions.",
+    "regime_transition": "On the sampled grid, both initial conditions are stationary through lambda=0.5 and form ordered waves from lambda=1.",
+    "statistical_caveat": "This is seed-42 exploration. Block intervals are descriptive within-trajectory uncertainty, not independent-seed confidence intervals."
+  },
+  "reference_N2000_P100_K11": {
+    "comparison_caveat": "N and P both change by a factor four at fixed P/N=0.05, and the generated pattern realization also changes. The differences cannot be attributed to system size alone. Pilot/reference T1 and lag comparisons use the same A2 interpolated-crossing postprocessor on both data sets.",
+    "comparison_to_N500_P25_K11": [
+      {
+        "initial_condition": "coherent",
+        "lambda": 1.0,
+        "pilot_T1": 19.235900836039633,
+        "pilot_max_abs": 3.999875497912731,
+        "pilot_mean_saturation": 0.9684452433724874,
+        "pilot_tau_relay_per_layer": 1.8656246108680605,
+        "reference_A1_T1_grid": 18.400000000000006,
+        "reference_A1_interlayer_lag_median": 1.700000000000017,
+        "reference_T1": 18.404370391859544,
+        "reference_max_abs": 3.9082875629884635,
+        "reference_mean_saturation": 0.9663918996698041,
+        "reference_tau_relay_per_layer": 1.7636864402466543,
+        "relative_T1_difference": -0.043228047974866145,
+        "relative_lag_difference": -0.05464023685556719
+      },
+      {
+        "initial_condition": "perturbed",
+        "lambda": 1.0,
+        "pilot_T1": 19.235900836039633,
+        "pilot_max_abs": 3.999875497912731,
+        "pilot_mean_saturation": 0.9684452433724874,
+        "pilot_tau_relay_per_layer": 1.8656246108680605,
+        "reference_A1_T1_grid": 18.400000000000006,
+        "reference_A1_interlayer_lag_median": 1.7000000000000028,
+        "reference_T1": 18.40429576548945,
+        "reference_max_abs": 3.9082551008024677,
+        "reference_mean_saturation": 0.9663958074581174,
+        "reference_tau_relay_per_layer": 1.763681944516609,
+        "relative_T1_difference": -0.043231927510882125,
+        "relative_lag_difference": -0.05464264662761842
+      },
+      {
+        "initial_condition": "coherent",
+        "lambda": 2.0,
+        "pilot_T1": 12.78586970333103,
+        "pilot_max_abs": 4.804284076032531,
+        "pilot_mean_saturation": 0.9755345607059229,
+        "pilot_tau_relay_per_layer": 1.1951870537874143,
+        "reference_A1_T1_grid": 12.550000000000011,
+        "reference_A1_interlayer_lag_median": 1.1999999999999886,
+        "reference_T1": 12.518899844133912,
+        "reference_max_abs": 4.7567525522724,
+        "reference_mean_saturation": 0.9745796249734926,
+        "reference_tau_relay_per_layer": 1.173254723193289,
+        "relative_T1_difference": -0.02088007037390395,
+        "relative_lag_difference": -0.018350542306013223
+      },
+      {
+        "initial_condition": "perturbed",
+        "lambda": 2.0,
+        "pilot_T1": 12.78586970333103,
+        "pilot_max_abs": 4.804284076032531,
+        "pilot_mean_saturation": 0.9755345607059229,
+        "pilot_tau_relay_per_layer": 1.1951870537874143,
+        "reference_A1_T1_grid": 12.500000000000014,
+        "reference_A1_interlayer_lag_median": 1.1999999999999886,
+        "reference_T1": 12.519812708503125,
+        "reference_max_abs": 4.757054335243978,
+        "reference_mean_saturation": 0.9745731271394367,
+        "reference_tau_relay_per_layer": 1.1729726337583706,
+        "relative_T1_difference": -0.020808674028532592,
+        "relative_lag_difference": -0.018586563466068937
+      },
+      {
+        "initial_condition": "coherent",
+        "lambda": 4.0,
+        "pilot_T1": 10.073640100582349,
+        "pilot_max_abs": 6.5238372469249395,
+        "pilot_mean_saturation": 0.9820927314782376,
+        "pilot_tau_relay_per_layer": 0.9335494638681929,
+        "reference_A1_T1_grid": 9.975000000000009,
+        "reference_A1_interlayer_lag_median": 0.9499999999999886,
+        "reference_T1": 9.991614729493534,
+        "reference_max_abs": 6.534387340768664,
+        "reference_mean_saturation": 0.9815472569749464,
+        "reference_tau_relay_per_layer": 0.9270779551970818,
+        "relative_T1_difference": -0.008142575103916286,
+        "relative_lag_difference": -0.006932154022451276
+      },
+      {
+        "initial_condition": "perturbed",
+        "lambda": 4.0,
+        "pilot_T1": 10.073640100582349,
+        "pilot_max_abs": 6.5238372469249395,
+        "pilot_mean_saturation": 0.9820927314782376,
+        "pilot_tau_relay_per_layer": 0.9335494638681929,
+        "reference_A1_T1_grid": 9.975000000000001,
+        "reference_A1_interlayer_lag_median": 0.9499999999999886,
+        "reference_T1": 9.992536809981061,
+        "reference_max_abs": 6.534132515962048,
+        "reference_mean_saturation": 0.9815509224197979,
+        "reference_tau_relay_per_layer": 0.9270592219540184,
+        "relative_T1_difference": -0.008051041112397803,
+        "relative_lag_difference": -0.006952220707494219
+      }
+    ],
+    "dt_convergence": {
+      "all_pass": true,
+      "checks": 4,
+      "max_relative_T1_error": 0.0,
+      "max_relative_final_state_error": 4.389516531128519e-06,
+      "max_saturation_error": 8.330556480196094e-07
+    },
+    "lambda1_auto_go_note": "lambda=1 is classified ordered_wave with order_fraction=1. The automatic GO flag is false only because 8 last-layer transitions are below its hard threshold of 10.",
+    "rows": [
+      {
+        "T1_cv": 0.03669824060353793,
+        "T1_median": 18.400000000000006,
+        "auto_go_false_due_to_transition_count": true,
+        "go_A1_ordered_wave": false,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 1.700000000000017,
+        "lambda": 1.0,
+        "last_layer_transitions": 8,
+        "matched_A2_analysis": {
+          "T1_cv": 0.03669945312591001,
+          "T1_median": 18.404370391859544,
+          "block_count": 2,
+          "relative_estimator_disagreement": 0.002393894532780703,
+          "tau_relay": 17.636864402466543,
+          "tau_xcorr": 17.67913579235958,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 3.9082875629884635,
+        "mean_saturation": 0.9663918996698041,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.03669824060353775,
+        "T1_median": 18.400000000000006,
+        "auto_go_false_due_to_transition_count": true,
+        "go_A1_ordered_wave": false,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 1.7000000000000028,
+        "lambda": 1.0,
+        "last_layer_transitions": 8,
+        "matched_A2_analysis": {
+          "T1_cv": 0.03669858398583094,
+          "T1_median": 18.40429576548945,
+          "block_count": 2,
+          "relative_estimator_disagreement": 0.002408522581927942,
+          "tau_relay": 17.63681944516609,
+          "tau_xcorr": 17.67934934017943,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 3.9082551008024677,
+        "mean_saturation": 0.9663958074581174,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.013929929450542864,
+        "T1_median": 12.550000000000011,
+        "auto_go_false_due_to_transition_count": false,
+        "go_A1_ordered_wave": true,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 1.1999999999999886,
+        "lambda": 2.0,
+        "last_layer_transitions": 12,
+        "matched_A2_analysis": {
+          "T1_cv": 0.013549812378154016,
+          "T1_median": 12.518899844133912,
+          "block_count": 2,
+          "relative_estimator_disagreement": 0.0070019623906969405,
+          "tau_relay": 11.732547231932891,
+          "tau_xcorr": 11.814986705444479,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 4.7567525522724,
+        "mean_saturation": 0.9745796249734926,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.01443967204622177,
+        "T1_median": 12.500000000000014,
+        "auto_go_false_due_to_transition_count": false,
+        "go_A1_ordered_wave": true,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 1.1999999999999886,
+        "lambda": 2.0,
+        "last_layer_transitions": 12,
+        "matched_A2_analysis": {
+          "T1_cv": 0.013552071286459888,
+          "T1_median": 12.519812708503125,
+          "block_count": 2,
+          "relative_estimator_disagreement": 0.007307750082536935,
+          "tau_relay": 11.729726337583706,
+          "tau_xcorr": 11.81575859732192,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 4.757054335243978,
+        "mean_saturation": 0.9745731271394367,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.007559289460184651,
+        "T1_median": 9.975000000000009,
+        "auto_go_false_due_to_transition_count": false,
+        "go_A1_ordered_wave": true,
+        "initial_condition": "coherent",
+        "interlayer_lag_median": 0.9499999999999886,
+        "lambda": 4.0,
+        "last_layer_transitions": 15,
+        "matched_A2_analysis": {
+          "T1_cv": 0.006466190772094839,
+          "T1_median": 9.991614729493534,
+          "block_count": 3,
+          "relative_estimator_disagreement": 0.0028767307441302653,
+          "tau_relay": 9.270779551970818,
+          "tau_xcorr": 9.29748750432385,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 6.534387340768664,
+        "mean_saturation": 0.9815472569749464,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      },
+      {
+        "T1_cv": 0.007184795357907364,
+        "T1_median": 9.975000000000001,
+        "auto_go_false_due_to_transition_count": false,
+        "go_A1_ordered_wave": true,
+        "initial_condition": "perturbed",
+        "interlayer_lag_median": 0.9499999999999886,
+        "lambda": 4.0,
+        "last_layer_transitions": 15,
+        "matched_A2_analysis": {
+          "T1_cv": 0.0064530674983178295,
+          "T1_median": 9.992536809981061,
+          "block_count": 3,
+          "relative_estimator_disagreement": 0.002919421247168114,
+          "tau_relay": 9.270592219540184,
+          "tau_xcorr": 9.297696547915816,
+          "xcorr_unique_fraction": 1.0
+        },
+        "max_abs": 6.534132515962048,
+        "mean_saturation": 0.9815509224197979,
+        "order_fraction": 1.0,
+        "regime": "ordered_wave"
+      }
+    ],
+    "scope": {
+      "K": 11,
+      "N": 2000,
+      "P": 100,
+      "P_over_N": 0.05,
+      "coarse_dt": 0.01,
+      "fine_dt": 0.005,
+      "initial_conditions": [
+        "coherent",
+        "perturbed"
+      ],
+      "lambdas": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "seed": 42
+    }
+  },
+  "schema": "E36-curated-results-v1",
+  "scope": {
+    "N": 500,
+    "P": 25,
+    "beta": 20.0,
+    "coarse_dt": 0.01,
+    "fine_dt": 0.005,
+    "model": {
+      "activation": "g(x)=tanh(beta*x)",
+      "closure_layer": "t0*dU[0]/dt=-U[0]+K_seq*g(U[K-1])",
+      "inner_layers": "t0*dU[k]/dt=-U[k]+J*g(U[k])+lambda*g(U[k-1]), k=1,...,K-1"
+    },
+    "new_simulations_in_postprocess": 0,
+    "seed": 42,
+    "t0": 1.0
+  },
+  "verification": {
+    "campaigns": {
+      "E36A2_delay_seed42": {
+        "manifest_status": "complete",
+        "validated_run_streams": 9
+      },
+      "E36A_dtcheck_lam1_seed42": {
+        "manifest_status": "complete",
+        "validated_run_streams": 4
+      },
+      "E36A_reference_N2000_P100_K11_seed42": {
+        "manifest_status": "complete",
+        "validated_run_streams": 10
+      },
+      "E36A_regimes_seed42": {
+        "manifest_status": "complete",
+        "validated_run_streams": 22
+      }
+    },
+    "checkpoint_final_state_max_error": 0.0,
+    "checksummed_bytes": 1000537045,
+    "checksummed_files": 937,
+    "data_tree_sha256": "0f34589563d3e0a058340b77773264bdb937aaf3c300d164413d6fa4ff1b54e0",
+    "run_details": [
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 34721,
+        "chunks": 28,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam1_K11",
+        "records": 6946,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": true,
+        "status": "pass",
+        "terminal_interval": 0.009999999999990905
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 12000,
+        "chunks": 10,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam1_K4",
+        "records": 2401,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999999716
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 24305,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam1_K8",
+        "records": 4862,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.05000000000001137
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 22245,
+        "chunks": 18,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam2_K11",
+        "records": 4450,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.05000000000001137
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 12000,
+        "chunks": 10,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam2_K4",
+        "records": 2401,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999999716
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 15570,
+        "chunks": 13,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam2_K8",
+        "records": 3115,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.05000000000001137
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 17285,
+        "chunks": 14,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam4_K11",
+        "records": 3458,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 12000,
+        "chunks": 10,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam4_K4",
+        "records": 2401,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999999716
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 12100,
+        "chunks": 10,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam4_K8",
+        "records": 2421,
+        "schema": "E36A2-observables-v1",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999999716
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_dtcheck_lam1_seed42/runs/lam1_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_dtcheck_lam1_seed42/runs/lam1_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_dtcheck_lam1_seed42/runs/lam1_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_dtcheck_lam1_seed42/runs/lam1_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam1_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam1_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam2_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam2_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam2_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam2_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam4_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam4_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam4_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 20,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_reference_N2000_P100_K11_seed42/runs/lam4_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p125_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p125_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p25_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p25_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p5_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam0p5_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam1_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam1_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam2_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam2_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam2_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam2_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam4_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam4_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam4_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam4_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam8_coherent/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam8_coherent/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 20000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam8_perturbed/coarse",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      },
+      {
+        "checkpoint_final_state_max_error": 0.0,
+        "checkpoint_step": 40000,
+        "chunks": 16,
+        "nominal_dt": 0.05,
+        "path": "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A_regimes_seed42/runs/lam8_perturbed/fine",
+        "records": 4001,
+        "schema": "E36A-observables-v2",
+        "short_terminal_interval": false,
+        "status": "pass",
+        "terminal_interval": 0.04999999999998295
+      }
+    ],
+    "short_terminal_streams": [
+      "/Users/leoflack/Desktop/numerics copie the\u0301orie claude + imple\u0301mentation GPT/results/7_tau_implicite/data/E36A2_delay_seed42/runs/lam1_K11"
+    ],
+    "status": "pass",
+    "validated_chunks": 749,
+    "validated_run_streams": 45
+  }
+}

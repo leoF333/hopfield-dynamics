@@ -1,0 +1,82 @@
+{
+ "summary": {
+  "lam": 0.35,
+  "n_ics": 2,
+  "n_with_fingerprint": 2,
+  "fingerprint_ref_bead": 50,
+  "fingerprint_dist_max": 0.006210999901750308,
+  "fingerprint_metric": "max over phase of ||m_ic(phase) - m_ref(phase)||, phase-aligned",
+  "fingerprint_dist_median": 0.003105499950875154,
+  "fingerprint_dists": {
+   "50": 0.0,
+   "80": 0.006210999901750308
+  },
+  "period_mean_over_ics": 1633.4499999999998,
+  "period_spread_over_ics": 0.10000000000013642,
+  "verdict": "ONE cycle: every starting pattern reaches the same orbit (max fingerprint distance 6.21e-03)"
+ },
+ "rows": [
+  {
+   "n_transitions": 245,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.5,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.5
+   ],
+   "link_median": 16.09999999999991,
+   "T_used": 1633.5,
+   "dwell_sum": 1633.5,
+   "dwell_min": 14.156834203425205,
+   "dwell_max": 20.04167323710817,
+   "dwell_argmax": 91,
+   "dwell_argmin": 27,
+   "peak_min": 0.999999995032736,
+   "peak_mean": 0.9999999998405394,
+   "n_peaks": 100,
+   "anchor_time": 4083.518181818182,
+   "T_refined": 1633.458658008658,
+   "waveform_ok": true,
+   "mu": 50,
+   "lam": 0.35,
+   "wall": 201.88493333297083,
+   "stationary": false
+  },
+  {
+   "n_transitions": 245,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.3999999999999,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.3999999999999
+   ],
+   "link_median": 16.100000000000136,
+   "T_used": 1633.3999999999999,
+   "dwell_sum": 1633.3999999999999,
+   "dwell_min": 14.155681137356169,
+   "dwell_max": 20.041889262842687,
+   "dwell_argmax": 91,
+   "dwell_argmin": 27,
+   "peak_min": 0.9999999950344836,
+   "peak_mean": 0.9999999998405579,
+   "n_peaks": 100,
+   "anchor_time": 3595.2416666666663,
+   "T_refined": 1633.458333333333,
+   "waveform_ok": true,
+   "mu": 80,
+   "lam": 0.35,
+   "wall": 193.20938675000798,
+   "stationary": false
+  }
+ ]
+}

@@ -1,0 +1,2012 @@
+{
+ "N": 2000,
+ "P": 100,
+ "seed": 42,
+ "beta": 20.0,
+ "probes": [
+  0.005,
+  0.01
+ ],
+ "n_late": 22,
+ "late": [
+  4,
+  8,
+  25,
+  28,
+  31,
+  40,
+  44,
+  46,
+  47,
+  48,
+  50,
+  51,
+  55,
+  59,
+  64,
+  71,
+  72,
+  76,
+  78,
+  83,
+  95,
+  99
+ ],
+ "rows": [
+  {
+   "mu": 0,
+   "lam_c": 0.28212966841913845,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002813582977951234,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0061928004727597125,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 1,
+   "lam_c": 0.3038187079670318,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002749166065542604,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005772395645521035,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 2,
+   "lam_c": 0.25688927637943637,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002935473032158551,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006211563936334027,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 3,
+   "lam_c": 0.2975289729572891,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002407139727687117,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00612872419282886,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 4,
+   "lam_c": 0.2468848189309346,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.1687596057947426e-12,
+     "eigmax": -0.14349259460295416,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.820972387559612e-13,
+     "eigmax": -0.12176898913825995,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 5,
+   "lam_c": 0.28732951553662317,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004644610197403415,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00578175609096518,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 6,
+   "lam_c": 0.2515978519242612,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003299879749155995,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0063733368870610325,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 7,
+   "lam_c": 0.2658830604108897,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0006266499658910342,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.1750620540586154e-12,
+     "eigmax": 0.19951280468935928,
+     "identity": true
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 8,
+   "lam_c": 0.24572781356760287,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 5.553772408738265e-16,
+     "eigmax": 0.1909160023889922,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 5.208173974168099e-16,
+     "eigmax": -0.11303383097670472,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.01
+   ]
+  },
+  {
+   "mu": 9,
+   "lam_c": 0.30656283238922605,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003837480254024477,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.008089777670094988,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 10,
+   "lam_c": 0.2684082672292928,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0010694483733686344,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.004985497915615675,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 11,
+   "lam_c": 0.29098234889011954,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0009541747504145669,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.004835171116559934,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 12,
+   "lam_c": 0.268024123003253,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0046101935041843655,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006651403149567097,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 13,
+   "lam_c": 0.28155211087009513,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0033205349588044143,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007037892584753212,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 14,
+   "lam_c": 0.289599241702398,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0019666008839740786,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006838672290038996,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 15,
+   "lam_c": 0.2671212031135811,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0038362560676635333,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006864428801974231,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 16,
+   "lam_c": 0.2656163383032887,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003918396925090534,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007836595726656173,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 17,
+   "lam_c": 0.295423206627474,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0026247424182384085,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006204697996952884,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 18,
+   "lam_c": 0.25553103906280017,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0027879715881052015,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00634070620788684,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 19,
+   "lam_c": 0.2711022622253242,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0028103602028005273,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006201679420770557,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 20,
+   "lam_c": 0.2618167107093116,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0025450047036485756,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005487748670197217,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 21,
+   "lam_c": 0.2610677362684675,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.00012856261071362727,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.003789814275749067,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 22,
+   "lam_c": 0.3064895491498283,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0025976536109783154,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007356886857319721,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 23,
+   "lam_c": 0.26640156793904707,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0031962115500454736,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006656801536752916,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 24,
+   "lam_c": 0.277491296356117,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0031362102112154305,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007338788597867549,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 25,
+   "lam_c": 0.2803048912537085,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.3182552820709565e-11,
+     "eigmax": -0.033926058479038845,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.001999939746550695,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 26,
+   "lam_c": 0.2828787802608423,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004536442360040084,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005666401886915821,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 27,
+   "lam_c": 0.3035873463658746,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0024226216768491048,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00704148493238602,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 28,
+   "lam_c": 0.21945774214786434,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 5.291803960191429e-12,
+     "eigmax": -0.31575129798909085,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.5187046329735467e-15,
+     "eigmax": -0.06675163655176786,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 29,
+   "lam_c": 0.2813877653537141,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 6.66373761556386e-14,
+     "eigmax": 0.2502104861931711,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00032208474165887753,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 30,
+   "lam_c": 0.26680152775618826,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004238208939153577,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00845961985973528,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 31,
+   "lam_c": 0.22537797505348725,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.3445987858365746e-11,
+     "eigmax": -0.5064190171941203,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 6.511894891287264e-12,
+     "eigmax": -0.42135309975307866,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 32,
+   "lam_c": 0.2890079833898559,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0024418819766681417,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006207639728724713,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 33,
+   "lam_c": 0.27129912155159547,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004326581925308879,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0069130478916669385,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 34,
+   "lam_c": 0.2691859975915836,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004935511765961696,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.008650456891272012,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 35,
+   "lam_c": 0.2775520906217227,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 8.411864094941647e-14,
+     "eigmax": 0.2520865877375347,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00011964415410993465,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 36,
+   "lam_c": 0.28502078514837204,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 2.9360691479732464e-11,
+     "eigmax": 0.2165769334988732,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.003506323617160925,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 37,
+   "lam_c": 0.29717421429250857,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003630684348302368,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006868129525448259,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 38,
+   "lam_c": 0.2746234532771731,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0029690230497316015,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0056047109458521125,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 39,
+   "lam_c": 0.2838753342009861,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.005199264752566664,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0065474111065969105,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 40,
+   "lam_c": 0.262647702788239,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.3006736501916857e-16,
+     "eigmax": -0.21293676989793564,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0002916058063559193,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 41,
+   "lam_c": 0.2835976269888968,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002279630036930382,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0072514752106767845,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 42,
+   "lam_c": 0.26159953155365634,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0011932223693039065,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0039967089975594325,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 43,
+   "lam_c": 0.31344658520142404,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003564497516739318,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007118537518183738,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 44,
+   "lam_c": 0.28118926854736714,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.7729030405620897e-13,
+     "eigmax": 0.4407124688880202,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 4.741685308258101e-16,
+     "eigmax": -0.1167176522099238,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.01
+   ]
+  },
+  {
+   "mu": 45,
+   "lam_c": 0.26342638260923873,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.7436013490234795e-16,
+     "eigmax": 0.07959267415462001,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0020494265829856546,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 46,
+   "lam_c": 0.25683086003245886,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.583438295741247e-16,
+     "eigmax": -0.31541352404728606,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 6.493350606468798e-16,
+     "eigmax": -0.11922696787014586,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 47,
+   "lam_c": 0.254869908640627,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.752625633048743e-14,
+     "eigmax": -0.06539022950852325,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0031512790432024905,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 48,
+   "lam_c": 0.2657386526556305,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 3.8764747339432825e-11,
+     "eigmax": -0.06747831309013352,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.002298517576723048,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 49,
+   "lam_c": 0.29767907712870634,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 8.876463376555804e-05,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.003139671383390192,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 50,
+   "lam_c": 0.24313992708029564,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.7392116416550052e-14,
+     "eigmax": 0.1272679678434243,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 9.043703204087858e-14,
+     "eigmax": -0.204820729389376,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.01
+   ]
+  },
+  {
+   "mu": 51,
+   "lam_c": 0.26272512114005475,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.8833056250407806e-11,
+     "eigmax": -0.26092379653612896,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.5752773832129492e-13,
+     "eigmax": -0.16766894116962816,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 52,
+   "lam_c": 0.29382789212741367,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004076660465556233,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006163048308297788,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 53,
+   "lam_c": 0.29870431319684193,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003802450820308507,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006926052765114588,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 54,
+   "lam_c": 0.28416403011657354,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.005096059796117097,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.009668705480325753,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 55,
+   "lam_c": 0.2635603005578786,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 3.835077760753477e-16,
+     "eigmax": 0.18694445043677077,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 6.820865908006819e-15,
+     "eigmax": -0.21873797608566736,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.01
+   ]
+  },
+  {
+   "mu": 56,
+   "lam_c": 0.3038873396544286,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0028546320152197566,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0070331584225080375,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 57,
+   "lam_c": 0.27467914972223784,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.003882229962986514,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006945714208441222,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 58,
+   "lam_c": 0.2785492906595531,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0003673660050810678,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.004382907166334712,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 59,
+   "lam_c": 0.23893684457677478,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.0761552611838634e-12,
+     "eigmax": 0.11623065427536705,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 3.530229569698899e-11,
+     "eigmax": -0.1536450000118581,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.01
+   ]
+  },
+  {
+   "mu": 60,
+   "lam_c": 0.2893449084392765,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0015658816255544822,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.003661448167606364,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 61,
+   "lam_c": 0.2889671749214705,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0031453802319935664,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006810632282188441,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 62,
+   "lam_c": 0.2555139388275173,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 2.0292792369926794e-12,
+     "eigmax": 0.2791527688403699,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00200971598955188,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 63,
+   "lam_c": 0.28753934808364323,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004102859886047715,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0067166475725594,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 64,
+   "lam_c": 0.24017741143730015,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.6418246163130154e-14,
+     "eigmax": -0.1862266651069976,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.608585327637978e-12,
+     "eigmax": -0.25921025330449043,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 65,
+   "lam_c": 0.2684837876202585,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.002949138830533809,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00707624549238127,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 66,
+   "lam_c": 0.24377102715347754,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 3.857750479254722e-16,
+     "eigmax": 0.21707761555871752,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 3.7905392023515796e-16,
+     "eigmax": 0.2178395008761489,
+     "identity": true
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 67,
+   "lam_c": 0.27021880860647607,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 3.411952160538111e-16,
+     "eigmax": 0.21242228016424125,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00028743068478034216,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 68,
+   "lam_c": 0.2240526484611447,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0011546104549999589,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00778698005568434,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 69,
+   "lam_c": 0.28945529890430916,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004020448767696902,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005293268487613914,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 70,
+   "lam_c": 0.2844771147908356,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 3.3817837503942688e-16,
+     "eigmax": 0.10354448700407559,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006475744827651503,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 71,
+   "lam_c": 0.26326714254136163,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 8.121814088493996e-15,
+     "eigmax": -0.3262608616685817,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 1.4474785775142783e-11,
+     "eigmax": -0.18957439951407484,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 72,
+   "lam_c": 0.24301788798290733,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.705628180350105e-16,
+     "eigmax": -0.1845912835573944,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 4.629574526987368e-12,
+     "eigmax": -0.25700342110548935,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 73,
+   "lam_c": 0.2502752875829485,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0033300852913983325,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0066674549640028434,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 74,
+   "lam_c": 0.278535236349723,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004038560184315917,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0064430880153060225,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 75,
+   "lam_c": 0.27837705597758167,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004087184496522668,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00550243857159779,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 76,
+   "lam_c": 0.2954521522049761,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.121109912715992e-15,
+     "eigmax": -0.20330572117878687,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0026711442614194216,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 77,
+   "lam_c": 0.23427917468474863,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.000405673973505304,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.003788814884160251,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 78,
+   "lam_c": 0.2900650894487345,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 5.190452757048033e-14,
+     "eigmax": -0.14545725302760604,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.002456500529533279,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 79,
+   "lam_c": 0.26348055389178093,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 4.36057030318446e-16,
+     "eigmax": 0.17075968633663607,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0010837390492257457,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 80,
+   "lam_c": 0.2686611622874149,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0027925589578955447,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005131325335001289,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 81,
+   "lam_c": 0.2799774181110265,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.004459091827533407,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006164077513981665,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 82,
+   "lam_c": 0.28282022801836465,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0038639021874985664,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005097250671874397,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 83,
+   "lam_c": 0.2919481962764374,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.829267602237017e-12,
+     "eigmax": -0.23511587128703537,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 8.269833441625742e-05,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  },
+  {
+   "mu": 84,
+   "lam_c": 0.26933665640190385,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0003571826364702762,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 2.7034893168030424e-16,
+     "eigmax": 0.10949535533135402,
+     "identity": true
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 85,
+   "lam_c": 0.27363657621377524,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.001667737878199991,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00430627779715886,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 86,
+   "lam_c": 0.23584408919312544,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 7.263844398771186e-06,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 9.70848222029419e-14,
+     "eigmax": 0.2066543546762285,
+     "identity": true
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 87,
+   "lam_c": 0.29865932895052055,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0037641126252127206,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007453972924131477,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 88,
+   "lam_c": 0.2659688262528596,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.00398343166052101,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006718994770387056,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 89,
+   "lam_c": 0.3019950864453982,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0023589452234663902,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005147579041735565,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 90,
+   "lam_c": 0.2446517230024861,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 6.575516770075116e-14,
+     "eigmax": 0.20400673902073452,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 2.3204541743420016e-16,
+     "eigmax": 0.17487722385106785,
+     "identity": true
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 91,
+   "lam_c": 0.32762941024503667,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0036655433232962477,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.008255915971618094,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 92,
+   "lam_c": 0.26478571350493296,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.005284418467785657,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.004593657616810607,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 93,
+   "lam_c": 0.29853561843477394,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.005995198058962875,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.007094561418603651,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 94,
+   "lam_c": 0.2789205185470914,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0035650914239252272,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006796804314755548,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 95,
+   "lam_c": 0.22943892197286553,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.0461249469679252e-14,
+     "eigmax": -0.26517080826244643,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": true,
+     "res": 4.721100825190437e-16,
+     "eigmax": -0.04588278498959619,
+     "identity": true
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005,
+    0.01
+   ]
+  },
+  {
+   "mu": 96,
+   "lam_c": 0.305601963521886,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0036953767939414722,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.006210778688224022,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 97,
+   "lam_c": 0.25512051370252337,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.0048823471755001955,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.005370858431138063,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 98,
+   "lam_c": 0.28802270180274936,
+   "probes": {
+    "+0.005": {
+     "ok": false,
+     "res": 0.005238411217335553,
+     "eigmax": null,
+     "identity": false
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.00815548351619119,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "ok"
+  },
+  {
+   "mu": 99,
+   "lam_c": 0.27140074838331874,
+   "probes": {
+    "+0.005": {
+     "ok": true,
+     "res": 1.7982678135399628e-15,
+     "eigmax": -0.27677765052202163,
+     "identity": true
+    },
+    "+0.01": {
+     "ok": false,
+     "res": 0.0007756825281329324,
+     "eigmax": null,
+     "identity": false
+    }
+   },
+   "verdict": "late_fold",
+   "stable_above": [
+    0.005
+   ]
+  }
+ ]
+}

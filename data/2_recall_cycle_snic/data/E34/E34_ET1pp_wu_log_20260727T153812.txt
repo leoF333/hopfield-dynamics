@@ -1,0 +1,5 @@
+2026-07-27T22:38:12.199601+00:00 E34 ET1'' (W^u of the fold partner) N=2000 P=100 seed=42 beta=20.0 tau=10.0
+2026-07-27T22:38:12.199766+00:00 links=[1] deltas=[0.02]  lam_c=1:0.303819
+2026-07-27T22:38:32.282036+00:00 [mu=1 d=0.02] saddle res=6.3e-15 n_unst=-1 z_u=nan d_G(node)=0.1103 fold=0.303848 (19.9s)
+2026-07-27T22:38:32.282363+00:00 DONE 1 cells in 20.1s; necklace_brick_positive=0/1
+2026-07-27T22:38:32.286092+00:00 npz=/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET1pp_wu_results_20260727T153812.npz

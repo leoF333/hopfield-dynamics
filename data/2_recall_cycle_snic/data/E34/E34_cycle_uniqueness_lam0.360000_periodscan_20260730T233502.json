@@ -1,0 +1,41 @@
+{
+ "summary": {
+  "lam": 0.36,
+  "n_ics": 1,
+  "n_with_fingerprint": 1
+ },
+ "rows": [
+  {
+   "n_transitions": 313,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1562.3999999999999,
+   "period_std": 2.2737367544323206e-13,
+   "period_cv": 1.455284661054993e-16,
+   "periods": [
+    1562.4,
+    1562.3999999999996
+   ],
+   "link_median": 15.5,
+   "T_used": 1562.3999999999999,
+   "dwell_sum": 1562.3999999999999,
+   "dwell_min": 13.201856215020598,
+   "dwell_max": 18.589642969487613,
+   "dwell_argmax": 39,
+   "dwell_argmin": 27,
+   "peak_min": 0.9999999959925571,
+   "peak_mean": 0.9999999998924071,
+   "n_peaks": 100,
+   "anchor_time": 6245.596153846154,
+   "T_refined": 1562.4274038461544,
+   "waveform_ok": true,
+   "mu": 0,
+   "lam": 0.36,
+   "wall": 340.5629150830209,
+   "stationary": false
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "summary": {
+  "lam": 0.35,
+  "n_ics": 3,
+  "n_with_fingerprint": 3,
+  "fingerprint_ref_bead": 0,
+  "fingerprint_dist_max": 2.1510201147561174,
+  "fingerprint_dist_median": 1.9763309508857498,
+  "fingerprint_dists": {
+   "0": 0.0,
+   "50": 2.1510201147561174,
+   "77": 1.9763309508857498
+  },
+  "period_mean_over_ics": 1633.1666666666667,
+  "period_spread_over_ics": 0.5,
+  "verdict": "SEVERAL attractors: fingerprints differ (max 2.15e+00, median 1.98e+00)"
+ },
+ "rows": [
+  {
+   "n_transitions": 244,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 3,
+   "period_mean": 1633.5,
+   "period_std": 0.5,
+   "period_cv": 0.00030609121518212427,
+   "periods": [
+    1633.0,
+    1634.0
+   ],
+   "link_median": 16.0,
+   "T_used": 1633.5,
+   "dwell_sum": 1633.5,
+   "dwell_min": 14.258556581250105,
+   "dwell_max": 20.132357070457147,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.999999994494312,
+   "peak_mean": 0.9999999998329732,
+   "n_peaks": 100,
+   "mu": 0,
+   "lam": 0.35,
+   "wall": 88.6984521249542,
+   "stationary": false
+  },
+  {
+   "n_transitions": 245,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.0
+   ],
+   "link_median": 16.0,
+   "T_used": 1633.0,
+   "dwell_sum": 1633.0,
+   "dwell_min": 14.266449997218842,
+   "dwell_max": 20.25003373470099,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999949811531,
+   "peak_mean": 0.9999999998361503,
+   "n_peaks": 100,
+   "mu": 50,
+   "lam": 0.35,
+   "wall": 88.06595887499861,
+   "stationary": false
+  },
+  {
+   "n_transitions": 245,
+   "ring_steps": [
+    1
+   ],
+   "n_beads_visited": 100,
+   "n_section_hits": 2,
+   "period_mean": 1633.0,
+   "period_std": 0.0,
+   "period_cv": 0.0,
+   "periods": [
+    1633.0
+   ],
+   "link_median": 16.0,
+   "T_used": 1633.0,
+   "dwell_sum": 1633.0,
+   "dwell_min": 14.255846545536315,
+   "dwell_max": 20.052647266209533,
+   "dwell_argmax": 91,
+   "dwell_argmin": 6,
+   "peak_min": 0.9999999948815143,
+   "peak_mean": 0.9999999998307486,
+   "n_peaks": 100,
+   "mu": 77,
+   "lam": 0.35,
+   "wall": 88.28459674998885,
+   "stationary": false
+  }
+ ]
+}

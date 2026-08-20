@@ -1,0 +1,113 @@
+{
+  "run_id": "20260724T124628_553306",
+  "mode": "smoke",
+  "gate": "GO",
+  "verdicts": {
+    "14": "positive"
+  },
+  "elapsed_seconds": 67.03241079200234,
+  "npz": "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_results_20260724T124628_553306.npz",
+  "log": "/Users/leoflack/Desktop/numerics copie/results/2_cycle_rappel_snic/data/E34/E34_ET0_log_20260724T124628_553306.txt",
+  "anomalies": {},
+  "records": [
+    {
+      "mu": 14,
+      "lam_local": 0.23652525471417365,
+      "lam_c_table": 0.25652525471417364,
+      "status": "done",
+      "node_residual": 9.30337637053206e-13,
+      "node_eigmax": -0.32641692203787953,
+      "alive_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "far_source": "node_15",
+      "basinB_label": "15",
+      "basinB_dist": 0.0,
+      "basin_separation": 1.0655401781030795,
+      "basinB_stationary": true,
+      "basin_admissible": true,
+      "edge_results": {
+        "S1_dt0.01": {
+          "ok": true,
+          "s_star": 0.14641041681170464,
+          "reason": "converged",
+          "dwell_speed": 0.0005753764741038411
+        },
+        "S2_dt0.01": {
+          "ok": true,
+          "s_star": 0.10457887127995491,
+          "reason": "converged",
+          "dwell_speed": 0.00043079950846238666
+        }
+      },
+      "saddle_residual": 1.2851974254273086e-14,
+      "saddle_identity": true,
+      "n_unstable_saddle": 1,
+      "contour_stable": true,
+      "saddle_eigmax": 0.554539970565604,
+      "z_u": 0.5232208149383784,
+      "z_u_imag": 7.842079233438912e-12,
+      "root_residual": 1.775476225254149e-11,
+      "real_root": 0.5232208149125526,
+      "z_u_crosscheck_ok": true,
+      "localize_ok": true,
+      "mode_residual": 1.6988747521416648e-11,
+      "index_one_certified": true,
+      "n_unstable_node": 0,
+      "arclength_saddle_ok": true,
+      "edge_vs_arclength_dG": 3.557706854004328e-13,
+      "dt_refine_ok": true,
+      "segment_agree_ok": true,
+      "boundary_agree_dG": 8.753198071201031e-14,
+      "edge_converged": true,
+      "fold_cont": 0.25656232742558466,
+      "fold_mismatch": 3.707271141101254e-05,
+      "fold_tol": 0.002,
+      "turns_up": 1,
+      "rejoins_fold": true,
+      "turns_down": 0,
+      "identity_down_ok": true,
+      "reached_down": true,
+      "lam_down_min": 0.21652525471417366,
+      "continuation_identity_ok": true,
+      "linear_gate_relerr": 0.0019305770430338698,
+      "wu_minus": {
+        "omega": 14,
+        "robust": true,
+        "settings": {
+          "eps0.001_dt0.01": 14
+        }
+      },
+      "wu_plus": {
+        "omega": 15,
+        "robust": true,
+        "settings": {
+          "eps0.001_dt0.01": 15
+        }
+      },
+      "wu_robust": true,
+      "wu_landed_on_nodes": true,
+      "linear_gate_ok": true,
+      "verdict": "positive",
+      "wall_seconds": 67.03238491699449
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+
+# --- repository path bootstrap (added when this tree was packaged for release) ---
+import sys as _sys, pathlib as _pl
+_R = _pl.Path(__file__).resolve().parent
+for _p in (_R, _R.parent / "core", _R.parent / "experiments"):
+    if _p.is_dir() and str(_p) not in _sys.path:
+        _sys.path.insert(0, str(_p))
+# --------------------------------------------------------------------------------
+
+import mlx.core as mx
+
+n_lambda = 40
+n_seeds = 10
+B = n_lambda * n_seeds
+N = 3000
+alpha = 0.3
+p = int(alpha * N)
+
+print("Creating arrays...")
+patterns = mx.ones((n_seeds, p, N))
+patterns_b = mx.repeat(patterns, n_lambda, axis=0)
+sigma = mx.ones((B, N, 1))
+
+print(f"patterns_b shape: {patterns_b.shape}")
+print(f"sigma shape: {sigma.shape}")
+
+print("Matmul...")
+out = mx.matmul(patterns_b, sigma)
+mx.eval(out)
+print(out.shape)
+print("Success!")
