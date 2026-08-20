@@ -1,0 +1,139 @@
+{
+  "chunks": [
+    {
+      "file": "chunks/chunk_00000.npz",
+      "n_records": 256,
+      "t_end": 12.75,
+      "t_start": 0.0
+    },
+    {
+      "file": "chunks/chunk_00001.npz",
+      "n_records": 256,
+      "t_end": 25.55,
+      "t_start": 12.8
+    },
+    {
+      "file": "chunks/chunk_00002.npz",
+      "n_records": 256,
+      "t_end": 38.35,
+      "t_start": 25.6
+    },
+    {
+      "file": "chunks/chunk_00003.npz",
+      "n_records": 233,
+      "t_end": 50.0,
+      "t_start": 38.4
+    },
+    {
+      "file": "chunks/chunk_00004.npz",
+      "n_records": 256,
+      "t_end": 62.800000000000004,
+      "t_start": 50.050000000000004
+    },
+    {
+      "file": "chunks/chunk_00005.npz",
+      "n_records": 256,
+      "t_end": 75.60000000000001,
+      "t_start": 62.85
+    },
+    {
+      "file": "chunks/chunk_00006.npz",
+      "n_records": 256,
+      "t_end": 88.4,
+      "t_start": 75.65
+    },
+    {
+      "file": "chunks/chunk_00007.npz",
+      "n_records": 232,
+      "t_end": 100.0,
+      "t_start": 88.45
+    },
+    {
+      "file": "chunks/chunk_00008.npz",
+      "n_records": 256,
+      "t_end": 112.8,
+      "t_start": 100.05
+    },
+    {
+      "file": "chunks/chunk_00009.npz",
+      "n_records": 256,
+      "t_end": 125.60000000000001,
+      "t_start": 112.85000000000001
+    },
+    {
+      "file": "chunks/chunk_00010.npz",
+      "n_records": 256,
+      "t_end": 138.4,
+      "t_start": 125.65
+    },
+    {
+      "file": "chunks/chunk_00011.npz",
+      "n_records": 232,
+      "t_end": 150.0,
+      "t_start": 138.45000000000002
+    },
+    {
+      "file": "chunks/chunk_00012.npz",
+      "n_records": 256,
+      "t_end": 162.8,
+      "t_start": 150.05
+    },
+    {
+      "file": "chunks/chunk_00013.npz",
+      "n_records": 256,
+      "t_end": 175.6,
+      "t_start": 162.85
+    },
+    {
+      "file": "chunks/chunk_00014.npz",
+      "n_records": 256,
+      "t_end": 188.4,
+      "t_start": 175.65
+    },
+    {
+      "file": "chunks/chunk_00015.npz",
+      "n_records": 232,
+      "t_end": 200.0,
+      "t_start": 188.45000000000002
+    },
+    {
+      "file": "chunks/chunk_00016.npz",
+      "n_records": 256,
+      "t_end": 212.8,
+      "t_start": 200.05
+    },
+    {
+      "file": "chunks/chunk_00017.npz",
+      "n_records": 64,
+      "t_end": 216.0,
+      "t_start": 212.85
+    }
+  ],
+  "completed_utc": "2026-07-24T17:32:12.205129+00:00",
+  "config": {
+    "K": 11,
+    "N": 500,
+    "P": 25,
+    "T1_hint": 6.75,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "lambda": 2.0,
+    "parameter_index": 8,
+    "parameter_total": 12,
+    "record_every": 5,
+    "run_id": "lam2_K11",
+    "seed": 45,
+    "t0": 1.0,
+    "t_final": 216.0,
+    "transient_fraction": 0.25
+  },
+  "created_utc": "2026-07-24T17:32:07.236759+00:00",
+  "last_time": 216.0,
+  "schema": "E36A2-observables-v1",
+  "status": "complete",
+  "updated_utc": "2026-07-24T17:32:12.204804+00:00"
+}

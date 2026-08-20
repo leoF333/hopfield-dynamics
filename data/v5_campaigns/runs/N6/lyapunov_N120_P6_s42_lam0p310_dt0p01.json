@@ -1,0 +1,37 @@
+{
+  "config": {
+    "N": 120,
+    "P": 6,
+    "accumulation": 10.0,
+    "beta": 20.0,
+    "dt": 0.01,
+    "k": 2,
+    "lam": 0.31,
+    "qr_time": 0.4,
+    "record_dt": 0.1,
+    "seed": 42,
+    "t0": 1.0,
+    "tangent_seed": 12345,
+    "tau": 10.0,
+    "transient": 10.0
+  },
+  "environment": {
+    "backend": "cpu",
+    "created_utc": "2026-07-28T00:55:39.023440+00:00",
+    "git_commit": "not-a-git-worktree",
+    "machine": "arm64",
+    "numpy": "2.4.3",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 17:06:14) [Clang 19.1.7 ]",
+    "reference_root": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT",
+    "scipy": "1.17.1",
+    "workplan_sha256": "b4eb7bd629fd68d6a2fe73cbf9ef39cb8cd15c2b1a44713aa53496f5cecade13"
+  },
+  "lyapunov": [
+    -0.17591173926774278,
+    -0.15594371891764428
+  ],
+  "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N120_P6_s42_lam0p310_dt0p01.npz",
+  "positive_raw": 0,
+  "wall_seconds": 0.24302483300562017
+}

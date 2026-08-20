@@ -1,0 +1,122 @@
+{
+  "started": "2026-07-30T05:14:01-05:00",
+  "status": "completed",
+  "seed46": {
+    "pid": 18271,
+    "started": "2026-07-30T06:08:32-05:00",
+    "command": [
+      "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+      "--mode",
+      "memory",
+      "--seeds",
+      "46"
+    ],
+    "ended": "2026-07-30T08:31:51-05:00",
+    "returncode": 0
+  },
+  "pinned": {
+    "chunk1": {
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "pid": 20190,
+      "started": "2026-07-30T08:31:51-05:00",
+      "command": [
+        "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+        "--mode",
+        "pinned",
+        "--pinned-seeds",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "ended": "2026-07-30T17:14:18-05:00",
+      "returncode": 0
+    },
+    "chunk2": {
+      "seeds": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "pid": 20191,
+      "started": "2026-07-30T08:31:51-05:00",
+      "command": [
+        "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+        "--mode",
+        "pinned",
+        "--pinned-seeds",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "ended": "2026-07-30T17:15:41-05:00",
+      "returncode": 0
+    },
+    "chunk3": {
+      "seeds": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "pid": 20192,
+      "started": "2026-07-30T08:31:51-05:00",
+      "command": [
+        "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+        "--mode",
+        "pinned",
+        "--pinned-seeds",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "ended": "2026-07-30T17:15:41-05:00",
+      "returncode": 0
+    },
+    "chunk4": {
+      "seeds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "pid": 20193,
+      "started": "2026-07-30T08:31:51-05:00",
+      "command": [
+        "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+        "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+        "--mode",
+        "pinned",
+        "--pinned-seeds",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "ended": "2026-07-30T17:15:47-05:00",
+      "returncode": 0
+    }
+  },
+  "note": "Seeds 42--45 run in external execution sessions; their production checkpoint files are the authoritative completion signal.",
+  "ended": "2026-07-30T17:15:47-05:00"
+}

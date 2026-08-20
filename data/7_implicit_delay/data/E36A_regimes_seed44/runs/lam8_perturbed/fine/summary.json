@@ -1,0 +1,58 @@
+{
+  "completed_utc": "2026-07-24T17:28:59.856367+00:00",
+  "config": {
+    "K": 6,
+    "N": 500,
+    "P": 25,
+    "beta": 20.0,
+    "checkpoint_every_steps": 10000,
+    "chunk_size": 256,
+    "dt": 0.005,
+    "heartbeat_every_steps": 200,
+    "heartbeat_min_wall_seconds": 300.0,
+    "initial_condition": "perturbed",
+    "lambda": 8.0,
+    "parameter_index": 16,
+    "parameter_total": 16,
+    "record_every": 10,
+    "run_id": "lam8_perturbed_fine",
+    "seed": 44,
+    "t0": 1.0,
+    "t_final": 200.0,
+    "transient_fraction": 0.25
+  },
+  "metrics": {
+    "T1_cv": 0.010918962788759182,
+    "T1_median": 4.75,
+    "analysis_t_end": 200.0,
+    "analysis_t_start": 50.0,
+    "go_A1_ordered_wave": true,
+    "interlayer_lag_median": 0.8000000000000007,
+    "layer_disagreement_fraction": 0.4257469732311452,
+    "max_abs_by_layer": [
+      2.075193813473892,
+      9.829832674222521,
+      9.855876656036111,
+      9.878944949648343,
+      9.9033761777922,
+      9.940241481402985
+    ],
+    "mean_distinct_patterns_across_layers": 1.8540486504498501,
+    "mean_saturation_by_layer": [
+      0.862392535821395,
+      0.9866724425191622,
+      0.9867284238587153,
+      0.9867024325224937,
+      0.986797734088638,
+      0.9870923025658142
+    ],
+    "n_interlayer_lags": 158,
+    "n_records": 3001,
+    "n_transitions_last_layer": 31,
+    "order_fraction": 1.0,
+    "overlap_drift": 1.475218847342795,
+    "raw_physical_lead_disagreement_fraction": 0.0038320559813395535,
+    "regime": "ordered_wave"
+  },
+  "schema": "E36A-run-summary-v1"
+}

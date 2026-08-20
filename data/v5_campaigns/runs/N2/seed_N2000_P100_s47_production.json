@@ -1,0 +1,616 @@
+{
+  "N": 2000,
+  "P": 100,
+  "arclength_file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/arclength_N2000_P100_s47_mu79_production.npz",
+  "arclength_fold_lambda": 0.3159808305196268,
+  "arclength_start_lambda": 0.31101604980468744,
+  "arclength_start_offset": 0.005,
+  "arclength_turned": true,
+  "dynamic_fits": [
+    {
+      "aicc": 30.023575303775374,
+      "delta_aicc": 0.0,
+      "model": "free_power",
+      "parameter_se": [
+        2.662714621427675,
+        0.1417249445362535,
+        0.006991737543335131
+      ],
+      "parameters": [
+        8.06804281903176,
+        1.7354353963724078,
+        0.5197591347593272
+      ],
+      "residuals": [
+        -1.9940922463365496,
+        2.3792425666410395,
+        2.5568750977302557,
+        0.849087748773286,
+        -1.3731528152353576,
+        -4.106082147465088,
+        -4.0231425841802775,
+        -0.8436121952887277,
+        3.130494911033722,
+        3.42438183504348
+      ]
+    },
+    {
+      "aicc": 33.56297972957576,
+      "delta_aicc": 3.5394044258003845,
+      "model": "half_power",
+      "parameter_se": [
+        2.0190256676186538,
+        0.014694029266168881
+      ],
+      "parameters": [
+        1.4856562117713092,
+        2.1854881283135623
+      ],
+      "residuals": [
+        2.4523153153106705,
+        0.8243418954378967,
+        -1.4603513584142434,
+        -2.934469043127393,
+        -4.1230037850932035,
+        -5.073656590329392,
+        -3.646859059063317,
+        0.7453435989495176,
+        6.056874273564652,
+        7.159462505093067
+      ]
+    },
+    {
+      "aicc": 96.13077344072552,
+      "delta_aicc": 66.10719813695015,
+      "model": "logarithmic",
+      "parameter_se": [
+        122.71589580804111,
+        14.683526398050496
+      ],
+      "parameters": [
+        -479.8409454306403,
+        86.1604199910137
+      ],
+      "residuals": [
+        182.9324520435689,
+        38.60430423620062,
+        -64.34770147164863,
+        -96.62584927901673,
+        -102.10399708638545,
+        -80.90600279423438,
+        -48.384150601602755,
+        -4.512298408970764,
+        61.7856958831801,
+        113.55754807581172
+      ]
+    }
+  ],
+  "dynamic_rows": [
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 2.2105749714826542e-05,
+      "critical_median": 695.0500000000002,
+      "critical_passages": [
+        695.05,
+        695.0500000000002,
+        695.0500000000002
+      ],
+      "critical_std": 1.3127425272378462e-13,
+      "delta": 1e-05,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d1e-05_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3159908536943678,
+      "minimum_speed": 3.3901010775227904e-06
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 2.210574971504731e-05,
+      "critical_median": 695.0500000000002,
+      "critical_passages": [
+        695.05,
+        695.0500000000002,
+        695.0500000000002
+      ],
+      "critical_std": 1.3127425272378462e-13,
+      "delta": 1e-05,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d1e-05_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3159908536943678,
+      "minimum_speed": 3.3901010770557233e-06
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 4.420447126983428e-05,
+      "critical_median": 491.0,
+      "critical_passages": [
+        490.9499999999998,
+        491.0,
+        491.0
+      ],
+      "critical_std": 0.02357022603963733,
+      "delta": 2e-05,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d2e-05_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160008536943678,
+      "minimum_speed": 6.77843445174731e-06
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 4.420447126965419e-05,
+      "critical_median": 491.0,
+      "critical_passages": [
+        490.9499999999998,
+        491.0,
+        491.0
+      ],
+      "critical_std": 0.02357022603963733,
+      "delta": 2e-05,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d2e-05_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160008536943678,
+      "minimum_speed": 6.778434452224684e-06
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.0001105336815632209,
+      "critical_median": 309.10000000000014,
+      "critical_passages": [
+        309.10000000000014,
+        309.0499999999997,
+        309.10000000000036
+      ],
+      "critical_std": 0.02357022603979811,
+      "delta": 5e-05,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d5e-05_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160308536943678,
+      "minimum_speed": 1.697023358227371e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.00011053368156220342,
+      "critical_median": 309.10000000000014,
+      "critical_passages": [
+        309.10000000000014,
+        309.0499999999997,
+        309.10000000000036
+      ],
+      "critical_std": 0.02357022603979811,
+      "delta": 5e-05,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d5e-05_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160308536943678,
+      "minimum_speed": 1.69702335818312e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.00022682825756290917,
+      "critical_median": 217.10000000000014,
+      "critical_passages": [
+        217.10000000000014,
+        217.0999999999999,
+        217.10000000000036
+      ],
+      "critical_std": 1.8564982859236944e-13,
+      "delta": 0.0001,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0001_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160808536943678,
+      "minimum_speed": 3.489014051667438e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.00022682825754225054,
+      "critical_median": 217.10000000000014,
+      "critical_passages": [
+        217.10000000000014,
+        217.0999999999999,
+        217.10000000000036
+      ],
+      "critical_std": 1.8564982859236944e-13,
+      "delta": 0.0001,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0001_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3160808536943678,
+      "minimum_speed": 3.489014051190953e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.0006621806450020415,
+      "critical_median": 151.89999999999964,
+      "critical_passages": [
+        151.8499999999999,
+        151.9000000000001,
+        151.89999999999964
+      ],
+      "critical_std": 0.023570226039530146,
+      "delta": 0.0002,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0002_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.31618085369436777,
+      "minimum_speed": 7.572350129001893e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.0006621806443620437,
+      "critical_median": 151.89999999999964,
+      "critical_passages": [
+        151.8499999999999,
+        151.9000000000001,
+        151.89999999999964
+      ],
+      "critical_std": 0.023570226039530146,
+      "delta": 0.0002,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0002_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.31618085369436777,
+      "minimum_speed": 7.57235012761686e-05
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.002813090159001226,
+      "critical_median": 94.15000000000009,
+      "critical_passages": [
+        94.15000000000009,
+        94.15000000000009,
+        94.14999999999964
+      ],
+      "critical_std": 2.1442228705375092e-13,
+      "delta": 0.0005,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0005_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3164808536943678,
+      "minimum_speed": 0.00027164437070917265
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.002813090158509736,
+      "critical_median": 94.15000000000009,
+      "critical_passages": [
+        94.15000000000009,
+        94.15000000000009,
+        94.14999999999964
+      ],
+      "critical_std": 2.1442228705375092e-13,
+      "delta": 0.0005,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0005_dt0p005_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3164808536943678,
+      "minimum_speed": 0.0002716443706458183
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.005917002416697317,
+      "critical_median": 66.94999999999982,
+      "critical_passages": [
+        66.95000000000005,
+        66.94999999999982,
+        66.94999999999982
+      ],
+      "critical_std": 1.0728960028346179e-13,
+      "delta": 0.001,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p001_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3169808536943678,
+      "minimum_speed": 0.0006235036220166825
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.010443115844516236,
+      "critical_median": 51.09999999999991,
+      "critical_passages": [
+        51.09999999999991,
+        51.09999999999991,
+        51.099999999999454
+      ],
+      "critical_std": 2.1438304073017634e-13,
+      "delta": 0.002,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p002_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3179808536943678,
+      "minimum_speed": 0.0009285913388102363
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.016177465181215482,
+      "critical_median": 38.45000000000027,
+      "critical_passages": [
+        38.450000000000045,
+        38.45000000000027,
+        38.45000000000073
+      ],
+      "critical_std": 2.8359468790704207e-13,
+      "delta": 0.005,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p005_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3209808536943678,
+      "minimum_speed": 0.00214721835925606
+    },
+    {
+      "censored": false,
+      "closest_bond": 79,
+      "closest_fold_distance": 0.019616803727505495,
+      "critical_median": 30.5,
+      "critical_passages": [
+        30.5,
+        30.5,
+        30.5
+      ],
+      "critical_std": 0.0,
+      "delta": 0.01,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p01_dt0p01_production.npz",
+      "label": "ordered_cycle",
+      "lambda": 0.3259808536943678,
+      "minimum_speed": 0.004513011043200995
+    }
+  ],
+  "fold_fixed_residual": 6.67313972951038e-16,
+  "fold_lambda": 0.3159808536943678,
+  "fold_null_residual": 1.0120530253887394e-13,
+  "normal_form": null,
+  "seed": 47,
+  "selected_motif": 79,
+  "static_fits": [
+    {
+      "aicc": -106.14896443425728,
+      "delta_aicc": 0.7048583243649347,
+      "model": "free_power",
+      "parameter_se": [
+        0.05435469916951842,
+        0.10736126087041663
+      ],
+      "parameters": [
+        0.08680643270484587,
+        0.33796662467022703
+      ],
+      "residuals": [
+        0.0011714654892950845,
+        0.001390143715574858,
+        0.0017096583915079645,
+        0.001934878505893643,
+        0.001989560826192803,
+        0.0011605570827412925,
+        -0.0006812762111536603,
+        -0.0037728829020218426,
+        -0.007887646316858468,
+        0.006814267344825807
+      ]
+    },
+    {
+      "aicc": -106.85382275862221,
+      "delta_aicc": 0.0,
+      "model": "half_power",
+      "parameter_se": [
+        0.03238095551498688
+      ],
+      "parameters": [
+        0.20448486649866138
+      ],
+      "residuals": [
+        4.5062383482279904e-05,
+        6.355032817112883e-05,
+        0.00010103418220568376,
+        0.00011885510855403269,
+        1.372187966471733e-06,
+        -0.0009184357404641618,
+        -0.002622109664145749,
+        -0.005254538736506453,
+        -0.007912117682845715,
+        0.008955691672726118
+      ]
+    }
+  ],
+  "static_rows": [
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 1e-05,
+      "lambda": 0.3159708536943678,
+      "leading_complex_margin": -0.09991826214862276,
+      "leading_real": -0.0006015755416889504,
+      "leading_real_arpack_candidate": -0.009046225665484147,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 8.522104143040574e-17,
+      "null_projection": -0.0007297115726338879,
+      "residual": 4.188741004461278e-15,
+      "spectral_max_scaled_residual": 2.0619627557421477e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.012228382347457684
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 2e-05,
+      "lambda": 0.31596085369436777,
+      "leading_complex_margin": -0.09947937369577756,
+      "leading_real": -0.0008509337955508238,
+      "leading_real_arpack_candidate": -0.012693812999404844,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 3.748976150313569e-17,
+      "null_projection": -0.0010253590298481422,
+      "residual": 4.3172270822671893e-16,
+      "spectral_max_scaled_residual": 2.787583305680465e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.01729703146522002
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 5e-05,
+      "lambda": 0.3159308536943678,
+      "leading_complex_margin": -0.09971825728480183,
+      "leading_real": -0.0013448921753066096,
+      "leading_real_arpack_candidate": -0.01979958302801151,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 8.529846971185448e-17,
+      "null_projection": -0.001601395567858441,
+      "residual": 2.900580964240114e-16,
+      "spectral_max_scaled_residual": 1.9542961491022708e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.02733083626408131
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.0001,
+      "lambda": 0.3158808536943678,
+      "leading_complex_margin": -0.10166277299723749,
+      "leading_real": -0.001925993556432581,
+      "leading_real_arpack_candidate": -0.02803249452703357,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 9.829170375819125e-17,
+      "null_projection": -0.0022280276137432724,
+      "residual": 7.974991884911474e-15,
+      "spectral_max_scaled_residual": 2.534740781782668e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.039114986354570516
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.0002,
+      "lambda": 0.3157808536943678,
+      "leading_complex_margin": -0.10683633508432254,
+      "leading_real": -0.002890480527058115,
+      "leading_real_arpack_candidate": -0.041384877466108846,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 2.873841667471581e-17,
+      "null_projection": -0.0030510340308985014,
+      "residual": 5.047385943551876e-14,
+      "spectral_max_scaled_residual": 1.4825685256863188e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.05862901188591066
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.0005,
+      "lambda": 0.3154808536943678,
+      "leading_complex_margin": -0.1219374868159729,
+      "leading_real": -0.005490856359073924,
+      "leading_real_arpack_candidate": -0.07435113225482558,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 1.7124503837842307e-17,
+      "null_projection": -0.004426249693794817,
+      "residual": 3.3043737506758115e-16,
+      "spectral_max_scaled_residual": 1.9494673649121793e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.11109274948105506
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.001,
+      "lambda": 0.3149808536943678,
+      "leading_complex_margin": -0.14280922633900028,
+      "leading_real": -0.009088488915858051,
+      "leading_real_arpack_candidate": -0.1126912997805691,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 5.952465698986212e-17,
+      "null_projection": -0.005694223265570354,
+      "residual": 2.96712949750015e-16,
+      "spectral_max_scaled_residual": 1.7846962233922683e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.18343498552946044
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.002,
+      "lambda": 0.3139808536943678,
+      "leading_complex_margin": -0.1739490605675442,
+      "leading_real": -0.014399379973725977,
+      "leading_real_arpack_candidate": -0.15673278873812507,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 3.2018329196221026e-17,
+      "null_projection": -0.007265388430417281,
+      "residual": 2.851578635845775e-16,
+      "spectral_max_scaled_residual": 2.1927744791773792e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.2898150766572485
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.005,
+      "lambda": 0.3109808536943678,
+      "leading_complex_margin": -0.22015838690398476,
+      "leading_real": -0.02237138125796865,
+      "leading_real_arpack_candidate": -0.18818860717767508,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 1.6119921760564744e-16,
+      "null_projection": -0.010192743539549099,
+      "residual": 2.975161113965672e-16,
+      "spectral_max_scaled_residual": 2.2266099385668424e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.45541570044098967
+    },
+    {
+      "M48_M64_leading_real_difference": null,
+      "branch_identity": 79,
+      "branch_source": "stable_N1_terminal_continuation",
+      "converged": true,
+      "delta": 0.01,
+      "lambda": 0.3059808536943678,
+      "leading_complex_margin": -0.22307331800966995,
+      "leading_real": -0.01149279497714002,
+      "leading_real_arpack_candidate": -0.11906598077830781,
+      "leading_real_method": "real_axis_sigmin_scan_n300",
+      "leading_real_scaled_residual": 1.6564284552693933e-17,
+      "null_projection": -0.014039154832142495,
+      "residual": 9.386169328824067e-14,
+      "spectral_max_scaled_residual": 5.855725680808739e-16,
+      "spectral_residual_gate": true,
+      "zero_frequency_leading_real": -0.23582610406514237
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "analysis": {
+    "T1_cv": 0.012625258000158866,
+    "T1_median": 9.250801357320995,
+    "analysis_t_end_recorded": 153.45000000000002,
+    "analysis_t_end_used": 153.45000000000002,
+    "analysis_t_start": 38.35,
+    "block_uncertainty": {
+      "method": "contiguous-block normal CI (descriptive)",
+      "n_blocks": 3,
+      "tau_relay_ci95": [
+        8.354568367486761,
+        8.523075906194661
+      ],
+      "tau_relay_samples": [
+        8.498725584413638,
+        8.462276690348588,
+        8.35546413575991
+      ],
+      "tau_xcorr_ci95": [
+        8.34702682834688,
+        8.552529743911435
+      ],
+      "tau_xcorr_samples": [
+        8.52818780398462,
+        8.470854992070599,
+        8.350292062332251
+      ]
+    },
+    "max_abs_by_layer": [
+      2.59875125774336,
+      4.130708916282291,
+      4.226628337483026,
+      4.28345604334588,
+      4.320239219567227,
+      4.346754931350543,
+      4.3684209216517225,
+      4.385766424193107
+    ],
+    "mean_saturation_by_layer": [
+      0.9137733391228869,
+      0.9726061658706042,
+      0.9726530612244904,
+      0.9709752496743396,
+      0.9708554059921849,
+      0.9708858011289635,
+      0.9711524099001316,
+      0.9727234042553214
+    ],
+    "n_last_layer_relays": 12,
+    "record_dt": 0.04999999999999716,
+    "record_grid": {
+      "action": "none",
+      "input_records": 2303,
+      "nominal_record_dt": 0.04999999999999716,
+      "terminal_interval": 0.05000000000001137,
+      "trimmed_final_sample": false,
+      "used_records": 2303
+    },
+    "relative_estimator_disagreement": 0.006027897929502595,
+    "relay": {
+      "T1_cv": 0.012625258000158866,
+      "T1_median": 9.250801357320995,
+      "count_by_layer": [
+        12,
+        12,
+        12,
+        13,
+        13,
+        13,
+        12
+      ],
+      "delta_by_layer": [
+        1.2227193594837296,
+        1.2284489085608996,
+        1.2232327663571496,
+        1.213294329979604,
+        1.1981405187858343,
+        1.1840774317122111,
+        1.1711709931942558
+      ],
+      "n_last_layer_relays": 12,
+      "ordered_event_count_by_layer": [
+        12,
+        12,
+        13,
+        13,
+        13,
+        13,
+        12
+      ],
+      "tau_eff": 8.441084308073684
+    },
+    "valid": true,
+    "xcorr": {
+      "by_layer": [
+        {
+          "best_index": 25,
+          "candidate_lag": 1.24548311164045,
+          "lag": 1.24548311164045,
+          "margin": 0.1411297379741835,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9979699214414433,
+          "unique": true
+        },
+        {
+          "best_index": 25,
+          "candidate_lag": 1.2417294998843567,
+          "lag": 1.2417294998843567,
+          "margin": 0.14414006121451173,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9987748019692088,
+          "unique": true
+        },
+        {
+          "best_index": 25,
+          "candidate_lag": 1.2300037357637528,
+          "lag": 1.2300037357637528,
+          "margin": 0.1448315054214494,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9990970811866802,
+          "unique": true
+        },
+        {
+          "best_index": 24,
+          "candidate_lag": 1.2148534731520915,
+          "lag": 1.2148534731520915,
+          "margin": 0.14546170822265458,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9992574856927458,
+          "unique": true
+        },
+        {
+          "best_index": 24,
+          "candidate_lag": 1.1992803202770068,
+          "lag": 1.1992803202770068,
+          "margin": 0.1484289227681691,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9994344252979552,
+          "unique": true
+        },
+        {
+          "best_index": 24,
+          "candidate_lag": 1.1855140434799332,
+          "lag": 1.1855140434799332,
+          "margin": 0.13962213400856738,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9995078249359741,
+          "unique": true
+        },
+        {
+          "best_index": 24,
+          "candidate_lag": 1.1752559378381435,
+          "lag": 1.1752559378381435,
+          "margin": 0.13544765303497175,
+          "max_lag": 13.89999999999921,
+          "peak": 0.9995754378852478,
+          "unique": true
+        }
+      ],
+      "tau_eff": 8.492120122035734,
+      "unique_fraction": 1.0
+    }
+  },
+  "completed_utc": "2026-07-24T17:32:07.895404+00:00",
+  "config": {
+    "K": 8,
+    "N": 500,
+    "P": 25,
+    "T1_hint": 6.849999999999994,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "lambda": 2.0,
+    "parameter_index": 7,
+    "parameter_total": 12,
+    "record_every": 5,
+    "run_id": "lam2_K8",
+    "seed": 43,
+    "t0": 1.0,
+    "t_final": 153.45000000000002,
+    "transient_fraction": 0.25
+  },
+  "schema": "E36A2-run-summary-v1"
+}

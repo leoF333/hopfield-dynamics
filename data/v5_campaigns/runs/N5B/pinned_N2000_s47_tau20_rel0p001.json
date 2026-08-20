@@ -1,0 +1,9 @@
+{
+  "complex_frequency": 0.12332994137703378,
+  "complex_margin": -0.06683812450271887,
+  "motif": 79,
+  "relative_below_fold": 0.001,
+  "residual_gate": true,
+  "seed": 47,
+  "tau": 20
+}

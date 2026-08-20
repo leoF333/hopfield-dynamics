@@ -1,0 +1,14 @@
+{
+  "censored": true,
+  "closest_bond": 41,
+  "closest_fold_distance": 1.0194057453793068,
+  "critical_median": null,
+  "critical_passages": [],
+  "critical_std": null,
+  "delta": 0.01,
+  "dt": 0.01,
+  "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s42_d0p01_dt0p01_smoke.npz",
+  "label": "timeout_other",
+  "lambda": 0.3376298576774112,
+  "minimum_speed": 0.006183783809862921
+}

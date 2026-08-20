@@ -1,0 +1,28 @@
+{
+  "lambda": 0.23380073909525056,
+  "leading_complex_M1": [
+    -0.026418448778107086,
+    -0.03840254697709947
+  ],
+  "leading_complex_M2": [
+    -0.02641844877810711,
+    0.03840254697709947
+  ],
+  "leading_real_M1": [
+    null,
+    0.0
+  ],
+  "leading_real_M2": [
+    null,
+    0.0
+  ],
+  "offset": 0.0002,
+  "residual": 6.59165393390285e-16,
+  "residual_gate_M1": true,
+  "residual_gate_M2": true,
+  "resolution_agreement": 0.07680509395419895,
+  "resolved": true,
+  "selected_residual_M1": 7.218195081417462e-17,
+  "selected_residual_M2": 3.3553849326089997e-17,
+  "tau": 45
+}

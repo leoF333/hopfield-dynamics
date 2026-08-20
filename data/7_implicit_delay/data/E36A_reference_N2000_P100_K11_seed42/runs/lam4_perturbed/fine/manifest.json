@@ -1,0 +1,151 @@
+{
+  "chunks": [
+    {
+      "file": "chunks/chunk_00000.npz",
+      "n_records": 201,
+      "t_end": 10.0,
+      "t_start": 0.0
+    },
+    {
+      "file": "chunks/chunk_00001.npz",
+      "n_records": 200,
+      "t_end": 20.0,
+      "t_start": 10.05
+    },
+    {
+      "file": "chunks/chunk_00002.npz",
+      "n_records": 200,
+      "t_end": 30.0,
+      "t_start": 20.05
+    },
+    {
+      "file": "chunks/chunk_00003.npz",
+      "n_records": 200,
+      "t_end": 40.0,
+      "t_start": 30.05
+    },
+    {
+      "file": "chunks/chunk_00004.npz",
+      "n_records": 200,
+      "t_end": 50.0,
+      "t_start": 40.050000000000004
+    },
+    {
+      "file": "chunks/chunk_00005.npz",
+      "n_records": 200,
+      "t_end": 60.0,
+      "t_start": 50.050000000000004
+    },
+    {
+      "file": "chunks/chunk_00006.npz",
+      "n_records": 200,
+      "t_end": 70.0,
+      "t_start": 60.050000000000004
+    },
+    {
+      "file": "chunks/chunk_00007.npz",
+      "n_records": 200,
+      "t_end": 80.0,
+      "t_start": 70.05
+    },
+    {
+      "file": "chunks/chunk_00008.npz",
+      "n_records": 200,
+      "t_end": 90.0,
+      "t_start": 80.05
+    },
+    {
+      "file": "chunks/chunk_00009.npz",
+      "n_records": 200,
+      "t_end": 100.0,
+      "t_start": 90.05
+    },
+    {
+      "file": "chunks/chunk_00010.npz",
+      "n_records": 200,
+      "t_end": 110.0,
+      "t_start": 100.05
+    },
+    {
+      "file": "chunks/chunk_00011.npz",
+      "n_records": 200,
+      "t_end": 120.0,
+      "t_start": 110.05
+    },
+    {
+      "file": "chunks/chunk_00012.npz",
+      "n_records": 200,
+      "t_end": 130.0,
+      "t_start": 120.05
+    },
+    {
+      "file": "chunks/chunk_00013.npz",
+      "n_records": 200,
+      "t_end": 140.0,
+      "t_start": 130.05
+    },
+    {
+      "file": "chunks/chunk_00014.npz",
+      "n_records": 200,
+      "t_end": 150.0,
+      "t_start": 140.05
+    },
+    {
+      "file": "chunks/chunk_00015.npz",
+      "n_records": 200,
+      "t_end": 160.0,
+      "t_start": 150.05
+    },
+    {
+      "file": "chunks/chunk_00016.npz",
+      "n_records": 200,
+      "t_end": 170.0,
+      "t_start": 160.05
+    },
+    {
+      "file": "chunks/chunk_00017.npz",
+      "n_records": 200,
+      "t_end": 180.0,
+      "t_start": 170.05
+    },
+    {
+      "file": "chunks/chunk_00018.npz",
+      "n_records": 200,
+      "t_end": 190.0,
+      "t_start": 180.05
+    },
+    {
+      "file": "chunks/chunk_00019.npz",
+      "n_records": 200,
+      "t_end": 200.0,
+      "t_start": 190.05
+    }
+  ],
+  "completed_utc": "2026-07-24T00:42:01.684966+00:00",
+  "config": {
+    "K": 11,
+    "N": 2000,
+    "P": 100,
+    "beta": 20.0,
+    "checkpoint_every_steps": 2000,
+    "chunk_size": 256,
+    "dt": 0.005,
+    "heartbeat_every_steps": 500,
+    "heartbeat_min_wall_seconds": 5.0,
+    "initial_condition": "perturbed",
+    "lambda": 4.0,
+    "parameter_index": 6,
+    "parameter_total": 6,
+    "record_every": 10,
+    "run_id": "lam4_perturbed_fine",
+    "seed": 42,
+    "t0": 1.0,
+    "t_final": 200.0,
+    "transient_fraction": 0.25
+  },
+  "created_utc": "2026-07-24T00:41:22.222854+00:00",
+  "last_time": 200.0,
+  "schema": "E36A-observables-v2",
+  "status": "complete",
+  "updated_utc": "2026-07-24T00:42:01.681358+00:00"
+}

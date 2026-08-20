@@ -1,0 +1,18 @@
+{
+  "censored": false,
+  "closest_bond": 79,
+  "closest_fold_distance": 0.00022682825756290917,
+  "critical_median": 217.10000000000014,
+  "critical_passages": [
+    217.10000000000014,
+    217.0999999999999,
+    217.10000000000036
+  ],
+  "critical_std": 1.8564982859236944e-13,
+  "delta": 0.0001,
+  "dt": 0.01,
+  "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N2/dynamic_N2000_P100_s47_d0p0001_dt0p01_production.npz",
+  "label": "ordered_cycle",
+  "lambda": 0.3160808536943678,
+  "minimum_speed": 3.489014051667438e-05
+}

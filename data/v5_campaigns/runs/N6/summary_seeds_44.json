@@ -1,0 +1,426 @@
+{
+  "campaign": "N6",
+  "environment": {
+    "backend": "cpu",
+    "command_line": [
+      "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+      "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+      "--seeds",
+      "44"
+    ],
+    "created_utc": "2026-07-29T21:41:21.056492+00:00",
+    "git_commit": "not-a-git-worktree",
+    "local_source_sha256": {
+      "src/arclength.py": "ae3bf985d36f6be2b4c961680626c90146b490737bf286876641bbf98599cf71",
+      "src/batch_dde.py": "11c7fe9e3fdde36e3e13d9c7f03d939a780db0d518bec82856320093a2af4861",
+      "src/campaign_specs.py": "ca3cfa488511bca9280fe5aaf3e7e549eea9665c1a839db2a4501c8b04963644",
+      "src/couplings.py": "5db6d95cb9354c628b10e51f1a2ceed518f38d6e5b3536cb3ff2a588bd2da7ea",
+      "src/dynamics.py": "4a63e6681a0862c4314e6debbe522c09f9fe8d5cbdd87964b64ad2838f25d128",
+      "src/fold_refinement.py": "516dc3853f84684a0ae3456ba19c3c7097cef27a3aa87458589b16dd4bd5715c",
+      "src/lyapunov_stream.py": "f8d6dec73d1c50c6daf9a6c2e4dc9550db09692edb348c39190b67d6317f5c9d",
+      "src/mlx_preflight.py": "6422d49aea52c0730215fb55cf4fb8a52808b76238dedcbb339d0d5739ecc383",
+      "src/n10_audit.py": "292554fbd3cd14c7c47cb7cf660facf585e79cdb46f9779b44c619495a529810",
+      "src/n1_compare.py": "63cdbc74869ed59de177f1bd63319a4cf92b6da79570ac8035196b8c298ccd52",
+      "src/n1_convergence_audit.py": "2a4fe1c2532e14f63d55c245293d506aff530fcc5a72d522d9bfaa48660730db",
+      "src/n1_history_control.py": "b756b6a9e0840637bb2bee8ec75ea9c300c06a877f1428714ed6c029739df839",
+      "src/n1_overnight.py": "1efb913670e8813b0529eac985fa92e4db9f3aa2006c7b8004b7fcd2041c360a",
+      "src/n2_local_laws.py": "45a8b9f61e34d366c7c070cd07ca1dc6e287d9fdb3445fac09659b6c5a571d26",
+      "src/n3_reanalyse.py": "cb671af538dd5ae81c6b7a79357965265b7f21c9528c130b70c26180cebd15f6",
+      "src/n4_figures.py": "452fb1c04486221d3effb48a3cfe1f12714a8b476f87f177d2e843d4af000d80",
+      "src/n5a_analyse.py": "57e255edd3f6d194cc4eec537c47f05cd60abf3843372ec7b77e0fa9a9ea3682",
+      "src/n5a_delay_scan.py": "2bc4dac2365af3a83bfa662ad602a17a2e5644c18535209e56215f3b5f2d2cb7",
+      "src/n5b_long_delay.py": "fd741a411ce5cd34038b248178082a20d71ec28c9f12714fa9d29b4d91957255",
+      "src/n6_lyapunov_campaign.py": "5c84332acfc2c09c41c0232cf28489088028527daca823651ee7f543c1ff9681",
+      "src/n7_correlations.py": "d78df293a5048bfcbdbe82c3a678bae6fd267ccddde0499b99e73a948afdbe26",
+      "src/n8_highload.py": "853498edb2d56f97c494f4c6348ee8d452fc636696aa3505303995d32d16b03f",
+      "src/n9_stationarity.py": "6cf877201a23dd51fcf77b949b213047bf5f02fabeeba0aaaf3402425faf6d31",
+      "src/observables.py": "971ebe94251bd7d5757096d715bb42f12aa922f684260d799600b658e4964835",
+      "src/patterns.py": "2084dce51ea9117cc89e654c48f950c8ca54b2003c9fc16e20d881649b03b6f8",
+      "src/plot_n1_multiseed_identity.py": "2d15490b35a7ec4e075d813fab28f2b378a0efe083958c927087fe17e273db02",
+      "src/plot_n1_static_dynamic_equality.py": "9ffb043f55da025aa228c06272eab923230af45a543d2bcc6a1981a682459a46",
+      "src/run_next24h.py": "2ba61f847facd62d7977d1978c015c8dffe500786fbc5e461c0eec66dbe77f2c",
+      "src/run_workplan.py": "bfabfa6072d7bab4eb4fa1eb6f91c3b4057561bdacfdacf20027d3178e4805a3",
+      "src/static_thresholds.py": "ee559fe807ed9e10d2eb61aa878e8a7f4a3e2de3f61cae45fcf3f8d452862a7f",
+      "src/v5_paths.py": "4b918bf3b48f2b38075da024b8c3afa1e1161aba0537fe63fb613441d6bc4e0b"
+    },
+    "machine": "arm64",
+    "numpy": "2.4.3",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 17:06:14) [Clang 19.1.7 ]",
+    "reference_root": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT",
+    "reference_source_sha256": {
+      "src/couplings.py": "86753d9185d55d24b4711864f7510bc82c3ecb462301acab2e227e8867c91b00",
+      "src/cycle_reduced.py": "a51356064e7f58dbdfc224291e35795518f7812d7fc133abeb80e589f257e750",
+      "src/e23a_chaos_nature.py": "3a8cf05040cd70e69460317ae96a3a8d4bdd2042b3a021f194c397ceb2411232",
+      "src/floquet_monodromy.py": "888f166bbef3ffc098ac626e6737035c90e337e8c2dcb8809105536f6f12d708",
+      "src/pacemaker_cycle.py": "fe7a507eedd54c85bc31243b54e897ce333b45c94dba95af9e95529f0e00ed41",
+      "src/reduced_spectrum.py": "bb197b66acdac1b647eb8a6ae3ba2165dd3f34f2019763d5851fb9c26b350669",
+      "src/robust_branch.py": "591ec16f571908f7608874b257cedeff3582f26a0fb7a7d741207fb02e9723fc"
+    },
+    "scipy": "1.17.1",
+    "workplan_sha256": "b4eb7bd629fd68d6a2fe73cbf9ef39cb8cd15c2b1a44713aa53496f5cecade13"
+  },
+  "rows": [
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p290_dt0p01.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p290_dt0p01_geometry.npz",
+        "forward_fraction": 0.7708333333333334,
+        "pca_participation": 4.0553367974762295,
+        "section_points": 13,
+        "tours": 1.05
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.29,
+      "positive_exponents": 4,
+      "seed": 44,
+      "spectrum": [
+        0.05264852030382131,
+        0.02715094593832354,
+        0.009173478244288692,
+        0.001250441840118996,
+        -0.0018584303222419845,
+        -0.012164754334715316,
+        -0.019646978949609335,
+        -0.02506026453932504
+      ],
+      "wall_seconds": 483.40689583303174,
+      "window_estimates": {
+        "1000.0": [
+          0.04776717750945743,
+          0.026410318831281997,
+          0.00788324518135614,
+          -0.0012618432304239487,
+          -0.0064567262994346,
+          -0.014679426545808701,
+          -0.027285105675609506,
+          -0.030183204381160938
+        ],
+        "2000.0": [
+          0.04997665130931221,
+          0.021593058229342828,
+          0.007452193824677321,
+          0.0019958949513829657,
+          -0.005005105612112716,
+          -0.01476035316409998,
+          -0.02420294848921685,
+          -0.028452761550205694
+        ],
+        "4000.0": [
+          0.05264852030382131,
+          0.02715094593832354,
+          0.009173478244288692,
+          0.001250441840118996,
+          -0.0018584303222419845,
+          -0.012164754334715316,
+          -0.019646978949609335,
+          -0.02506026453932504
+        ]
+      }
+    },
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p300_dt0p01.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p300_dt0p01_geometry.npz",
+        "forward_fraction": 0.7252747252747253,
+        "pca_participation": 3.151085316823362,
+        "section_points": 12,
+        "tours": 1.9
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.3,
+      "positive_exponents": 3,
+      "seed": 44,
+      "spectrum": [
+        0.04915396338445619,
+        0.024938607691128795,
+        0.008171968771881682,
+        -0.00210004877159867,
+        -0.0038200957156211226,
+        -0.014547316299621393,
+        -0.022792647723573978,
+        -0.02638209061569
+      ],
+      "wall_seconds": 536.378663334006,
+      "window_estimates": {
+        "1000.0": [
+          0.0462978371396202,
+          0.011610808474485444,
+          0.0007585769684586765,
+          -0.00493800946500076,
+          -0.011634218705465011,
+          -0.022662893767927524,
+          -0.029897053963981447,
+          -0.03587362215475965
+        ],
+        "2000.0": [
+          0.04825488473780301,
+          0.015509672240434293,
+          0.00043624376832101527,
+          -0.0017075000398159635,
+          -0.009489889983276994,
+          -0.017765875711285243,
+          -0.025230069072949474,
+          -0.031865744558052474
+        ],
+        "4000.0": [
+          0.04915396338445619,
+          0.024938607691128795,
+          0.008171968771881682,
+          -0.00210004877159867,
+          -0.0038200957156211226,
+          -0.014547316299621393,
+          -0.022792647723573978,
+          -0.02638209061569
+        ]
+      }
+    },
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p01.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p01_geometry.npz",
+        "forward_fraction": 0.7443609022556391,
+        "pca_participation": 3.8965040120513974,
+        "section_points": 22,
+        "tours": 1.37
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.31,
+      "positive_exponents": 5,
+      "seed": 44,
+      "spectrum": [
+        0.05111795982315034,
+        0.029270837418524508,
+        0.017855227509408596,
+        0.00809420815368338,
+        0.0023663233864508193,
+        -0.002694974359697994,
+        -0.006960300059816088,
+        -0.014042372852592888
+      ],
+      "wall_seconds": 560.1815331670223,
+      "window_estimates": {
+        "1000.0": [
+          0.04711115136451707,
+          0.02572167036914374,
+          0.016362300048176195,
+          0.0015463582779430892,
+          0.004315361690067566,
+          -0.004587265435344926,
+          -0.01343911710836212,
+          -0.020459415495895576
+        ],
+        "2000.0": [
+          0.04862761089270655,
+          0.027670297043344092,
+          0.01863515773960872,
+          0.005319814447394995,
+          0.002312114242943934,
+          -0.0016556650855337812,
+          -0.0077174503276428935,
+          -0.01830740709623335
+        ],
+        "4000.0": [
+          0.05111795982315034,
+          0.029270837418524508,
+          0.017855227509408596,
+          0.00809420815368338,
+          0.0023663233864508193,
+          -0.002694974359697994,
+          -0.006960300059816088,
+          -0.014042372852592888
+        ]
+      }
+    },
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.005,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p005.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p310_dt0p005_geometry.npz",
+        "forward_fraction": 0.775,
+        "pca_participation": 4.325863297809265,
+        "section_points": 14,
+        "tours": 0.0
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.31,
+      "positive_exponents": 6,
+      "seed": 44,
+      "spectrum": [
+        0.05532440243099273,
+        0.031329654975996254,
+        0.020556619542994512,
+        0.007409892786276313,
+        0.0016600582995712377,
+        1.788796101916209e-05,
+        -0.008947474632816444,
+        -0.01262618609925122
+      ],
+      "wall_seconds": 1171.5079957910348,
+      "window_estimates": {
+        "1000.0": [
+          0.06333543882531496,
+          0.03387213836082733,
+          0.02489133039114543,
+          0.009645798364068231,
+          0.00706344246606846,
+          0.0015913681680572876,
+          -0.009192472416709691,
+          -0.011232019959859566
+        ],
+        "2000.0": [
+          0.05582924293141175,
+          0.032274671166198116,
+          0.02242608375704995,
+          0.0072131408569761106,
+          0.0020219183563125105,
+          -0.00010970396179955984,
+          -0.009698206296783104,
+          -0.01215363882384924
+        ],
+        "4000.0": [
+          0.05532440243099273,
+          0.031329654975996254,
+          0.020556619542994512,
+          0.007409892786276313,
+          0.0016600582995712377,
+          1.788796101916209e-05,
+          -0.008947474632816444,
+          -0.01262618609925122
+        ]
+      }
+    },
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p320_dt0p01.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p320_dt0p01_geometry.npz",
+        "forward_fraction": 0.7583333333333333,
+        "pca_participation": 4.320768318388266,
+        "section_points": 24,
+        "tours": 0.0
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.32,
+      "positive_exponents": 5,
+      "seed": 44,
+      "spectrum": [
+        0.04960046027244126,
+        0.030478603883329822,
+        0.017856680375292144,
+        0.011373117961284474,
+        0.0007678196676131575,
+        -0.00293717602665219,
+        -0.005245046003233232,
+        -0.013264370015402337
+      ],
+      "wall_seconds": 581.5356297499966,
+      "window_estimates": {
+        "1000.0": [
+          0.0523543486161763,
+          0.03266221817749911,
+          0.014596893175324066,
+          0.013477306530564594,
+          0.0006876850575140618,
+          -0.002878411810643305,
+          -0.00569053559670753,
+          -0.010465001105648786
+        ],
+        "2000.0": [
+          0.053603622521970054,
+          0.032075197163390856,
+          0.019165402799384206,
+          0.01608199835390613,
+          0.003478546151851414,
+          -0.001500825990476181,
+          -0.003239233179770968,
+          -0.008748277695843128
+        ],
+        "4000.0": [
+          0.04960046027244126,
+          0.030478603883329822,
+          0.017856680375292144,
+          0.011373117961284474,
+          0.0007678196676131575,
+          -0.00293717602665219,
+          -0.005245046003233232,
+          -0.013264370015402337
+        ]
+      }
+    },
+    {
+      "N": 2000,
+      "P": 100,
+      "dt": 0.01,
+      "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p325_dt0p01.npz",
+      "geometry": {
+        "file": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N6/lyapunov_N2000_P100_s44_lam0p325_dt0p01_geometry.npz",
+        "forward_fraction": 0.8076923076923077,
+        "pca_participation": 4.469027834019267,
+        "section_points": 19,
+        "tours": 0.0
+      },
+      "kaplan_yorke_finite_spectrum": 8.0,
+      "lambda": 0.325,
+      "positive_exponents": 6,
+      "seed": 44,
+      "spectrum": [
+        0.05259465930346791,
+        0.035746653905606884,
+        0.02521716261480325,
+        0.012018787221960826,
+        0.006020629472889056,
+        0.0009618997271354862,
+        -0.003253081901150678,
+        -0.006782580020281893
+      ],
+      "wall_seconds": 525.7161755830166,
+      "window_estimates": {
+        "1000.0": [
+          0.06072731565922267,
+          0.04315674031952981,
+          0.030970644843524346,
+          0.020709508747025814,
+          0.009870292766124132,
+          0.0033494112707797884,
+          -0.003568355525427558,
+          -0.003833296452785121
+        ],
+        "2000.0": [
+          0.05438707230233866,
+          0.03896324296939052,
+          0.027258514333788807,
+          0.01816125118372259,
+          0.009569933756958913,
+          0.0019037845898610029,
+          -0.0015730124273522165,
+          -0.004394807556225561
+        ],
+        "4000.0": [
+          0.05259465930346791,
+          0.035746653905606884,
+          0.02521716261480325,
+          0.012018787221960826,
+          0.006020629472889056,
+          0.0009618997271354862,
+          -0.003253081901150678,
+          -0.006782580020281893
+        ]
+      }
+    }
+  ],
+  "smoke": false
+}

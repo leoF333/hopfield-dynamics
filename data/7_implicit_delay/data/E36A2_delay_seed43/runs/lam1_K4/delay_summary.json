@@ -1,0 +1,132 @@
+{
+  "analysis": {
+    "T1_cv": 0.03997437305681682,
+    "T1_median": 7.138736125426455,
+    "analysis_t_end_recorded": 120.0,
+    "analysis_t_end_used": 120.0,
+    "analysis_t_start": 30.0,
+    "block_uncertainty": {
+      "method": "contiguous-block normal CI (descriptive)",
+      "n_blocks": 3,
+      "tau_relay_ci95": [
+        6.029263342046898,
+        6.4498913363174175
+      ],
+      "tau_relay_samples": [
+        6.378454552243758,
+        6.311830933116365,
+        6.028446532186351
+      ],
+      "tau_xcorr_ci95": [
+        6.049876223016941,
+        6.468777992886633
+      ],
+      "tau_xcorr_samples": [
+        6.428626741780075,
+        6.287646902579185,
+        6.061707679496101
+      ]
+    },
+    "max_abs_by_layer": [
+      2.7033921196993647,
+      3.3398952912354716,
+      3.4118160465365808,
+      3.4722932357081575
+    ],
+    "mean_saturation_by_layer": [
+      0.8750083287062733,
+      0.9143053858967253,
+      0.9182554136590789,
+      0.9197423653525837
+    ],
+    "n_last_layer_relays": 13,
+    "record_dt": 0.04999999999999716,
+    "record_grid": {
+      "action": "none",
+      "input_records": 1801,
+      "nominal_record_dt": 0.04999999999999716,
+      "terminal_interval": 0.04999999999999716,
+      "trimmed_final_sample": false,
+      "used_records": 1801
+    },
+    "relative_estimator_disagreement": 0.010749996063000552,
+    "relay": {
+      "T1_cv": 0.03997437305681682,
+      "T1_median": 7.138736125426455,
+      "count_by_layer": [
+        12,
+        12,
+        13
+      ],
+      "delta_by_layer": [
+        2.303647265900395,
+        2.0493476908481156,
+        1.8987039041571734
+      ],
+      "n_last_layer_relays": 13,
+      "ordered_event_count_by_layer": [
+        12,
+        13,
+        13
+      ],
+      "tau_eff": 6.251698860905684
+    },
+    "valid": true,
+    "xcorr": {
+      "by_layer": [
+        {
+          "best_index": 46,
+          "candidate_lag": 2.3223585245828398,
+          "lag": 2.3223585245828398,
+          "margin": 0.11335167316832717,
+          "max_lag": 10.749999999999389,
+          "peak": 0.9847123965108,
+          "unique": true
+        },
+        {
+          "best_index": 41,
+          "candidate_lag": 2.0689730023439985,
+          "lag": 2.0689730023439985,
+          "margin": 0.12259343563530789,
+          "max_lag": 10.749999999999389,
+          "peak": 0.9956658994764602,
+          "unique": true
+        },
+        {
+          "best_index": 39,
+          "candidate_lag": 1.927936254937792,
+          "lag": 1.927936254937792,
+          "margin": 0.11196785836366596,
+          "max_lag": 10.749999999999389,
+          "peak": 0.9972650565189681,
+          "unique": true
+        }
+      ],
+      "tau_eff": 6.31926778186463,
+      "unique_fraction": 1.0
+    }
+  },
+  "completed_utc": "2026-07-24T17:31:52.189836+00:00",
+  "config": {
+    "K": 4,
+    "N": 500,
+    "P": 25,
+    "T1_hint": 10.624999999999993,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "lambda": 1.0,
+    "parameter_index": 1,
+    "parameter_total": 12,
+    "record_every": 5,
+    "run_id": "lam1_K4",
+    "seed": 43,
+    "t0": 1.0,
+    "t_final": 120.0,
+    "transient_fraction": 0.25
+  },
+  "schema": "E36A2-run-summary-v1"
+}

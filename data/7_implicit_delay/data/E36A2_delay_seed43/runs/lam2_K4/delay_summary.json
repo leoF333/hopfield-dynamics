@@ -1,0 +1,136 @@
+{
+  "analysis": {
+    "T1_cv": 0.022594275605890935,
+    "T1_median": 4.412861373770696,
+    "analysis_t_end_recorded": 120.0,
+    "analysis_t_end_used": 120.0,
+    "analysis_t_start": 30.0,
+    "block_uncertainty": {
+      "method": "contiguous-block normal CI (descriptive)",
+      "n_blocks": 5,
+      "tau_relay_ci95": [
+        3.64582527052474,
+        3.7902793369243444
+      ],
+      "tau_relay_samples": [
+        3.7355119202999614,
+        3.725214656471632,
+        3.5819705071490873,
+        3.8059783941528806,
+        3.7415860405491514
+      ],
+      "tau_xcorr_ci95": [
+        3.6333225053099976,
+        3.7756002003767954
+      ],
+      "tau_xcorr_samples": [
+        3.7212547319330813,
+        3.7068921996638435,
+        3.5676742344364634,
+        3.7780390981852894,
+        3.748446499998305
+      ]
+    },
+    "max_abs_by_layer": [
+      2.349839479411878,
+      4.0488964949880115,
+      4.174196492848491,
+      4.260194567904417
+    ],
+    "mean_saturation_by_layer": [
+      0.8495480288728513,
+      0.9392326485285977,
+      0.9423287062742934,
+      0.9429605774569707
+    ],
+    "n_last_layer_relays": 20,
+    "record_dt": 0.04999999999999716,
+    "record_grid": {
+      "action": "none",
+      "input_records": 1801,
+      "nominal_record_dt": 0.04999999999999716,
+      "terminal_interval": 0.04999999999999716,
+      "trimmed_final_sample": false,
+      "used_records": 1801
+    },
+    "relative_estimator_disagreement": 0.009216392381854111,
+    "relay": {
+      "T1_cv": 0.022594275605890935,
+      "T1_median": 4.412861373770696,
+      "count_by_layer": [
+        20,
+        20,
+        20
+      ],
+      "delta_by_layer": [
+        1.2554529853422913,
+        1.2296312456157032,
+        1.215199610765719
+      ],
+      "n_last_layer_relays": 20,
+      "ordered_event_count_by_layer": [
+        21,
+        20,
+        20
+      ],
+      "tau_eff": 3.7002838417237136
+    },
+    "valid": true,
+    "xcorr": {
+      "by_layer": [
+        {
+          "best_index": 25,
+          "candidate_lag": 1.262619193654568,
+          "lag": 1.262619193654568,
+          "margin": 0.11496593925126686,
+          "max_lag": 6.649999999999622,
+          "peak": 0.9955033957452243,
+          "unique": true
+        },
+        {
+          "best_index": 25,
+          "candidate_lag": 1.2473426569696722,
+          "lag": 1.2473426569696722,
+          "margin": 0.11868505385554262,
+          "max_lag": 6.649999999999622,
+          "peak": 0.9970372015152142,
+          "unique": true
+        },
+        {
+          "best_index": 24,
+          "candidate_lag": 1.2245831410095462,
+          "lag": 1.2245831410095462,
+          "margin": 0.11177484447375552,
+          "max_lag": 6.649999999999622,
+          "peak": 0.9976478569285124,
+          "unique": true
+        }
+      ],
+      "tau_eff": 3.7345449916337863,
+      "unique_fraction": 1.0
+    }
+  },
+  "completed_utc": "2026-07-24T17:32:05.480307+00:00",
+  "config": {
+    "K": 4,
+    "N": 500,
+    "P": 25,
+    "T1_hint": 6.849999999999994,
+    "beta": 20.0,
+    "checkpoint_every_steps": 5000,
+    "chunk_size": 256,
+    "dt": 0.01,
+    "heartbeat_every_steps": 100,
+    "heartbeat_min_wall_seconds": 300.0,
+    "lambda": 2.0,
+    "parameter_index": 5,
+    "parameter_total": 12,
+    "record_every": 5,
+    "run_id": "lam2_K4",
+    "seed": 43,
+    "t0": 1.0,
+    "t_final": 120.0,
+    "transient_fraction": 0.25
+  },
+  "schema": "E36A2-run-summary-v1"
+}

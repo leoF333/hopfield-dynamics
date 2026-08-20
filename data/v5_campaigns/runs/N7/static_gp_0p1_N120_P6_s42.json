@@ -1,0 +1,32 @@
+{
+  "admissible_n1": false,
+  "attempted": 6,
+  "config": {
+    "N": 120,
+    "P": 6,
+    "beta": 20.0,
+    "bracket_tol": 0.002,
+    "initial_step": 0.02,
+    "lambda_max": 0.6,
+    "relaxed_identity": true,
+    "seed": 42
+  },
+  "environment": {
+    "backend": "cpu",
+    "created_utc": "2026-07-28T00:55:51.159637+00:00",
+    "git_commit": "not-a-git-worktree",
+    "machine": "arm64",
+    "numpy": "2.4.3",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 17:06:14) [Clang 19.1.7 ]",
+    "reference_root": "/Users/leoflack/Desktop/Recherche/Chicago/numerics copie th\u00e9orie claude + impl\u00e9mentation GPT",
+    "scipy": "1.17.1",
+    "workplan_sha256": "b4eb7bd629fd68d6a2fe73cbf9ef39cb8cd15c2b1a44713aa53496f5cecade13"
+  },
+  "maximum_motif": 3,
+  "maximum_static_high": 0.5479382500000001,
+  "maximum_static_low": 0.5462851250000001,
+  "output": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/runs/N7/static_gp_0p1_N120_P6_s42.npz",
+  "resolved": 3,
+  "wall_seconds": 0.016781959013314918
+}

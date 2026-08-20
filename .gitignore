@@ -18,23 +18,18 @@ Thumbs.db
 .idea/
 *.swp
 
-# Matplotlib / runtime caches
+# Matplotlib runtime cache
 .mplconfig/
 mplconfig/
-cache/
 
-# Local heavy outputs: regenerate them, do not commit them.
-# Raw campaign output stays in the local archive; see data/MANIFEST_excluded.csv
-runs/
-*.chunk.npz
+# Per-chunk raw integrator output. These are regenerable and are listed, with
+# their size and archive path, in data/MANIFEST_excluded.csv.
 **/chunks/
 
-# LaTeX build products
-*.aux
-*.bbl
-*.blg
+# LaTeX build products (scoped: .log and .out are legitimate data elsewhere)
+/**/*.synctex.gz
 *.fdb_latexmk
 *.fls
-*.log
-*.out
-*.synctex.gz
+*.bbl
+*.blg
+*.aux

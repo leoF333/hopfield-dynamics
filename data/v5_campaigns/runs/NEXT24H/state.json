@@ -1,0 +1,526 @@
+{
+  "created": "2026-07-29T11:02:41-05:00",
+  "error": "RuntimeError('N5B_MEMORY/N5B_memory_seed42 failed with code 1')",
+  "events": [
+    {
+      "phase_completed": "N1_AUDIT",
+      "time": "2026-07-29T12:45:13-05:00"
+    },
+    {
+      "phase_completed": "N2",
+      "time": "2026-07-29T15:35:48-05:00"
+    },
+    {
+      "phase_completed": "N6",
+      "time": "2026-07-29T18:54:52-05:00"
+    },
+    {
+      "phase_completed": "N8",
+      "time": "2026-07-29T21:33:54-05:00"
+    },
+    {
+      "phase_completed": "N5A",
+      "time": "2026-07-30T01:05:57-05:00"
+    }
+  ],
+  "max_parallel": 4,
+  "orchestrator_pid": 98831,
+  "ordered_phases": [
+    "N1_AUDIT",
+    "N2",
+    "N6",
+    "N8",
+    "N5A",
+    "N5B_MEMORY",
+    "N5B_PINNED",
+    "FINALIZE"
+  ],
+  "phases": {
+    "N1_AUDIT": {
+      "ended": "2026-07-29T12:45:13-05:00",
+      "started": "2026-07-29T11:02:41-05:00",
+      "status": "completed",
+      "tasks": {
+        "N1_AUDIT_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n1_convergence_audit.py",
+            "--mode",
+            "dynamic",
+            "--seeds",
+            "42",
+            "--dts",
+            "0.005",
+            "--tours",
+            "5",
+            "--bracket-tol",
+            "5e-5",
+            "--hysteresis"
+          ],
+          "ended": "2026-07-29T12:45:13-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N1_AUDIT_seed42.log",
+          "pid": 97111,
+          "returncode": 0,
+          "started": "2026-07-29T11:02:41-05:00",
+          "status": "completed"
+        },
+        "N1_AUDIT_seed44": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n1_convergence_audit.py",
+            "--mode",
+            "dynamic",
+            "--seeds",
+            "44",
+            "--dts",
+            "0.005",
+            "--tours",
+            "5",
+            "--bracket-tol",
+            "5e-5",
+            "--hysteresis"
+          ],
+          "ended": "2026-07-29T12:22:42-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N1_AUDIT_seed44.log",
+          "pid": 97112,
+          "returncode": 0,
+          "started": "2026-07-29T11:02:41-05:00",
+          "status": "completed"
+        },
+        "N1_AUDIT_seed48": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n1_convergence_audit.py",
+            "--mode",
+            "dynamic",
+            "--seeds",
+            "48",
+            "--dts",
+            "0.005",
+            "--tours",
+            "5",
+            "--bracket-tol",
+            "5e-5",
+            "--hysteresis"
+          ],
+          "ended": "2026-07-29T12:21:12-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N1_AUDIT_seed48.log",
+          "pid": 97113,
+          "returncode": 0,
+          "started": "2026-07-29T11:02:41-05:00",
+          "status": "completed"
+        },
+        "N1_AUDIT_seed61": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n1_convergence_audit.py",
+            "--mode",
+            "dynamic",
+            "--seeds",
+            "61",
+            "--dts",
+            "0.005",
+            "--tours",
+            "5",
+            "--bracket-tol",
+            "5e-5",
+            "--hysteresis"
+          ],
+          "ended": "2026-07-29T12:19:42-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N1_AUDIT_seed61.log",
+          "pid": 97114,
+          "returncode": 0,
+          "started": "2026-07-29T11:02:41-05:00",
+          "status": "completed"
+        }
+      }
+    },
+    "N2": {
+      "ended": "2026-07-29T15:35:48-05:00",
+      "failed_task": "N2_seed52",
+      "started": "2026-07-29T12:45:13-05:00",
+      "status": "completed",
+      "tasks": {
+        "N2_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_local_laws.py",
+            "--seeds",
+            "42"
+          ],
+          "ended": "2026-07-29T14:51:48-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N2_seed42.log",
+          "pid": 98832,
+          "returncode": 0,
+          "started": "2026-07-29T13:05:46-05:00",
+          "status": "completed"
+        },
+        "N2_seed47": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_local_laws.py",
+            "--seeds",
+            "47"
+          ],
+          "ended": "2026-07-29T14:55:48-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N2_seed47.log",
+          "pid": 98834,
+          "returncode": 0,
+          "started": "2026-07-29T13:05:46-05:00",
+          "status": "completed"
+        },
+        "N2_seed51": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_local_laws.py",
+            "--seeds",
+            "51"
+          ],
+          "ended": "2026-07-29T15:35:48-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N2_seed51.log",
+          "pid": 2129,
+          "returncode": 0,
+          "started": "2026-07-29T14:55:48-05:00",
+          "status": "completed"
+        },
+        "N2_seed52": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_local_laws.py",
+            "--seeds",
+            "52"
+          ],
+          "ended": "2026-07-29T14:48:48-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N2_seed52.log",
+          "pid": 98835,
+          "returncode": 0,
+          "started": "2026-07-29T13:05:46-05:00",
+          "status": "completed"
+        },
+        "N2_seed60": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n2_local_laws.py",
+            "--seeds",
+            "60"
+          ],
+          "ended": "2026-07-29T14:52:48-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N2_seed60.log",
+          "pid": 98833,
+          "returncode": 0,
+          "started": "2026-07-29T13:05:46-05:00",
+          "status": "completed"
+        }
+      }
+    },
+    "N5A": {
+      "ended": "2026-07-30T01:05:57-05:00",
+      "started": "2026-07-29T21:33:54-05:00",
+      "status": "completed",
+      "tasks": {
+        "N5A_boundary_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5a_delay_scan.py",
+            "--mode",
+            "boundary",
+            "--seeds",
+            "42"
+          ],
+          "ended": "2026-07-29T23:40:56-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5A_boundary_seed42.log",
+          "pid": 9383,
+          "returncode": 0,
+          "started": "2026-07-29T21:33:54-05:00",
+          "status": "completed"
+        },
+        "N5A_boundary_seed43": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5a_delay_scan.py",
+            "--mode",
+            "boundary",
+            "--seeds",
+            "43"
+          ],
+          "ended": "2026-07-29T23:40:56-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5A_boundary_seed43.log",
+          "pid": 9384,
+          "returncode": 0,
+          "started": "2026-07-29T21:33:54-05:00",
+          "status": "completed"
+        },
+        "N5A_boundary_seed44": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5a_delay_scan.py",
+            "--mode",
+            "boundary",
+            "--seeds",
+            "44"
+          ],
+          "ended": "2026-07-29T23:41:56-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5A_boundary_seed44.log",
+          "pid": 9385,
+          "returncode": 0,
+          "started": "2026-07-29T21:33:54-05:00",
+          "status": "completed"
+        },
+        "N5A_boundary_seed45": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5a_delay_scan.py",
+            "--mode",
+            "boundary",
+            "--seeds",
+            "45"
+          ],
+          "ended": "2026-07-29T23:40:26-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5A_boundary_seed45.log",
+          "pid": 9386,
+          "returncode": 0,
+          "started": "2026-07-29T21:33:54-05:00",
+          "status": "completed"
+        },
+        "N5A_boundary_seed46": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5a_delay_scan.py",
+            "--mode",
+            "boundary",
+            "--seeds",
+            "46"
+          ],
+          "ended": "2026-07-30T01:05:57-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5A_boundary_seed46.log",
+          "pid": 12345,
+          "returncode": 0,
+          "started": "2026-07-29T23:41:56-05:00",
+          "status": "completed"
+        }
+      }
+    },
+    "N5B_MEMORY": {
+      "ended": "2026-07-30T01:06:27-05:00",
+      "failed_task": "N5B_memory_seed42",
+      "started": "2026-07-30T01:05:57-05:00",
+      "status": "failed",
+      "tasks": {
+        "N5B_memory_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+            "--mode",
+            "memory",
+            "--seeds",
+            "42"
+          ],
+          "ended": "2026-07-30T01:06:27-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5B_memory_seed42.log",
+          "pid": 13670,
+          "returncode": 1,
+          "started": "2026-07-30T01:05:57-05:00",
+          "status": "failed"
+        },
+        "N5B_memory_seed43": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+            "--mode",
+            "memory",
+            "--seeds",
+            "43"
+          ],
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5B_memory_seed43.log",
+          "pid": 13671,
+          "started": "2026-07-30T01:05:57-05:00",
+          "status": "running"
+        },
+        "N5B_memory_seed44": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+            "--mode",
+            "memory",
+            "--seeds",
+            "44"
+          ],
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5B_memory_seed44.log",
+          "pid": 13672,
+          "started": "2026-07-30T01:05:57-05:00",
+          "status": "running"
+        },
+        "N5B_memory_seed45": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n5b_long_delay.py",
+            "--mode",
+            "memory",
+            "--seeds",
+            "45"
+          ],
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N5B_memory_seed45.log",
+          "pid": 13673,
+          "started": "2026-07-30T01:05:57-05:00",
+          "status": "running"
+        }
+      }
+    },
+    "N6": {
+      "ended": "2026-07-29T18:54:52-05:00",
+      "started": "2026-07-29T15:35:48-05:00",
+      "status": "completed",
+      "tasks": {
+        "N6_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+            "--seeds",
+            "42"
+          ],
+          "ended": "2026-07-29T17:56:21-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N6_seed42.log",
+          "pid": 2998,
+          "returncode": 0,
+          "started": "2026-07-29T15:35:48-05:00",
+          "status": "completed"
+        },
+        "N6_seed43": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+            "--seeds",
+            "43"
+          ],
+          "ended": "2026-07-29T16:41:19-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N6_seed43.log",
+          "pid": 2999,
+          "returncode": 0,
+          "started": "2026-07-29T15:35:48-05:00",
+          "status": "completed"
+        },
+        "N6_seed44": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+            "--seeds",
+            "44"
+          ],
+          "ended": "2026-07-29T16:41:49-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N6_seed44.log",
+          "pid": 3000,
+          "returncode": 0,
+          "started": "2026-07-29T15:35:48-05:00",
+          "status": "completed"
+        },
+        "N6_seed45": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+            "--seeds",
+            "45"
+          ],
+          "ended": "2026-07-29T16:37:49-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N6_seed45.log",
+          "pid": 3001,
+          "returncode": 0,
+          "started": "2026-07-29T15:35:48-05:00",
+          "status": "completed"
+        },
+        "N6_seed46": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n6_lyapunov_campaign.py",
+            "--seeds",
+            "46"
+          ],
+          "ended": "2026-07-29T18:54:52-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N6_seed46.log",
+          "pid": 4770,
+          "returncode": 0,
+          "started": "2026-07-29T17:56:21-05:00",
+          "status": "completed"
+        }
+      }
+    },
+    "N8": {
+      "ended": "2026-07-29T21:33:54-05:00",
+      "started": "2026-07-29T18:54:52-05:00",
+      "status": "completed",
+      "tasks": {
+        "N8_seed42": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n8_highload.py",
+            "--seeds",
+            "42"
+          ],
+          "ended": "2026-07-29T20:51:53-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N8_seed42.log",
+          "pid": 5747,
+          "returncode": 0,
+          "started": "2026-07-29T18:54:52-05:00",
+          "status": "completed"
+        },
+        "N8_seed43": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n8_highload.py",
+            "--seeds",
+            "43"
+          ],
+          "ended": "2026-07-29T20:52:23-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N8_seed43.log",
+          "pid": 5748,
+          "returncode": 0,
+          "started": "2026-07-29T18:54:52-05:00",
+          "status": "completed"
+        },
+        "N8_seed44": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n8_highload.py",
+            "--seeds",
+            "44"
+          ],
+          "ended": "2026-07-29T20:51:53-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N8_seed44.log",
+          "pid": 5749,
+          "returncode": 0,
+          "started": "2026-07-29T18:54:52-05:00",
+          "status": "completed"
+        },
+        "N8_seed45": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n8_highload.py",
+            "--seeds",
+            "45"
+          ],
+          "ended": "2026-07-29T20:51:53-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N8_seed45.log",
+          "pid": 5750,
+          "returncode": 0,
+          "started": "2026-07-29T18:54:52-05:00",
+          "status": "completed"
+        },
+        "N8_seed46": {
+          "command": [
+            "/opt/homebrew/Caskroom/miniforge/base/envs/mcmc_env/bin/python",
+            "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/src/n8_highload.py",
+            "--seeds",
+            "46"
+          ],
+          "ended": "2026-07-29T21:33:54-05:00",
+          "log": "/Users/leoflack/Documents/Codex/2026-07-25/automate/outputs/paper_v5_numerics/logs/NEXT24H/N8_seed46.log",
+          "pid": 8473,
+          "returncode": 0,
+          "started": "2026-07-29T20:52:23-05:00",
+          "status": "completed"
+        }
+      }
+    }
+  },
+  "status": "failed",
+  "updated": "2026-07-30T01:06:27-05:00"
+}
