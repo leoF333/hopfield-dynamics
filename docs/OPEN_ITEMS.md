@@ -9,9 +9,9 @@ them are things a referee could ask about. Ordered by how much work they need.
 
 ---
 
-## 1. Three figures have no reproducible assembly script
+## 1. Two figures still have no reproducible assembly script
 
-`Figure04_thresholds`, `Figure06_snic` and `Figure08_hyperchaos` are the only files in
+`Figure04_thresholds` and `Figure08_hyperchaos` are the only files in
 `figures/manuscript/` with **no byte-identical copy anywhere in the folder** (all 1142
 PNGs were hashed). They are later re-layouts of the panels in
 `figures/panels/`:
@@ -19,25 +19,31 @@ PNGs were hashed). They are later re-layouts of the panels in
 | Shipped figure | Dimensions | Closest ancestor | Ancestor dimensions | What changed |
 |---|---|---|---|---|
 | `Figure04_thresholds` | 5400 × 2380 | `Panel04_threshold_distributions.png` | 5400 × 3763 | 7 sub-panels instead of 10 |
-| `Figure06_snic` | 5400 × 5054 | `Panel05_snic_characterization.png` | 5400 × 3453 | a Floquet row (g) added |
 | `Figure08_hyperchaos` | 5400 × 4358 | `Panel01_lyapunov_chaos.png` | 5400 × 2869 | re-laid out to 5 sub-panels |
 
 The **component-level** provenance is intact — every sub-panel traces back through
 `figures/panel_manifest.json` (which records source SHA-256 and crop
-coordinates) to E23A / E26 / E30 / N2 / N3 / N6 arrays. Only the final composition step is
+coordinates) to E23A / E26 / E30 / N3 / N6 arrays. Only the final composition step is
 missing, and it was produced outside this folder.
 
-**Options.** Either recover the assembly script from wherever it was written, or rebuild
-the three figures from `code/figures/build_panels.py` and
+**Options.** Either recover the assembly script from wherever it was written, or rebuild the
+two figures the way `Figure06_snic` was rebuilt on 2026-08-20, from
+`code/figures/build_panels.py` and
 `code/figures/v2/*.py`, which are both present and
-now path-portable.
+now path-portable. `code/figures/manuscript/build_figure06_snic.py` is a worked example of
+exactly that.
+
+> **Resolved 2026-08-20 for `Figure06_snic`.** It was rebuilt from the stored components
+> with three sub-panels removed, and now has a committed build script. `Figure10` and
+> `Figure11` were merged into a single `Figure10_correlations`, replotted directly from the
+> E27/E28 arrays, so that figure is reproducible with one command.
 
 ---
 
-## 2. `Figure06(g)` may be using the weaker of two Floquet panels
+## 2. `Figure06(f)` may be using the weaker of two Floquet panels
 
-The Floquet row added to `Figure06_snic` is `figE_floquet_spectrum_v2.png`, which plots
-|μ_k| on a log axis. A more careful component exists and is **not** used:
+Panel (f) of the rebuilt `Figure06_snic` is the left half of `figE_floquet_spectrum_v2.png`,
+which plots |μ_k| on a log axis. A more careful component exists and is **not** used:
 `code/figures/v2/component_floquet_hyperstability.png`.
 
 Its README explains why it was built: the modulus falls below e^−440 and cannot be shown on
@@ -55,7 +61,7 @@ three classes of point that the older figure mixes:
 The same README warns that the `rez` field of `floquet_scan_N2000_tau10.0.npz` is computed
 from a floored |μ\*| and is an **upper bound on Re z₁**, not a measurement.
 
-**Recommendation.** Swap panel (g) for `component_floquet_hyperstability.png`, or state in
+**Recommendation.** Swap panel (f) for `component_floquet_hyperstability.png`, or state in
 the caption which points are bounds.
 
 ---

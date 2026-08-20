@@ -15,12 +15,11 @@ Each of the 13 figures shipped in `figures/manuscript/` was hashed (SHA-256) and
 | `Figure03` | Sec. 2 | traceable |
 | `Figure04` | Sec. 3 | partial - rebuild script missing |
 | `Figure05` | Sec. 4 | traceable |
-| `Figure06` | Sec. 4 | partial - rebuild script missing |
+| `Figure06` | Sec. 4 | traceable |
 | `Figure07` | Sec. 5 | traceable |
 | `Figure08` | Sec. 6 | partial - rebuild script missing |
 | `Figure09` | Sec. 7.1 | traceable |
-| `Figure10` | Sec. 7.2 | traceable |
-| `Figure11` | Sec. 7.3 | traceable |
+| `Figure10` | Sec. 7.2-7.3 | traceable |
 | `Figure13` | Sec. 8 | traceable |
 
 ---
@@ -99,14 +98,14 @@ Each of the 13 figures shipped in `figures/manuscript/` was hashed (SHA-256) and
 ## Figure06 — `Figure06_snic.png`
 
 - **Manuscript section** — Sec. 4
-- **SHA-256** — `fc05ad7ab53d5e1ca0692ea1cf50575e0bde751f62ed395bd93e98d4283ddf97`
-- **Dimensions** — 5400x5054
-- **Identical copy in the folder** — NONE - unique in the folder (ancestor: figures/panels/Panel05_snic_characterization.png, 5400x3453)
-- **Build script** — `UNKNOWN for the final assembly; panels (a)-(f) come from code/figures/build_panels.py`
-- **Data and component sources** — (a) N2 critical slowing replotted from data/v5_campaigns/runs/N2/*production.json (seeds 42, 47, 52, 60; seed 51 deliberately absent) ; (b) cycle-side slowing from data/2_recall_cycle_snic/data/E29_cycle_ghosts.npz ; (c,e) data panels of figure_sources/figB_depinning_transition.png ; (d) static softening from the N2 production JSON files ; (f) pacemaker decomposition T1 = tau + t_esc ; (g) ADDED: figures/experiments/2_recall_cycle_snic/figE_floquet_spectrum_v2.png (E11/E13)
+- **SHA-256** — `c73b6bf478c1d6c6bff2d701dbdc9c2a013d907cc4797d79dbe3e3123e5aa73a`
+- **Dimensions** — 5400x2769
+- **Identical copy in the folder** — NONE - rebuilt 2026-08-20 from the stored components; the seven-panel predecessor is archived at [local archive] figures/manuscript/_superseded/Figure06_snic_v1_7panels.png
+- **Build script** — `code/figures/manuscript/build_figure06_snic.py`
+- **Data and component sources** — (a) N2 critical slowing, seeds 42, 47, 52, 60 (seed 51 deliberately absent), component figures/panel_components/n2a_without_seed51_raw.png from data/v5_campaigns/runs/N2/*production.json ; (b) component figures/panel_components/depinning_left.png, cropped from figure_sources/figB_depinning_transition.png ; (c) static softening, component figures/panel_components/n2_c.png from the N2 production JSON files ; (d) component figures/panel_components/depinning_right.png ; (e) right half of figures/panel_components/pacemaker_full.png (E1/E4) ; (f) left half of figures/experiments/2_recall_cycle_snic/figE_floquet_spectrum_v2.png (E11/E13)
 - **Claims displayed** — C-30, C-31, C-32, C-33, C-34, C-35, C-36
-- **Status** — **partial - rebuild script missing**
-- **Notes** — Verified visually during this reorganisation: the shipped figure is Panel05 (a)-(f) with a new row (g) carrying the two Floquet panels of figE_floquet_spectrum_v2.png. Note that a DIFFERENT and more careful Floquet component exists - figures_v2/component_floquet_hyperstability.png, which plots contraction per turn instead of the floored multiplier modulus. Consider using it: figures_v2/README.md explains why the floored quantity must not be plotted as a measurement.
+- **Status** — **traceable**
+- **Notes** — Rebuilt on 2026-08-20 with three sub-panels removed at the author's request: the cycle-side tour period (former b), the 'three clocks' half of the pacemaker component (former f, left) and the band of front-displacement exponents (former g, right). The remaining six keep their original reading order and are re-lettered a-f; the manuscript caption and the three in-text panel references were shifted accordingly. Two inherited blemishes were cleaned in the process: a clipped stray glyph above the axes of the static softening component, and a slate-grey in-plot annotation that collided with the legend of the escape-time component. No number was recomputed. STILL OPEN: panel (f) plots the multiplier modulus, whose N=2000 Arnoldi points sit at the machine floor and are lower bounds, not measurements; code/figures/v2/component_floquet_hyperstability.png plots the contraction per turn instead and separates measured points from bounds - see OPEN_ITEMS §2.
 
 ## Figure07 — `Figure07_invariant_circle.png`
 
@@ -143,29 +142,17 @@ Each of the 13 figures shipped in `figures/manuscript/` was hashed (SHA-256) and
 - **Status** — **traceable**
 - **Notes** — The implicit-delay panels are intentionally absent from this figure.
 
-## Figure10 — `Figure10_markov_correlations.png`
+## Figure10 — `Figure10_correlations.png`
 
-- **Manuscript section** — Sec. 7.2
-- **SHA-256** — `56e54c1df8aa1a8c6c81a638bfa734cb3627ba4657f8fed91711b1e106e33608`
-- **Dimensions** — 2323x1618
-- **Identical copy in the folder** — figures/experiments/6_correlated_patterns/figX_markov_video_N10000.png  (identical, plus 9 other copies)
-- **Build script** — `code/experiments/e27_markov_thresholds.py`
-- **Data and component sources** — data/6_correlated_patterns/data/E27_markov_N10000.npz
-- **Claims displayed** — C-54
+- **Manuscript section** — Sec. 7.2-7.3
+- **SHA-256** — `0b4d1a49c063378293154338d68a9645677cd550caa40a9a1f20a2d213b924e3`
+- **Dimensions** — 2600x1720
+- **Identical copy in the folder** — NONE - built 2026-08-20 by merging the former Figure10 (Markov, E27) and Figure11 (circular GP, E28); both predecessors are archived at [local archive] figures/manuscript/_superseded/
+- **Build script** — `code/figures/manuscript/build_figure10_correlations.py`
+- **Data and component sources** — (a,b) data/6_correlated_patterns/data/E27_markov_N10000.npz ; (c,d) data/6_correlated_patterns/data/E28_gpcircle_N10000.npz
+- **Claims displayed** — C-54, C-55
 - **Status** — **traceable**
-- **Notes** — Direct experiment output, not a composite: fully reproducible.
-
-## Figure11 — `Figure11_smooth_correlations.png`
-
-- **Manuscript section** — Sec. 7.3
-- **SHA-256** — `95eb11518f608c8edc3f58f42777ea40e1c6b09e18cd936c8844368ff333d09f`
-- **Dimensions** — 2324x1618
-- **Identical copy in the folder** — figures/experiments/6_correlated_patterns/figY_gpcircle_video_N10000.png  (identical, plus 8 other copies)
-- **Build script** — `code/experiments/e28_gpcircle_thresholds.py`
-- **Data and component sources** — data/6_correlated_patterns/data/E28_gpcircle_N10000.npz
-- **Claims displayed** — C-55
-- **Status** — **traceable**
-- **Notes** — Direct experiment output, not a composite: fully reproducible.
+- **Notes** — Replotted directly from the stored arrays, not cropped: every quantity is recomputed from the npz at build time, so this figure is reproducible with one command. The lower row of each predecessor (death-shape family, threshold versus bond overlap) was dropped at the author's request. Verified against the manuscript text during the rebuild: at c=0.2 the bulk median is 0.0622 and the seam 0.1690; the circular-GP case at K=100 gives q1=+0.543 with 30 of 500 branches surviving.
 
 ## Figure13 — `Figure13_implicit_delay.png`
 
