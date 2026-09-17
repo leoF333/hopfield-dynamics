@@ -3,7 +3,8 @@
 
 [Research overview](https://leo-flack.leo-flack01.chatgpt.site/research/hopfield) · [Working manuscript](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-draft.pdf) · [Internship report](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-report.pdf) · [Methods & evidence](docs/CLAIMS.md)
 
-**Léo Flack · University of Chicago, James Franck Institute · 2026**  
+**Leo Flack · University of Chicago, James Franck Institute · 2026**
+
 Research internship supervised by **Vincenzo Vitelli**. Manuscript in preparation.
 
 A Hopfield network stores memories as stable states. Add a delayed, non-reciprocal interaction, and it can replay those memories in order. **What sets the transition from a pinned memory to a moving sequence?**

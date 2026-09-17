@@ -8,7 +8,7 @@ message: >-
 type: software
 authors:
   - family-names: Flack
-    given-names: Léo
+    given-names: Leo
 repository-code: "https://github.com/leoF333/hopfield-dynamics"
 url: "https://leo-flack.leo-flack01.chatgpt.site/research/hopfield"
 abstract: >-
