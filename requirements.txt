@@ -2,6 +2,7 @@
 numpy>=1.24
 scipy>=1.10
 matplotlib>=3.7
+tqdm>=4.65
 
 # Optional, Apple silicon only: GPU-accelerated pattern projections.
 # Every code path has a NumPy float64 fallback, and the N** verification

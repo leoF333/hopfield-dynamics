@@ -1,128 +1,101 @@
-# Delayed non-reciprocal Hopfield networks — code, data and evidence
+# Hopfield dynamics
+### From a distribution of local bifurcations to sequential memory recall
 
-Sequential memory recall in a Hopfield network is born from an **ensemble of quenched
-bifurcations inside a single disordered sample**. This repository holds the code, the
-derived data and the claim-by-claim evidence trail behind that result.
+[Research overview](https://leo-flack.leo-flack01.chatgpt.site/research/hopfield) · [Working manuscript](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-draft.pdf) · [Internship report](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-report.pdf) · [Methods & evidence](docs/CLAIMS.md)
 
-The model is `N` continuous neurons with firing rates `φ = tanh(βu)`, evolving under a
-delay differential equation that mixes symmetric Hebbian storage with a delayed
-non-reciprocal drive toward the next pattern in a stored cycle:
+**Léo Flack · University of Chicago, James Franck Institute · 2026**  
+Research internship supervised by **Vincenzo Vitelli**. Manuscript in preparation.
 
-```
-t₀ u̇(t) = −u(t) + (1−λ) J φ(t) + λ K φ(t−τ)
+A Hopfield network stores memories as stable states. Add a delayed, non-reciprocal interaction, and it can replay those memories in order. **What sets the transition from a pinned memory to a moving sequence?**
 
-J = (1/N) Σ_μ ξ^μ (ξ^μ)ᵀ            symmetric Hebbian storage
-K = (1/N) Σ_μ ξ^(μ+1) (ξ^μ)ᵀ        cyclic sequence drive, delayed by τ
-```
+This project resolves that question one memory at a time. In the finite networks studied here, each memory-connected branch ends at its own saddle-node threshold. The bulk of their distribution marks the loss of extensive static recall; its maximum predicts the onset of ordered replay.
 
-As `λ` grows, each stored memory tilts toward its successor and dies at its **own**
-saddle-node threshold `λ_c(μ)`. In one finite sample those `P = αN` thresholds form a
-near-Gaussian, quasi-i.i.d. ensemble. Two different macroscopic transitions read two
-different order statistics of that one law: the **bulk** ends extensive static recall, the
-**sample maximum** `λ* = max_μ λ_c(μ)` releases the traveling recall cycle. Between them
-lies a stationary hyperchaotic attractor. As `N → ∞` the ensemble narrows, the two
-boundaries merge, and the mechanism becomes invisible.
+![Threshold ensemble of the archived N=2000, P=100, seed=42 realization](figures/quickstart/thresholds.png)
 
----
-
-## What is in here
-
-| Directory | Contents |
-|---|---|
-| `code/core/` | The reusable library: couplings, the exact `P`-dimensional reduction, Newton/Woodbury continuation, the delayed characteristic problem `T_P(z)`, Floquet monodromy, the layered-chain model. |
-| `code/experiments/` | The historical campaigns **E1–E37**, one script per experiment, named after the worklog entry that documents it. |
-| `code/campaigns/` | The **N1–N10** verification campaigns: an independent float64 reimplementation written to re-test the load-bearing claims against a second code path. |
-| `code/figures/` | Panel assembly for the published figures. |
-| `data/` | Derived data: thresholds, spectra, Lyapunov exponents, campaign reports. Everything a claim rests on. See `docs/DATA.md`. |
-| `figures/` | The manuscript figures, the composite panels and their components. |
-| `docs/` | The evidence register, the code map, the reproduction runbook, and the primary lab worklogs. |
-| `tools/` | Manifest verification and archive hashing. |
+*Replotted directly from shipped data by the quick-start script. No synthetic or fitted replacement data.*
 
 ## Start here
 
-- **`docs/CLAIMS.md`** — every verifiable statement of the manuscript, linked to the
-  experiment, the data file, the script and the figure that support it, with an explicit
-  status (established / qualified / limitation / analytic).
-- **`docs/CODE_MAP.md`** — what each of the 214 source files does.
-- **`docs/REPRODUCING.md`** — how to re-run any experiment.
-- **`docs/DATA.md`** — what is shipped here, what stays in the local archive, and why.
+| If you have… | Read or run |
+|---|---|
+| 2 minutes | This overview and the two figures |
+| 10 minutes | [Quick start](#quick-start), then [numerical methods](docs/NUMERICAL_METHODS.md) |
+| A scientific question | [Claim-by-claim evidence](docs/CLAIMS.md) and [limitations](docs/OPEN_ITEMS.md) |
+| A reproducibility question | [Verified entry points](docs/VERIFIED_ENTRY_POINTS.md), then the [historical runbook](docs/REPRODUCING.md) |
+
+## What I worked on
+
+- An **exact reduction from N neuron coordinates to P pattern coordinates**, retaining the disorder of the sample rather than averaging it away.
+- **Fixed-point continuation** and memory-resolved saddle-node thresholds.
+- **Delay-differential integration** using a method of steps with RK4 and Hermite interpolation.
+- **Spectral, Floquet and Lyapunov analyses** to distinguish pinned states, periodic recall and irregular dynamics.
+- **Finite-size statistics and extreme-value comparisons**, with independent static and dynamic numerical checks.
+- **Controlled model variations**: short delays, correlated patterns and a multilayer architecture with implicit delay.
+
+The existing research archive is preserved in this repository, including its evidence register and historical campaigns. The tested entry points below are a small, portable way into that larger body of work.
 
 ## Quick start
 
+Requires **Python 3.10+**. Tested locally with Python 3.12; no GPU is required.
+
 ```bash
-git clone <this repository>
-cd <this repository>
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+git clone https://github.com/leoF333/hopfield-dynamics.git
+cd hopfield-dynamics
+python -m venv .venv
+source .venv/bin/activate           # Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
 
-# The per-pattern threshold ensemble of one disorder realization (the central object).
-python code/experiments/e24_thresholds.py --N 2000 --P 100 --seed 42 --store-curves
-
-# Its scaling with system size (uses the shipped E30 arrays).
-python code/experiments/e30_analysis.py
-
-# The recall cycle and its Floquet spectrum.
-python code/experiments/pacemaker_scan.py --N 2000 --tau 10
+python examples/quickstart.py
+python -m unittest discover -s tests -v
 ```
 
-Scripts resolve their imports through a small path bootstrap inserted at the top of each
-file, so they run from anywhere without installing a package.
+The example writes to `outputs/quickstart/`:
+1. `thresholds.png`: the archived 100-memory threshold ensemble;
+2. `sequential-recall.png`: a new small-network simulation;
+3. `recall.npz` and `summary.json`: the simulated overlaps, parameters and numerical summary.
 
-## Reference realization
+Use `--data-only` to skip the simulation, or `--output /your/output/folder` to choose a destination. The small demo uses N=300 and P=9; **it illustrates the dynamics and does not certify the manuscript's N=2000 reference results**.
 
-Unless a script says otherwise, branch-resolved results use
+![A new small-network sequential recall simulation](figures/quickstart/sequential-recall.png)
 
+## Numerical checks
+
+The six fast regression tests check:
+
+- the reduced right-hand side against independently constructed dense Hebbian matrices;
+- the analytical overlap Jacobian against finite differences;
+- agreement of full and reduced trajectories across a delay interval;
+- checkpoint/restart consistency, including history derivatives;
+- time-step refinement;
+- the archived threshold data against reported reference values.
+
+These tests do not certify every historical campaign or establish the scientific claims as theorems. See [the validation record](docs/VERIFIED_ENTRY_POINTS.md).
+
+## Repository map
+
+```text
+examples/            Runnable introduction
+tests/               Fast numerical regression tests
+code/core/           Reduced model, continuation, spectra and integrators
+code/experiments/    Historical E-series experiments
+code/campaigns/      Independent N-series verification campaigns
+code/figures/        Research figure generation and assembly
+data/                Derived research data and campaign reports
+figures/             Manuscript figures and quick-start outputs
+docs/                Methods, evidence, provenance and open questions
+tools/               Integrity and archive utilities
 ```
-N = 2000    P = 100    α = 0.05    β = 20    τ = 10    seed 42
-```
 
-with time in units of the single-neuron relaxation time `t₀`. Robustness was checked up to
-`N = 1.4 × 10⁴`. The primary threshold estimator is bisection (`lam_c`), bracketed to
-`±2 × 10⁻⁴` — never the spectral extrapolation.
+## Scope of the conclusions
 
-## Two generations of code, deliberately kept apart
+The threshold law is measured, not analytically derived. Its approximate Gaussian form and size dependence hold over the tested regimes. The global invariant-circle construction concerns the terminal and penultimate stages of the reference realization. Chaos and stationarity are finite-time numerical observations. The multilayer model establishes an implicit recall clock, not a full equivalence of bifurcation mechanisms.
 
-`E**` and `N**` are not versions of each other. The `N**` campaigns are an **independent
-reimplementation** whose purpose was to re-derive the load-bearing numbers through a
-different code path, in float64, with checkpointing and explicit acceptance gates. Where
-they disagree with the historical campaigns, `docs/CLAIMS.md` says so and says which one the
-manuscript uses.
+The [open-items register](docs/OPEN_ITEMS.md) retains discrepancies and figure-provenance issues identified during research. Some historical scripts still depend on the original archive layout; the [verified entry points](docs/VERIFIED_ENTRY_POINTS.md) state precisely what runs from this checkout.
 
-The `N**` campaigns also carry an incident log
-(`data/v5_campaigns/SYNTHESE_NUMERICAL_WORKPLAN.md`, §10) recording five numerical
-artefacts that were caught before they became physical conclusions — a Newton continuation
-that silently followed the unstable saddle branch, a conjugate-pair mismatch that faked a
-spectral disagreement, a classification label that could be overwritten on merge, and two
-others. They are documented on purpose.
+## Citation & licensing
 
-## What this repository does not claim
+The accompanying manuscript is **in preparation**, not peer-reviewed. Citation metadata are in [CITATION.cff](CITATION.cff); no paper DOI is claimed.
 
-Read `docs/CLAIMS.md` for the per-claim status, and `docs/OPEN_ITEMS.md` for the points
-still open. In short:
+Code: [MIT](LICENSE). Research data and figures: [CC BY 4.0](LICENSE-DATA). Please retain attribution and consult the reports for scientific context.
 
-- No analytical central-limit theorem, Gumbel limit, or SRB measure is proved. The
-  near-Gaussian threshold law, its `N^-b` narrowing and the stationarity of the chaotic
-  window are **measured**, over stated ranges.
-- The `N → ∞` merging of the two transitions is a **conditional extrapolation** from
-  `N = 10³` to `1.4 × 10⁴`.
-- Material under `data/*/9_obsolete*` does not exist here at all: discrete-time and MCMC
-  dynamics, and an invalidated float32 run, are excluded from this repository and must
-  never be cited.
-
-## Requirements
-
-Python ≥ 3.10, NumPy, SciPy, Matplotlib. Two optional extras:
-
-- **`mlx`** — Apple-silicon GPU acceleration, used by `couplings.py` and the batched
-  integrators. Everything has a NumPy float64 fallback; the `N**` campaigns are float64 CPU
-  only, by design.
-- **LaTeX** — only to rebuild the manuscript, which is not in this repository.
-
-## License
-
-Code is MIT. Data and figures are CC BY 4.0. See `LICENSE` and `LICENSE-DATA`.
-
-## Citation
-
-See `CITATION.cff`. The manuscript is in preparation; this repository will be tagged at
-submission.
+[Personal site](https://leo-flack.leo-flack01.chatgpt.site) · [GitHub profile](https://github.com/leoF333)

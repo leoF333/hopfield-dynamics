@@ -1,5 +1,7 @@
 # Reproducing the results
 
+> **Historical research runbook.** The commands below preserve the original campaigns and may rely on the original archive layout. For the portable, locally tested public workflow, start with [VERIFIED_ENTRY_POINTS.md](VERIFIED_ENTRY_POINTS.md). The full campaign list has not been rerun for this portfolio release.
+
 ## Environment
 
 ```bash

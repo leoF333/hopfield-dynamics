@@ -8,7 +8,9 @@ message: >-
 type: software
 authors:
   - family-names: Flack
-    given-names: L.
+    given-names: Léo
+repository-code: "https://github.com/leoF333/hopfield-dynamics"
+url: "https://leo-flack.leo-flack01.chatgpt.site/research/hopfield"
 abstract: >-
   Code, derived data and a claim-by-claim evidence register for the study of
   sequential memory recall in delayed non-reciprocal Hopfield networks. The work
