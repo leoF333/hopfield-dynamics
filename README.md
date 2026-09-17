@@ -1,4 +1,4 @@
-# Hopfield dynamics
+# Non-Reciprocal Hopfield Networks
 ### From a distribution of local bifurcations to sequential memory recall
 
 [Research overview](https://leo-flack.leo-flack01.chatgpt.site/research/hopfield) · [Working manuscript](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-draft.pdf) · [Internship report](https://leo-flack.leo-flack01.chatgpt.site/documents/hopfield-report.pdf) · [Methods & evidence](docs/CLAIMS.md)
