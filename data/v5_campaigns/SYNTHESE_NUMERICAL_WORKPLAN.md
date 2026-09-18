@@ -1,8 +1,8 @@
 # Synthèse du numerical workplan
 
 **Périmètre.** Ce document résume exclusivement les calculs, audits et analyses
-nouveaux réalisés dans le cadre de
-[`NUMERICAL_WORKPLAN.md`](../paper_v5/NUMERICAL_WORKPLAN.md). Il ne résume pas
+nouveaux réalisés dans le cadre du workplan numérique dont l'exécution publique
+est résumée dans [`FULL_WORKPLAN_EXECUTION.md`](FULL_WORKPLAN_EXECUTION.md). Il ne résume pas
 les résultats historiques du projet. Les résultats réutilisés dans l'article
 mais obtenus avant ce workplan ne sont donc pas décrits ici.
 
@@ -41,8 +41,9 @@ Chaque campagne lourde a été précédée d'un smoketest et d'un benchmark. Les
 sorties sont checkpointées point par point ou seed par seed afin que les calculs
 terminés ne soient pas répétés après une interruption. Le dossier historique
 sur le Desktop est resté en lecture seule; toutes les nouvelles données sont
-dans [`runs/`](runs/), les analyses dans [`reports/`](reports/) et les figures
-dans [`figures/`](figures/).
+dans [`runs/`](runs/) et les analyses dans [`reports/`](reports/). Les figures
+de campagne mentionnées ci-dessous ne font pas partie de cette publication;
+les figures consolidées disponibles se trouvent dans [`../../figures/`](../../figures/).
 
 Les seeds n'ont pas été écartées parce que leur valeur était atypique. Une
 exclusion n'a été admise que sur un critère de qualité indépendant du résultat
@@ -92,13 +93,14 @@ réalisation.
 
 ### Données et figures
 
-- Figure article : [`Figure3_finite_size_selection.pdf`](../paper_v5/figures_ready/Figure3_finite_size_selection.pdf)
-- Figure directe statique–dynamique :
-  [`N1_static_extreme_vs_dynamic_onset.svg`](figures/N1_static_extreme_vs_dynamic_onset.svg)
-- Figure d'identité des motifs :
-  [`N1_multiseed_motif_identity.pdf`](figures/N1_multiseed_motif_identity.pdf)
-- Figure des seuils à \(10^{-3}\) :
-  [`N1_multiseed_lambda_identity_1e-3.pdf`](figures/N1_multiseed_lambda_identity_1e-3.pdf)
+- Figure article (non incluse dans la publication publique) :
+  `Figure3_finite_size_selection.pdf`
+- Figure directe statique–dynamique (non incluse) :
+  `N1_static_extreme_vs_dynamic_onset.svg`
+- Figure d'identité des motifs (non incluse) :
+  `N1_multiseed_motif_identity.pdf`
+- Figure des seuils à \(10^{-3}\) (non incluse) :
+  `N1_multiseed_lambda_identity_1e-3.pdf`
 - Tableau réalisation par réalisation :
   [`N1_static_extreme_vs_dynamic_onset.csv`](reports/N1_static_extreme_vs_dynamic_onset.csv)
 - Résumé machine-readable et règle d'admissibilité :
@@ -220,8 +222,7 @@ et nombre de motifs fixé — ne doivent pas être confondus.
   [`E30_seed_aware_analysis.json`](runs/N3/E30_seed_aware_analysis.json)
 - Tableau synthétique :
   [`N3_E30_seed_statistics.csv`](reports/N3_E30_seed_statistics.csv)
-- Figure :
-  [`N3_E30_seed_aware.pdf`](figures/N3_E30_seed_aware.pdf)
+- Figure (non incluse dans la publication publique) : `N3_E30_seed_aware.pdf`
 
 ## 6. N5A — perte de cohérence à délai court
 
@@ -257,8 +258,8 @@ elle ne remplace pas la figure historique validée de l'article.
 ### Données et figure
 
 - Agrégation complète : [`analysis.json`](runs/N5A/analysis.json)
-- Figure diagnostique :
-  [`N5A_delay_boundary.pdf`](figures/N5A_delay_boundary.pdf)
+- Figure diagnostique (non incluse dans la publication publique) :
+  `N5A_delay_boundary.pdf`
 
 ## 7. N5B — stabilité à délai long
 
@@ -349,10 +350,10 @@ restent non résolus.
 - Tableau complet : [`N6_multiseed_lyapunov.csv`](reports/N6_multiseed_lyapunov.csv)
 - Résumé machine-readable :
   [`N6_multiseed_lyapunov_summary.json`](reports/N6_multiseed_lyapunov_summary.json)
-- Figure dédiée :
-  [`N6_multiseed_lyapunov.pdf`](figures/N6_multiseed_lyapunov.pdf)
-- Figure article :
-  [`Figure6a_multiseed_chaos.pdf`](../paper_v5/figures_ready/Figure6a_multiseed_chaos.pdf)
+- Figure dédiée (non incluse dans la publication publique) :
+  `N6_multiseed_lyapunov.pdf`
+- Figure article (non incluse dans la publication publique) :
+  `Figure6a_multiseed_chaos.pdf`
 - Spectres bruts : [`runs/N6/`](runs/N6/)
 
 ## 9. N8 — récupération séquentielle à forte charge
@@ -412,8 +413,8 @@ comme une carte de phase définitive ni comme une mesure de volumes de bassin.
   [`N8_cell_summary.csv`](reports/N8_cell_summary.csv)
 - Résumé machine-readable :
   [`N8_preliminary_summary.json`](reports/N8_preliminary_summary.json)
-- Figure d'audit :
-  [`N8_preliminary_audit.pdf`](figures/N8_preliminary_audit.pdf)
+- Figure d'audit (non incluse dans la publication publique) :
+  `N8_preliminary_audit.pdf`
 - Données brutes : [`runs/N8/`](runs/N8/)
 
 ## 10. Incidents numériques détectés et corrigés

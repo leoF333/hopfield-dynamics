@@ -23,7 +23,7 @@ Ce NO-GO réfute la construction numérique d'un **collier simple** sur ces
 sentinelles. Il ne démontre ni l'absence de toute connexion hétérocline, ni
 l'absence de dynamique récurrente sur une géométrie multifold plus complexe.
 
-![Résumé des gates E34](figures/E34/figE34_first_results.png)
+![Résumé des gates E34](../../figures/experiments/2_recall_cycle_snic/figE34_first_results.png)
 
 ## 1. Table des seuils
 

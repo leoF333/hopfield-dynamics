@@ -32,7 +32,7 @@ instables robustes atterrissant sur les nœuds **adjacents**. C'est une **forte
 évidence numérique à N=400 sur deux sentinelles** — rien de plus (pas de limite
 thermodynamique, pas de statistique multiseed, μ=2 non testable en l'état).
 
-![Résumé du gate ET0](../../figures/E34/figE34_ET0_edge_tracking.png)
+![Résumé du gate ET0](../../../../figures/experiments/2_recall_cycle_snic/figE34_ET0_edge_tracking.png)
 
 ---
 

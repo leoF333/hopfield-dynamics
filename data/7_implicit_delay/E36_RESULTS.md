@@ -6,11 +6,11 @@ Les quatre campagnes seed 42 sont complètes et leurs flux numériques ont été
 
 Dans le régime ondulatoire, la période de retour et les deux estimateurs indépendants du retard croissent presque linéairement avec K−1. Cette observation **étaye l’interprétation d’un retard effectif**, mais pas l’identité avec une DDE à retard discret.
 
-![Transition de régime et convergence temporelle](figures/E36_regimes_dt.png)
+![Transition de régime et convergence temporelle](../../figures/experiments/7_implicit_delay/E36_regimes_dt.png)
 
-![Échelle avec K, retards et amplitudes](figures/E36_delay_scaling.png)
+![Échelle avec K, retards et amplitudes](../../figures/experiments/7_implicit_delay/E36_delay_scaling.png)
 
-![Comparaison pilote et campagne de référence](figures/E36_reference_comparison.png)
+![Comparaison pilote et campagne de référence](../../figures/experiments/7_implicit_delay/E36_reference_comparison.png)
 
 ## Périmètre numérique
 

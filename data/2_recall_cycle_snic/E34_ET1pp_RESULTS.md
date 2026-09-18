@@ -8,7 +8,7 @@ exacte `ReducedDDE` (P=100).
 **Statut :** ET1′ a été **re-cadré en ET1″** en cours d'exécution ; la raison
 est mesurée et documentée en §1.
 
-![Maillon du collier, N=2000](figures/E34/figE34_ET1pp.png)
+![Maillon du collier, N=2000](../../figures/experiments/2_recall_cycle_snic/figE34_ET1pp.png)
 
 ## Verdict (vocabulaire R2.1)
 

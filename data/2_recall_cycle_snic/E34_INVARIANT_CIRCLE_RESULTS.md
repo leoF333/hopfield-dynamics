@@ -7,7 +7,7 @@ symétrique, K cyclique décalé non réciproque.
 float64. Toute la dynamique passe par la réduction exacte P-dimensionnelle
 (`ReducedDDE`).
 
-![Diagramme de bifurcation](figures/E34/figE34_bifurcation.png)
+![Diagramme de bifurcation](../../figures/experiments/2_recall_cycle_snic/figE34_bifurcation.png)
 
 ---
 
