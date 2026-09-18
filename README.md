@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE-DATA)
 
-Research code and data from my internship at the University of Chicago (James Franck Institute, March–August 2026), supervised by **Vincenzo Vitelli** and **Doruk Efe Gökmen**. A manuscript is in preparation.
+Research code and data from my internship at the University of Chicago (James Franck Institute, March–August 2026), supervised by **Vincenzo Vitelli** and **Doruk Efe Gökmen**.
 
 **[Project overview](https://leof333.github.io/research/hopfield.html)** · **[Internship report (PDF)](https://leof333.github.io/documents/hopfield-report.pdf)** · **[Numerical methods](docs/NUMERICAL_METHODS.md)** · **[Claims and evidence](docs/CLAIMS.md)**
 
@@ -90,7 +90,7 @@ The test suite checks the parts of the pipeline that everything else depends on:
 - full versus reduced trajectories over a delay interval;
 - checkpoint/restart consistency, including the stored history;
 - convergence under time-step refinement;
-- the archived threshold data against the values reported in the manuscript.
+- the archived threshold data against the documented reference values.
 
 ## Repository layout
 
@@ -102,7 +102,7 @@ code/experiments/  Exploratory experiments
 code/campaigns/    Production runs behind the reported results
 code/figures/      Figure generation
 data/              Derived data and campaign summaries
-figures/           Manuscript and quick-start figures
+figures/           Research and quick-start figures
 docs/              Methods, claim-by-claim evidence, open questions
 tools/             Archive and integrity utilities
 ```
@@ -121,7 +121,7 @@ The threshold law is measured numerically, not derived analytically. The invaria
 
 ## Citation and licence
 
-If you use this code or data, please cite the repository ([CITATION.cff](CITATION.cff)). A citation for the manuscript will be added once it is available.
+If you use this code or data, please cite the repository ([CITATION.cff](CITATION.cff)).
 
 Code: [MIT](LICENSE). Data and figures: [CC BY 4.0](LICENSE-DATA).
 
